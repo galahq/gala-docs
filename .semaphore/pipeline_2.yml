@@ -16,3 +16,5 @@ blocks:
             - sem-version node 15.14.0
             - 'cache restore docusaurus-node-modules-$SEMAPHORE_GIT_BRANCH-$(checksum yarn.lock),docusaurus-node-modules-$SEMAPHORE_GIT_BRANCH,docusaurus-node-modules-master'
             - bash ./bin/deploy.sh
+      secrets:
+        - name: aws_semaphore2
