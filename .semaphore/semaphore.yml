@@ -8,9 +8,14 @@ blocks:
   - name: Install dependencies
     task:
       jobs:
-        - name: yarn install
+        - name: yarn
           commands:
-            - sem-version node 8
             - checkout
-            - yarn install
-            - yarn test
+            - cd docs/website
+            - 'cache restore docusaurus-node-modules-$SEMAPHORE_GIT_BRANCH-$(checksum yarn.lock),docusaurus-node-modules-$SEMAPHORE_GIT_BRANCH,docusaurus-node-modules-master'
+            - sem-version node 15.14.0
+            - yarn install --ignore-engines
+            - cache store docusaurus-node-modules-$SEMAPHORE_GIT_BRANCH-$(checksum yarn.lock) node_modules
+promotions:
+  - name: Promotion 1
+    pipeline_file: pipeline_2.yml

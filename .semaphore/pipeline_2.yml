@@ -1,0 +1,18 @@
+version: v1.0
+name: Pipeline 2
+agent:
+  machine:
+    type: e1-standard-2
+    os_image: ubuntu1804
+blocks:
+  - name: Deploy
+    task:
+      jobs:
+        - name: Deploy
+          commands:
+            - sudo pip install awscli
+            - checkout
+            - cd docs/website
+            - sem-version node 15.14.0
+            - 'cache restore docusaurus-node-modules-$SEMAPHORE_GIT_BRANCH-$(checksum yarn.lock),docusaurus-node-modules-$SEMAPHORE_GIT_BRANCH,docusaurus-node-modules-master'
+            - bash ./bin/deploy.sh
