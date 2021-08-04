@@ -16,6 +16,8 @@ blocks:
             - sem-version node 15.14.0
             - yarn install --ignore-engines
             - cache store docusaurus-node-modules-$SEMAPHORE_GIT_BRANCH-$(checksum yarn.lock) node_modules
+      secrets:
+        - name: aws
 promotions:
   - name: Promotion 1
     pipeline_file: pipeline_2.yml
