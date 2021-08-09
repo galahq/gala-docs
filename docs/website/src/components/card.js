@@ -41,7 +41,7 @@ export default function Card({
               rel="noopener noreferrer"
               className="button button--secondary button--block"
             >
-              Learn More
+              Learn more
             </a>
           )}
         </div>
