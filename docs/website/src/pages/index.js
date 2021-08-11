@@ -199,11 +199,11 @@ function Examples() {
       <h3>In Action</h3>
       <div className="row">
         <div className="col">
-          <div className={[home.examplesGrid]}>
+          <ul className={[home.examplesGrid]}>
             {examples.map((example, index) => (
               <Card content={example} key={index} />
             ))}
-          </div>
+          </ul>
         </div>
       </div>
     </div>

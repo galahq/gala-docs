@@ -6,7 +6,7 @@ export default function Card({
 }) {
   const isCaseURLString = "learngala.com/cases";
   return (
-    <div className="card">
+    <li className="card">
       <div className="card__image">
         {image && image.length > 0 && (
           <img src={require("./assets/" + image).default}></img>
@@ -46,6 +46,6 @@ export default function Card({
           )}
         </div>
       </div>
-    </div>
+    </li>
   );
 }
