@@ -1,0 +1,54 @@
+---
+id: tutorial-exploring-case
+title: 1.1 - Web App Basics & Needs
+sidebar_position: 2
+---
+
+import useBaseUrl from "@docusaurus/useBaseUrl";
+
+## Goals
+
+- Outline our inputs needs
+- Outline our output expectations
+
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/wdea10PcbOs"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>
+
+## Our web application goal
+
+We are looking to explore and better understand how energy burden fluctuates in the US. For this we will be duplicating some of the functionality of the <a href='https://www.energy.gov/eere/slsc/maps/lead-tool'>DOE LEAD tool</a>. Take a few moments to explore this tool. We will be duplicating the bar chart visualizations on the website (seen below).
+
+<img src={useBaseUrl("/dataAnalyticsImg/DOE_LEAD_barchart.png")} />
+
+At its most basic level our web application will showcase how energy burden fluctuates based on different inputs:
+
+- % income above Federal Poverty Level
+- Building Age
+- Heating Fuel
+- Building Type
+- Renting/Owning
+
+## Our input needs
+
+We call the parts of our web application that the user sees and interacts with the **UI (User Interface)**. We will want to let our users choose which variables/lens to explore energy burden. So one part of our UI will consist of some sort of selection, lets decide it will be through a dropdown menu.
+
+<img src={useBaseUrl("/dataAnalyticsImg/user_to_dropdown_UI.svg")} />
+
+## Our output expectations
+
+We call the parts of our web application that access our data and perform the underlying calculations, like filtering data and creating graphs, our **backend or server-side code**. In this case our web application will search our database based on the user inputted variable (ie. Federal Poverty Level) ....
+
+<img src={useBaseUrl("/dataAnalyticsImg/dropdown_to_server.svg")} />
+
+...and then create a graph and return it to the UI to display to the user.
+
+<img src={useBaseUrl("/dataAnalyticsImg/server_to_ui_graph.svg")} />
+
+Now we have a structure that meets our web application goals. It allows our users to interact and choose a lens/variable through which to view energy burden and returns a graph visualizing this information for them.

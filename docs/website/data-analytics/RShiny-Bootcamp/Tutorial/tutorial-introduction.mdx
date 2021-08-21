@@ -1,0 +1,42 @@
+---
+id: tutorial-introduction
+title: 1.0 - Introduction
+sidebar_position: 1
+---
+
+## Goals
+
+- Understand how web applications can help us share data
+- Understand why we are using R and RShiny in particular
+
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/bpbLTJl49_Y"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>
+
+## Our case study
+
+Consider the following scenario: You are a researcher studying energy justice issues, specifically Energy Burden, “the percentage of gross household income spent on energy costs” (energy.gov).
+
+Your goal is to better understand how Energy Burden fluctuates based on different variables and to present this information in a way that is meaningful and accessible to the community.
+
+You’re aware that research papers can be difficult for the public to access: they can be paywalled, and hard to understand or even find. Additionally, research by nature is constantly being updated. Therefore, how can we provide one resource that everyone can keep coming back to and is always updated?
+
+**WEB APPLICATIONS!**
+
+## Why are web applications useful?
+
+A web application is an interactive resource that can be easily shared and updated. A web application allows its users to explore data at their own pace and pursue their own lines of inquiry. This provides an excellent opportunity for further community engagement and communication.
+
+This is actually one of the reason the Department of Energy has already created a web application outlining energy burden in the US, its called the <a href='https://www.energy.gov/eere/slsc/maps/lead-tool'>DOE LEAD tool</a>. We will be modeling our bootcamp tool to mirror some of its capabilities.
+
+## Why are we using R and RShiny
+
+**complexity** and **maintainability** are two main issues that plague web application development. If we make the application extremely complicated then development can take a long time and be prone to errors. Therefore, not only will the development process take longer and be more intensive, it will also be more challenging to update and maintain the application. Many projects are simply abandoned because the developer who created the application leaves the team, and there isn't anyone else readily capable of making even simple changes.
+
+Many research teams and faculty are familiar with the R statistics and coding language, but they rarely have the time to learn additional coding languages and frameworks, so web application development can seem daunting or impractical. This is where **RShiny** comes into play. RShiny is an R package that lets you easily create and deploy web applications built in R. This lets researchers use their existing coding knowledge and scripts to create their own web applications. **Now you can easily integrate the same code that you use to create graphs for research papers for your own web applications.**

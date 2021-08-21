@@ -141,5 +141,17 @@ module.exports = {
       }
     ]
   ],
+  plugins: [
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "data-analytics",
+        path: "data-analytics",
+        routeBasePath: "data-analytics",
+        sidebarPath: require.resolve("./sidebarsDataAnalytics.js")
+        // ... other options
+      }
+    ]
+  ],
   scripts: ["static/js/typekit.js"]
 };

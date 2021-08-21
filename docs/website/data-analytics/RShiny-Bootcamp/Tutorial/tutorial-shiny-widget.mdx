@@ -1,0 +1,172 @@
+---
+id: tutorial-shiny-widgets
+title: 2.1 - Making RShiny interactive
+sidebar_position: 4
+---
+
+import useBaseUrl from "@docusaurus/useBaseUrl";
+
+## Goals
+
+- Understand what a “widget” is
+- Create a new page
+- Create a dropdown menu
+
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/KmYpeLWAXNE"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>
+
+## What is a widget?
+
+A dropdown menu is an example of a widget. A widget is a component of our UI that allows our user to interact with our application. A widget allows our user to carry out some sort of function.
+
+## Creating our new Analysis Page
+
+Let's create another page, or `tabItem`, and call it "Variable Analysis". To do this we will have to edit our `ui.R` file, since it dictates our web application's overall structure.
+
+Eventually our "Variable Analysis" page will contain a dropdown menu and a bar chart as well. For now we will provide it with a fluidRow (a “shelf,” to use our example from earlier), and a box within it. Inside the box we will provide a header "Energy Burden Variables" and a small description. We'll also add another box, with a header referencing an "Energy Burden Chart", and eventually a bar chart. Note that when we add this tab to the menu we also have to add this "Variable Analysis" page to the sidebar, so that there is a link to this page.
+
+```r
+library(shiny)
+library(shinydashboard)
+library(shinyWidgets)
+
+sidebar <- dashboardSidebar(
+ sidebarMenu(
+   menuItem('Overview', tabName='overviewTab'),
+   menuItem('Variable Analysis', tabName='variableAnalysisID')
+ )
+)
+
+overviewTab <- tabItem(
+ tabName='overviewTab',
+ fluidRow(
+   box(
+     h1('Energy Burden & the DOE LEAD tool'),
+     'Overview content will go here.'
+   )
+ )
+)
+
+variableAnalysisTab <- tabItem(
+ tabName='variableAnalysisID',
+ fluidRow(
+   box(
+     h1('Energy Burden Variables'),
+     'There are many variables that can affect a household\'s energy burden. Use the drop down menu below to explore the impact of some of these variables.'
+   )
+ )
+)
+
+body <- dashboardBody(
+ tabItems(
+   overviewTab, # overview tab inserted into the body
+   variableAnalysisTab
+ )
+)
+
+ui <- dashboardPage(
+ dashboardHeader(title='Energy Burden Analysis'),
+ sidebar,
+ body
+)
+```
+
+Press "Run App". Now that we have added content to our Variable Analysis tab/page you can click on the link in the sidebar to change the page you are looking at.
+
+<img src={useBaseUrl("/dataAnalyticsImg/variable_page_no_widget.png")} />
+
+## Creating Dropdown Menu
+
+Now let's add our dropdown menu. For any general widget there are three things that have to be included:
+
+- `inputId`: a unique identifier associated with the value of input selected
+- `label`: text that appears above widget
+- `choices`: a list of values for the widget to display/offer
+- `selected`: default choice that is selected when the page is loaded
+
+Since we will only be altering the `variableAnalysisTab` variable, let's zoom into this aspect of the code. We are going to reference the default dropdown menu widget <a href='http://shinyapps.dreamrs.fr/shinyWidgets/'>(example here)</a>
+
+```r
+variableAnalysisTab <- tabItem(
+ tabName='variableAnalysisID',
+ fluidRow(
+   box(
+     h1('Energy Burden Variables'),
+     'There are many variables that can affect a household\'s energy burden. Use the drop down menu below to explore the impact of some of these variables.',
+     pickerInput(
+       inputId='variableChoiceID',
+       label='Select a variable below:',
+       choices=c('Federal Poverty Level', 'Building Age', 'Heating Fuel', 'Building Type', 'Rent/Own'),
+       selected=c('Federal Poverty Level')
+     )
+   )
+ )
+)
+```
+
+Press "Run App" and you should have a dropdown where the user can select a specific variable to look at.
+
+<img src={useBaseUrl("/dataAnalyticsImg/variable_w_dropdown.png")} />
+
+Find a copy of the full `ui.R` file below:
+
+## ui.R
+
+```r
+library(shiny)
+library(shinydashboard)
+library(shinyWidgets)
+
+sidebar <- dashboardSidebar(
+ sidebarMenu(
+   menuItem('Overview', tabName='overviewTab'),
+   menuItem('Variable Analysis', tabName='variableAnalysisID')
+ )
+)
+
+overviewTab <- tabItem(
+ tabName='overviewTab',
+ fluidRow(
+   box(
+     h1('Energy Burden & the DOE LEAD tool'),
+     'Overview content will go here.'
+   )
+ )
+)
+
+variableAnalysisTab <- tabItem(
+ tabName='variableAnalysisID',
+ fluidRow(
+   box(
+     h1('Energy Burden Variables'),
+     'There are many variables that can affect a household\'s energy burden. Use the drop down menu below to explore the impact of some of these variables.',
+     pickerInput(
+       inputId='variableChoiceID',
+       label='Select a variable below:',
+       choices=c('Federal Poverty Level', 'Building Age', 'Heating Fuel', 'Building Type', 'Rent/Own'),
+       selected=c('Federal Poverty Level')
+     )
+   )
+ )
+)
+
+body <- dashboardBody(
+ tabItems(
+   overviewTab, # overview tab inserted into the body
+   variableAnalysisTab
+ )
+)
+
+ui <- dashboardPage(
+ dashboardHeader(title='Energy Burden Analysis'),
+ sidebar,
+ body
+)
+```
