@@ -25,6 +25,9 @@
 
   --ifm-font-family-base: "Tenso", "system-ui";
   --ifm-code-font-size: 95%;
+
+  --ifm-blockquote-background-color: #f5f6f7;
+  --ifm-blockquote-border-color: #d9dde0;
 }
 
 .footer {
@@ -62,8 +65,8 @@
 }
 
 .admonition-tip {
-  background-color: var(--ifm-color-primary-lighter);
-  border-color: var(--ifm-color-primary-darker);
+  background-color: #ece6ff;
+  border-color: #8264dd;
 }
 
 .card {
