@@ -130,7 +130,7 @@ function PublicationsPage() {
               Our initiative has long prioritized the open access publication of
               cases and data about case use in relevant journals. If you have
               difficulty finding any of our publications please don’t hesitate
-              to reach out to us at hello@learngala.
+              to reach out to us at hello@learngala.com.
             </p>
           </div>
         </div>
