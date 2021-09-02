@@ -50,6 +50,9 @@ module.exports = {
     colorMode: {
       disableSwitch: true
     },
+    prism: {
+      additionalLanguages: ["r"]
+    },
     footer: {
       style: "dark",
       links: [
