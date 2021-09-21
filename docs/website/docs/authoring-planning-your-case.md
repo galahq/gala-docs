@@ -3,14 +3,16 @@ id: advanced-planning-your-case
 title: Planning a Case
 sidebar_label: Planning a Case
 ---
+
 ## Background
+
 ### What is a case study?
 
 Case studies have a long history in fields such as business, law, and medicine. They are relative newcomers to sustainability and environmental education, but their use is growing. Because case studies are used in such diverse fields, they come in many different formats and styles. However, all share several important characteristics:
 
-1. Case studies, at their most basic level, are stories. Each story is an account of a real problem, issue, or decision *(Rotterdam School of Management)* faced by a person or organization.
+1. Case studies, at their most basic level, are stories. Each story is an account of a real problem, issue, or decision _(Rotterdam School of Management)_ faced by a person or organization.
 
-2. That problem, issue, or decision requires some form of analysis *(S. Yaffee, pers. comm.).*
+2. That problem, issue, or decision requires some form of analysis _(S. Yaffee, pers. comm.)._
 
 3. Case studies are typically anchored in a specific time and place.
 
@@ -18,11 +20,11 @@ Case studies have a long history in fields such as business, law, and medicine. 
 
 Many authors have proposed definitions of a case study, including this simple one:
 
->“Case studies are stories with an educational message.” -Clyde Herreid  *(Herreid, 2007, p.xiv )*
+> “Case studies are stories with an educational message.” -Clyde Herreid _(Herreid, 2007, p.xiv)_
 
 And this more detailed one:
 
->“In its most distilled form, a ‘case study’ involves investigation of [a] ‘real-life phenomenon through detailed contextual analysis of a limited number of events or conditions, and their relationships.’” -Wil Burns *(Burns, 2016)*
+> “In its most distilled form, a ‘case study’ involves investigation of [a] ‘real-life phenomenon through detailed contextual analysis of a limited number of events or conditions, and their relationships.’” -Wil Burns _(Burns, 2016)_
 
 ### What forms do cases take?
 
@@ -35,6 +37,7 @@ Keep in mind that the learning modules you create on Gala do not need to conform
 ### Our approach to cases
 
 At Gala, our approach to cases is centered around a few core ideas:
+
 1. Experimentation – We make it easy to get started creating a case and we encourage you to try what works for you. Your first creation doesn't need to be your final work.
 2. Curation – We provide ways to incorporate external resources and multimedia to enrich and ground your case.
 3. Collaboration – We encourage collaboration between authors and provide tools for feedback and review.
@@ -70,12 +73,12 @@ Learning objectives state what someone should know or be able to do at the end o
 
 Consider the following examples:
 
-| **Bad Learning Objective**                                   | **Better Learning Objective**                                |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Students will be introduced to the history of sustainable development. *(Not learner centered)* | Students will be able to identify the major historical milestones in the history of sustainable development. |
-| Learn about the   controversy surrounding the culling of deer. *(Vague)* | Identify stakeholders and their competing perspectives surrounding the culling of deer. |
-| Navigate SPSS   statistical software. *(Vague, hard to measure)* | Correctly enter data and conduct analyses in SPSS including t-test, ANOVA, chi-square, and regression. |
-| Be given opportunities to critically analyze policies. *(Not learner centered, vague)* | Critique a policy by identifying and evaluating the impact of both intentional and unintended consequences, formulate possible solutions, and argue a case for the best solution. |
+| **Bad Learning Objective**                                                                      | **Better Learning Objective**                                                                                                                                                     |
+| ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Students will be introduced to the history of sustainable development. _(Not learner centered)_ | Students will be able to identify the major historical milestones in the history of sustainable development.                                                                      |
+| Learn about the controversy surrounding the culling of deer. _(Vague)_                          | Identify stakeholders and their competing perspectives surrounding the culling of deer.                                                                                           |
+| Navigate SPSS statistical software. _(Vague, hard to measure)_                                  | Correctly enter data and conduct analyses in SPSS including t-test, ANOVA, chi-square, and regression.                                                                            |
+| Be given opportunities to critically analyze policies. _(Not learner centered, vague)_          | Critique a policy by identifying and evaluating the impact of both intentional and unintended consequences, formulate possible solutions, and argue a case for the best solution. |
 
 It can be helpful to think about learning objectives in terms of the type of thinking you want a learner to practice. Bloom's Taxonomy is one common framework for organizing the difficulty of various cognitive processes.
 
@@ -106,6 +109,7 @@ Given these needs, and keeping in mind your learning objectives, what informatio
 Your approach to researching a case will depend on what you need to know and can be more scholarly or journalistic based on those needs. In general, you want to be able to support any claims you make in your case: Why would an actor support the position you ascribe to them? How do you know an event unfolded the way that you say it did?
 
 Literature reviews, interviews, and participant observation lend themselves particularly well to case research. Here are some examples from cases on Gala:
+
 - The authors of the "[Souring Climate](https://www.learngala.com/cases/michigan-cherry-growers)" case reviewed agricultural adaptation literature, climate information, and conducted semi-structured interviews with cherry growers, processors, and extension agents. The interviews helped the authors to present a range of perspectives on adaptation in the industry.
 - The authors of the "[Assembling Our Transportation Future](https://www.learngala.com/cases/model-t)" case worked with the Henry Ford Museum archives to find historical images and trace the development of the automobile.
 - The authors of the "[Management of Three Lakes in Yunnan, China](https://www.learngala.com/cases/management-of-three-lakes-in-yunnan-china/)" case conducted a series of interviews and site visits in Yunnan to understand approaches to restoration taking place there, get a sense of what the watershed was like, and capture images and video footage of relevant sites.
@@ -114,8 +118,8 @@ As you begin to think about how your case will take shape, revisit and revise yo
 
 ## Building Your Case
 
-We find it helpful to keep in mind three concerns when creating a Gala case: Pedagogy, Problem Arc, and Presentation. The *problem arc* is the method by which you set up a problem for the reader to engage with and ground that problem in a specific time and place.
-*Pedagogy* refers to how you structure that engagement in a way that meets your desired learning outcomes, and *presentation* is simply delivering your content effectively.
+We find it helpful to keep in mind three concerns when creating a Gala case: Pedagogy, Problem Arc, and Presentation. The _problem arc_ is the method by which you set up a problem for the reader to engage with and ground that problem in a specific time and place.
+_Pedagogy_ refers to how you structure that engagement in a way that meets your desired learning outcomes, and _presentation_ is simply delivering your content effectively.
 
 What follows are a series of options and ideas to consider when addressing these three concerns as you plan and write your case. Examples and best practices have been included where appropriate. Familiarize yourself with them now and feel free to return to this list as you begin writing.
 
@@ -129,24 +133,24 @@ Storytelling is deeply ingrained in human culture, and evidence indicates that c
 
 As a case study, it might look something like this:
 
-*Introduction*:
+_Introduction_:
 
 - Set the scene
 - Introduce protagonist/decision maker
 - Introduce decision or question
 
-*Background*:
+_Background_:
 
 - Provide information necessary to understand the case (technical, historical, etc.)
 
-*Body*:
+_Body_:
 
 - Lay out parameters of the problem
 - How did we get here (to this problem)?
 - Introduce stakeholders, perspectives, complicating factors
 - Analyze possible solutions
 
-*Conclusion*:
+_Conclusion_:
 
 - Return to the problem
 - Reflect on information in case study
@@ -174,14 +178,14 @@ Cases that aren’t based around a decision may do this differently. As you’re
 
 #### Tense
 
-We have found that it is typically best to use a past tense, third-person point of view. Although writing a case study in present tense might make it feel more immediate and relevant, it can also make the case study feel dated. Writing from a third person point of view is easiest for most people, although sometimes first person can work. Second person point of view tends to sound like a *Choose Your Own Adventure* book.
+We have found that it is typically best to use a past tense, third-person point of view. Although writing a case study in present tense might make it feel more immediate and relevant, it can also make the case study feel dated. Writing from a third person point of view is easiest for most people, although sometimes first person can work. Second person point of view tends to sound like a _Choose Your Own Adventure_ book.
 
 #### Protagonists and other characters
 
 You don’t have to include a protagonist in your case study but there are good reasons to, whether this central character is an individual or organization (for decision-cases it’s a necessity!):
 
 - A central actor can give a situation a human face and provide an entrypoint for readers, allowing them to picture themselves facing the challenge you present.
-- Having a central figure can make it easier to write a clearer, tighter, narrative. As information is revealed to the protagonist it is also revealed to the reader. The inner monologue of a protagonist can also be helpful for signposting. 
+- Having a central figure can make it easier to write a clearer, tighter, narrative. As information is revealed to the protagonist it is also revealed to the reader. The inner monologue of a protagonist can also be helpful for signposting.
 - Often the protagonist at the center of the case must grapple with having incomplete information, making any kind of definitive solution elusive, reflecting real-world constraints.
 
 When researching a case it is often useful to conduct interviews and draw from these interviews to build out characters. Working with real people as “characters” can be delicate to navigate. Building a working relationship with someone you are writing into your case can be a good way to understand their situation, but it can also make it difficult to establish critical distance.
@@ -192,7 +196,7 @@ If placing the reader in the shoes of a protagonist proves difficult, or undesir
 
 Realism is valuable in cases but there are some legitimate reasons to fictionalize aspects of a case, which generally boil down to:
 
-1. Pedagogical concerns – To better set up a question or problem by shifting a decision in time, simplifying a situation, or posing a hypothetical. 
+1. Pedagogical concerns – To better set up a question or problem by shifting a decision in time, simplifying a situation, or posing a hypothetical.
 
 2. Political concerns – To model an actor off of a real person who you don’t have access to or consent from, or address a sensitive topic carefully.
 
@@ -205,23 +209,26 @@ When implemented well, dialogue (or the inner monologue of a protagonist charact
 Here are some examples of dialogue from cases on Gala. In both cases dialogue was informed by interviews conducted while researching the case:
 
 The [Souring Climate](https://www.learngala.com/cases/michigan-cherry-growers/) case uses monologue and occasional dialogue to convey a sense of cherry grower’s deep ties to the land and an agricultural way of life:
+
 > You had to be okay with risk in this business, Frank thought, and, in spite of the risk, there were plenty of cherry stands, both on and off the Leelanau Peninsula. “There’s money in growing tarts, otherwise we’d be doing something else up here” he remembered his dad saying. “But it’s not for everybody.” It was the life for him though, Frank thought–turning back away from the bay and towards the festival stands purveying all manner of cherry goods—and a pretty one at that.
 
 The [Guns or GPS Units?](https://www.learngala.com/cases/guns-or-gps/) Case uses dialogue to convey a sense of the circumstances faced by rangers working to deter poaching:
->“Sema Denis, what’s going on?” Josh inquired urgently. The phone connection at Mugie Ranch, a 200–square-kilometer private conservancy located in the shadow of Mt. Kenya on the border of Samburu and Laikipia counties, was spotty at best, and Josh struggled to hear the response.
+
+> “Sema Denis, what’s going on?” Josh inquired urgently. The phone connection at Mugie Ranch, a 200–square-kilometer private conservancy located in the shadow of Mt. Kenya on the border of Samburu and Laikipia counties, was spotty at best, and Josh struggled to hear the response.
 >
 > “Tembo waliokufa. A dead elephant. Found in the southern part of the conservancy. Shot four times, and the tusks are gone.”
 
 ### Pedagogy
 
 #### Engaged Learning Exercises
-Your learning objectives will also help you determine an appropriate engaged learning exercise (or set of exercises) for your case. The idea of a teachable unit *(Handelsman et al., 2007)* connects learning objectives to assignments (engaged learning exercises) and assessments.
 
-| **Learning Objective**                      | **Assignment**                                     | **Assessment**                                               |
-| ------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------ |
+Your learning objectives will also help you determine an appropriate engaged learning exercise (or set of exercises) for your case. The idea of a teachable unit _(Handelsman et al., 2007)_ connects learning objectives to assignments (engaged learning exercises) and assessments.
+
+| **Learning Objective**                      | **Assignment**                                     | **Assessment**                                                  |
+| ------------------------------------------- | -------------------------------------------------- | --------------------------------------------------------------- |
 | What should students know or be able to do? | How will students practice what they have learned? | How will the instructor know that the students have learned it? |
 
-The University of Michigan Center for Research on Learning and Teaching [defines engaged learning](http://www.crlt.umich.edu/category/tags/no-parent/engaged-learning) as “providing students with opportunities for practice in unscripted, authentic settings, where stakeholders (including the students themselves) are invested in the outcome.” Engaged learning exercises should give students meaningful practice that will allow them to meet the learning objectives. Building an engaged learning exercise from an [active learning strategy](http://crlt.umich.edu/sites/default/files/instructor_resources/how_can_you_incorporate_active_learning.pdf) is a good way to include practice in a case study. 
+The University of Michigan Center for Research on Learning and Teaching [defines engaged learning](http://www.crlt.umich.edu/category/tags/no-parent/engaged-learning) as “providing students with opportunities for practice in unscripted, authentic settings, where stakeholders (including the students themselves) are invested in the outcome.” Engaged learning exercises should give students meaningful practice that will allow them to meet the learning objectives. Building an engaged learning exercise from an [active learning strategy](http://crlt.umich.edu/sites/default/files/instructor_resources/how_can_you_incorporate_active_learning.pdf) is a good way to include practice in a case study.
 
 Thinking about your intended audience will help you determine what level of complexity and time commitment is appropriate for the engaged learning components of your case. Simple pauses for reflection may be appropriate for a case intended for public education or to introduce a topic to a class, whereas a more complex and time consuming activity, such as a modelling exercise or a stakeholder roleplay, may take up multiple class periods. Some case authors include teaching guides with their cases that detail how a case fits into a teachable unit.
 
@@ -235,10 +242,10 @@ You can integrate multimedia into your case on Gala with “edgenotes.” Edgeno
 
 Multimedia can play several roles in a case:
 
-- _Presenting information through multiple channels_ – Some [educational psychologists suggest](https://faculty.washington.edu/farkas/WDFR/MayerMoreno9WaysToReduceCognitiveLoad.pdf) that presenting information through audio and visual channels can help reduce cognitive load and improve comprehension. [_Principles of “e-learning”_](https://en.wikipedia.org/wiki/E-learning_(theory)) may be of further interest to authors working with multimedia.
+- _Presenting information through multiple channels_ – Some [educational psychologists suggest](https://faculty.washington.edu/farkas/WDFR/MayerMoreno9WaysToReduceCognitiveLoad.pdf) that presenting information through audio and visual channels can help reduce cognitive load and improve comprehension. [_Principles of “e-learning”_](<https://en.wikipedia.org/wiki/E-learning_(theory)>) may be of further interest to authors working with multimedia.
 - _Providing supplemental information_ – Edgenotes can give readers the opportunity to explore a topic further. You may also want to link useful resources for readers who may lack a background in a certain area. It is helpful to indicate to readers when an edgenote is optional (“learn more about..”).
 - _Giving context and realism_ – Our understanding of our world is increasingly mediated through video, audio, images, and even social media posts. You can use pieces of the digital trail left by unfolding events to help readers ground your case in the real world. For example: [Green vs. Grey](https://www.learngala.com/cases/washtenaw-county-rain-gardens), a case about green infrastructure in Ann Arbor, MI, uses articles from a local news outlet about flooding to set the stage for an infrastructure decision, and a podcast featuring interviews with neighbors who have been affected by flooding, as well as the workers who administer the County’s rain garden program.
-- _Using the best tool for the job_ – You will find that some modes of presenting information are just better suited to a given task. An image or video can help readers picture [a controversial dam to be removed](https://www.learngala.com/cases/maple-river-dam/1), a map can show [where a threatened lake](https://www.learngala.com/cases/management-of-three-lakes-in-yunnan-china/2)  sits in relation to surrounding urban development, and a chart can help a reader draw conclusions from lots of data points. Just remember to [include accessible captions](https://www.learngala.com/cases/management-of-three-lakes-in-yunnan-china/2)!
+- _Using the best tool for the job_ – You will find that some modes of presenting information are just better suited to a given task. An image or video can help readers picture [a controversial dam to be removed](https://www.learngala.com/cases/maple-river-dam/1), a map can show [where a threatened lake](https://www.learngala.com/cases/management-of-three-lakes-in-yunnan-china/2) sits in relation to surrounding urban development, and a chart can help a reader draw conclusions from lots of data points. Just remember to [include accessible captions](https://www.learngala.com/cases/management-of-three-lakes-in-yunnan-china/2)!
 - _Creating interactivity_ – Edgenotes can also create opportunities for reader interaction. You can ask readers to draw conclusions from interactive charts, maps, articles and RShiny apps.
 
 As you plan your case, write down any ideas you have for multimedia elements that might help you meet your learning objectives. Any field visits or interviews you conduct may be good opportunities to gather images, audio, or video.
@@ -251,10 +258,10 @@ In general:
 
 - Linking to sources (such as a website or YouTube video, as opposed to reproducing within your case study) is okay.
 - When embedding images, look for materials in the [public domain](https://fairuse.stanford.edu/overview/public-domain/welcome/) or with a [Creative Commons](https://search.creativecommons.org/) license. Good sources of images include:
-    - Google image search, using the Tools menu to select Usage Rights “labeled for noncommercial reuse” (though be aware that this tool is not foolproof)
-    - [Wikimedia Commons](https://commons.wikimedia.org/)
-    - [Creative Commons on Flickr](https://www.flickr.com/creativecommons/)
-    - Government sources, which are in the public domain by default (but be aware that some government publications reproduce copyrighted materials with permission.)
+  - Google image search, using the Tools menu to select Usage Rights “labeled for noncommercial reuse” (though be aware that this tool is not foolproof)
+  - [Wikimedia Commons](https://commons.wikimedia.org/)
+  - [Creative Commons on Flickr](https://www.flickr.com/creativecommons/)
+  - Government sources, which are in the public domain by default (but be aware that some government publications reproduce copyrighted materials with permission.)
 - Reproducing figures from academic journals usually requires permission, however, you can recreate your own figures from data–which are not subject to copyright–and using figures from [an open-access journal](https://support.nature.com/en/support/solutions/articles/6000217050-use-of-an-open-access-figure-or-table#:~:text=Reproduction%20of%20figures%20or%20tables,identified%20as%20the%20original%20publisher) is usually okay.
 
 #### Presenting content clearly
@@ -262,10 +269,13 @@ In general:
 A few simple strategies can make it easier for your readers to get the most out of your case on Gala:
 
 ##### Break content into smaller chunks
+
 Cases are divided into sections that are further broken down into "cards" and paragraphs. Using cards effectively to encapsulate ideas, or segments that build to larger ideas, can help readers to follow along.
 
 ##### Don't overwhelm the reader with edgenotes
-Images, charts, and short embedded videos can quickly reinforce or clarify elements of the text but links to external sources and longer-form content, while valuable, may pull the reader away from the main content if they aren't used deliberately and in moderation. Ask yourself what a reader is supposed to get out of interacting with an edgenote. How much time will it take them? If you want to share an idea from a longer article and give readers the option of reading more, consider [using a pull quote](https://docs.learngala.com/docs/authoring-embedding-media.html#pull-quotes) with a link.
+
+Images, charts, and short embedded videos can quickly reinforce or clarify elements of the text but links to external sources and longer-form content, while valuable, may pull the reader away from the main content if they aren't used deliberately and in moderation. Ask yourself what a reader is supposed to get out of interacting with an edgenote. How much time will it take them? If you want to share an idea from a longer article and give readers the option of reading more, consider [using a pull quote](../docs/authoring-embedding-media.md) with a link.
 
 ##### Tell readers how to interact with edgenotes
+
 It's fine to give readers the option to go down an optional rabbit-hole, but linking out to long-form content (a research paper, for example) without explanation can overwhelm or confuse readers. You can let them know how to interact with an edgenote, and whether it is optional enrichment or vital to the narrative, by including a caption with phrases like "Find out more about..." or "Read up to page one." In our experience graduate students have an easier time discerning what information is important and need less explicit instruction.
