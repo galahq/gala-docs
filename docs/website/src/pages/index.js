@@ -101,12 +101,11 @@ const examples = [
     hed: "Sustainability and Development for Global Learners",
     dek: "Sustainability and Development MasterTrack™ Certificate",
     body:
-      "This online masters program focuses on the United Nations’ Sustainable Development goals and has students analyze three Gala cases and synthesize their lessons for sustainability and development, before creating their own cases and developing an instructional component for the case of your choosing with a faculty member. This program was created by University of Michigan School for Environment and Sustainability (SEAS) faculty who, informed by this work, have gone on to create a new, and more modular curriculum for an in person field of specialization at U-M SEAS on Sustainability and Development.",
+      "This online masters program focuses on the United Nations’ Sustainable Development goals and has students analyze three Gala cases and synthesize their lessons for sustainability and development, before creating their own cases and developing an instructional component for the case of their choosing with a faculty member. This program was created by University of Michigan School for Environment and Sustainability (SEAS) faculty who, informed by this work, have gone on to create a new, and more modular curriculum for an in person field of specialization at U-M SEAS on Sustainability and Development.",
     image: "sdgs.png",
     moreLink:
       "https://online.umich.edu/series/sustainability-and-development-mastertrack-certificate/",
-    caseLink:
-      "https://www.learngala.com/catalog/libraries/um-center-for-education-design-evaluation-and-research"
+    caseLink: ""
   },
   {
     hed:
