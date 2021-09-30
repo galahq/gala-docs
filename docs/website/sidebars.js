@@ -13,12 +13,14 @@ module.exports = {
     {
       type: "category",
       label: "Teaching",
-      items: ["teaching-getting-started", "teaching-discussions"]
+      items: ["teaching-getting-started", "teaching-discussions"],
+      collapsed: false
     },
     {
       type: "category",
       label: "Advanced",
-      items: ["advanced-planning-your-case"]
+      items: ["advanced-planning-your-case"],
+      collapsed: false
     }
   ]
 };
