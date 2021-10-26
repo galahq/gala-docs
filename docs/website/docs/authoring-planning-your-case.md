@@ -238,7 +238,7 @@ Once you have decided on the engaged learning exercise, you can design an assess
 
 #### Edgenotes: Multimedia on Gala
 
-You can integrate multimedia into your case on Gala with “edgenotes.” Edgenotes can be links to outside resources or multimedia that you create. The easiest way to understand how edgenotes work is browse some Gala cases, read our [quickstart guide](https://docs.learngala.com/docs/authoring-embedding-media.html), and create a new case and start experimenting on your own.
+You can integrate multimedia into your case on Gala with “edgenotes.” Edgenotes can be links to outside resources or multimedia that you create. The easiest way to understand how edgenotes work is browse some Gala cases, read our [quickstart guide](../docs), and create a new case and start experimenting on your own.
 
 Multimedia can play several roles in a case:
 
