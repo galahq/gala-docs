@@ -26,8 +26,7 @@ It will sometimes stand alone to identify your case, so make it clear and memora
 The question presents the primary decision point of your case, and frames it for your readers.
 Here’s an example of a good kicker/question pair:
 
-> A Radioactive Decision<br />
-> **Should DTE Energy build a new nuclear reactor in Michigan?**
+> A Radioactive Decision<br /> > **Should DTE Energy build a new nuclear reactor in Michigan?**
 
 ### Cover image
 
@@ -59,6 +58,6 @@ A good rule of thumb is to add a new card for every new paragraph, but sometimes
 ### Citations
 
 Cases are academic works; it is important to cite your sources.
-To add a citation, place your cursor after the fact you want to cite, and click the <img className="buttonIcon" src="./assets/add-citation-icon.png" role="presentation"></img> “Add Citation” button in the card’s toolbar.
+To add a citation, place your cursor after the fact you want to cite, and click the <img className="buttonIcon" src={require("./assets/add-citation-icon.png").default} role="presentation"></img> “Add Citation” button in the card’s toolbar.
 A small circle will be added to the text: this is the citation marker.
 Click the citation marker, and add the text and optional URL of the work you’re citing.

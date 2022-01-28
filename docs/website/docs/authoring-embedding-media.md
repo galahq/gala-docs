@@ -16,7 +16,7 @@ When you create an Edgenote, you attach it to a specific segment of your narrati
 
 ## Creating a new Edgenote
 
-To add an Edgenote to a card, select the relevant few words and click the <img className="buttonIcon" src="./assets/add-edgenote-icon.png" role="presentation"></img> “Add Edgenote” button in the card’s toolbar.
+To add an Edgenote to a card, select the relevant few words and click the <img className="buttonIcon" src={require('./assets/add-edgenote-icon.png').default} role="presentation"></img> “Add Edgenote” button in the card’s toolbar.
 This attaches a blank Edgenote to your text selection.
 You can then edit the Edgenote by clicking the “Edit” button that appears when you hover your mouse over the placeholder that appears in the right column.
 

@@ -64,6 +64,10 @@
   text-decoration: underline;
 }
 
+.markdown .buttonIcon {
+  max-width: 20px;
+}
+
 .admonition-tip {
   background-color: #ece6ff;
   border-color: #8264dd;
