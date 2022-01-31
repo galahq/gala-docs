@@ -1,6 +1,6 @@
 ---
 slug: growing-gala-nsf-support
-title: Growing Gala with NSF Support
+title: Growing Gala with NSF support
 tags: [projects, mentorship, mbdh, nsf]
 ---
 
