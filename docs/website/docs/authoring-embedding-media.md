@@ -27,6 +27,7 @@ Not all combinations of options are available.
 As you add content in some fields, conflicting fields will be disabled.
 
 When you are finished adding content click the "Save Edgenote" button in the lower-right.
+
 ![A screenshot of the Save Edgenote button at the bottom of the "create edgenote" form.](./assets/edgenote-save.png)
 
 You can configure your Edgenotes any way you like, but most Edgenotes are examples of three main styles.
