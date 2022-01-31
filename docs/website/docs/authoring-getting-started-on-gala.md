@@ -58,6 +58,8 @@ A good rule of thumb is to add a new card for every new paragraph, but sometimes
 ### Citations
 
 Cases are academic works; it is important to cite your sources.
-To add a citation, place your cursor after the fact you want to cite, and click the <img className="buttonIcon" src={require("./assets/add-citation-icon.png").default} role="presentation"></img> “Add Citation” button in the card’s toolbar.
+To add a citation, while editing your case, place your cursor after the fact you want to cite, and click the <img className="buttonIcon" src={require("./assets/add-citation-icon.png").default} role="presentation"></img> “Add Citation” button in the card’s toolbar.
 A small circle will be added to the text: this is the citation marker.
 Click the citation marker, and add the text and optional URL of the work you’re citing.
+
+![Adding an address and URL to a citation](./assets/add-title-url.png)
