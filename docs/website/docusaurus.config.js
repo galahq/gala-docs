@@ -118,7 +118,7 @@ module.exports = {
           ]
         }
       ],
-      copyright: "Copyright © 2021 Regents of the University of Michigan",
+      copyright: `Copyright © ${new Date().getFullYear()} Regents of the University of Michigan`,
       logo: {
         src: "img/gala-logo.svg"
       }
