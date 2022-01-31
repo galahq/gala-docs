@@ -156,5 +156,5 @@ module.exports = {
       }
     ]
   ],
-  scripts: ["static/js/typekit.js"]
+  scripts: ["/js/typekit.js"]
 };
