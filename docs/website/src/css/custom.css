@@ -76,3 +76,7 @@
 .card {
   background-color: var(--ifm-color-secondary-lightest);
 }
+
+.menu__link--sublist {
+  font-weight: bold;
+}
