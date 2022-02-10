@@ -135,7 +135,7 @@ module.exports = {
         },
         blog: {
           showReadingTime: false,
-          // Please change this to your repo.
+          blogSidebarCount: 7,
           editUrl: "https://github.com/galahq/gala"
         },
         theme: {
