@@ -66,7 +66,7 @@ const examples = [
   {
     hed: "Learning at the Edge of Applied Research",
     dek: "Distributed Solar Energy Harvesting for Carbon-Free Ammonia Synthesis",
-    body: "This NSF funded project aims to provide the scientific and technical foundation for producing fertilizer close to the farm and avoid the enormous greenhouse gas footprint of the industrial Haber-Bosch ammonia synthesis process. As the research group, based at the University of Michigan, works to pioneer the concept of photo-enhanced thermal catalysis in the lab, they are also prototyping, piloting, and assessing training modules to convey the innovations to stakeholders, inspire students, and move towards implementation.",
+    body: "Funded by the National Science Foundation (EFRI DChem award #2131709), this project aims to provide the scientific and technical foundation for producing fertilizer close to the farm and avoid the enormous greenhouse gas footprint of the industrial Haber-Bosch ammonia synthesis process. As the research group, based at the University of Michigan, works to pioneer the concept of photo-enhanced thermal catalysis in the lab, they are also prototyping, piloting, and assessing training modules to convey the innovations to stakeholders, inspire students, and move towards implementation.",
     image: "dchem.png",
     moreLink:
       "https://news.engin.umich.edu/2021/09/2m-to-replace-fossil-fuels-with-solar-power-in-fertilizer-production/",
