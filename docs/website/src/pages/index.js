@@ -14,111 +14,127 @@ const features = [
     imageUrl: "img/create.svg",
     description: (
       <>
-        The Gala learning environment makes it fast and easy for anyone to make
-        or find an immersive sustainability case study or module that engages
-        readers. Dynamically integrate content from around the web, including
-        videos, podcasts, maps and data tools.
+        Gala makes it quick and easy to create a case or adapt an existing
+        learning module. Effortlessly integrate multimedia content into your
+        module including videos, podcasts, and data tools.
       </>
-    )
+    ),
+  },
+
+  {
+    title: "Collaborate and adapt",
+    imageUrl: "img/community.svg",
+    description: (
+      <>
+        Gala encourages prototyping and iterative improvement. Collaborators can
+        develop pilot cases together and solicit feedback with inline comments
+        before publishing and sharing.
+      </>
+    ),
   },
   {
     title: "Teach and share",
     imageUrl: "img/share.svg",
     description: (
       <>
-        Gala cases thrive in classroom, community, and remote learning settings.
-        Create your own case to publish and share as widely as you like, or find
-        one in our growing list of case libraries. Institutions with a series of
-        cases can create their own libraries.
+        Gala modules perform well in classroom, community, and remote learning
+        settings. Publish your case and share it as widely as you like.
+        Institutions can create libraries with multiple cases.
       </>
-    )
+    ),
   },
-  {
-    title: "Collaborate and adapt",
-    imageUrl: "img/community.svg",
-    description: (
-      <>
-        Gala is built to encourage prototyping, review, and iterative
-        improvement, allowing collaborators to develop pilot cases together and
-        solicit feedback with inline comments before publishing and sharing with
-        wider communities.
-      </>
-    )
-  }
 ];
 
 const about = {
   description:
-    "The Gala initiative seeks to make sustainability learning more grounded, dynamic, and collaborative. We built the Gala learning environment to make the best teaching cases on sustainability, emphasizing openness, experimentation, and collaboration across the world.",
-  imageURL: ""
+    "The Gala initiative seeks to make sustainability learning more grounded, dynamic, and collaborative. We built the Gala learning environment to make the best teaching cases on sustainability available to all, emphasizing openness, experimentation, and collaboration across the world.",
+  imageURL: "",
 };
 
 //examples section content
 //links: caseLink (link to case or library, will detect if it's a library), moreLink (more information)
 const examples = [
   {
+    hed: "Accessible Data Science Tools",
+    dek: "Data Learning for Better Drinking Water in Small Utilities",
+    body: "In partnership with the U-M School of Civil & Environmental Engineering with funding from Public Interest Technology University Network, in collaboration with SEAS professor Kyle Whyte, the City of Ann arbor, the BlueConduit startup, and U-M’s Blue Sky Initiative for water sector engagement the team is using Gala to make learning tools for classrooms, communities and workforces facing challenges in the monitoring and improvement of quality drinking water distribution systems. These tools can be shared among utilities in cities like Michigan’s Benton Harbor and Flint—and eventually, shared with rural communities and tribal water utilities.",
+    image: "pit.png",
+    moreLink:
+      "https://seas.umich.edu/news/big-tech-faces-scrutiny-24-universities-get-36m-major-foundations-fuel-inclusive-public",
+    caseLink: "",
+  },
+  {
+    hed: "Learning at the Edge of Applied Research",
+    dek: "Distributed Solar Energy Harvesting for Carbon-Free Ammonia Synthesis",
+    body: "This NSF funded project aims to provide the scientific and technical foundation for producing fertilizer close to the farm and avoid the enormous greenhouse gas footprint of the industrial Haber-Bosch ammonia synthesis process. As the research group, based at the University of Michigan, works to pioneer the concept of photo-enhanced thermal catalysis in the lab, they are also prototyping, piloting, and assessing training modules to convey the innovations to stakeholders, inspire students, and move towards implementation.",
+    image: "dchem.png",
+    moreLink:
+      "https://news.engin.umich.edu/2021/09/2m-to-replace-fossil-fuels-with-solar-power-in-fertilizer-production/",
+    caseLink: "",
+  },
+  {
+    hed: "Place-Based Narratives",
+    dek: "Detroit River Story Lab (DRSL)",
+    body: "The Detroit River Watershed is one of the nation’s most deeply and visibly implicated in the troubling legacy of the carbon economy. The DRSL project is working with Gala to research and amplify stories of the Detroit River, and to make the rich history and current challenges facing the river and adjoining communities more present, palpable, and real. The modules, which are piloted at the University of Michigan and in schools or sites in the Detroit area, focus on themes of Indigenous relationships to water and land and connecting decolonization with decarbonization. are piloted at University of Michigan and in schools or sites in the Detroit area.",
+    image: "detroitriver.png",
+    moreLink:
+      "https://detroit.umich.edu/news-stories/detroit-river-story-lab-receives-carbon-neutrality-grant/",
+    caseLink: "",
+  },
+  {
     hed: "Data Skills for Future Economies",
     dek: "MBDH Learning Innovation Fellows",
-    body:
-      "Student fellows from across the midwest region’s colleges, vocational schools, and universities work with faculty to create innovative interactive data analysis activities that nest within sustainability science case studies. They design, prototype, and pilot these features in classrooms or professional learning communities within the Midwest Big Data Hub (MBDH) network, part of a four year, $4 million award from the National Science Foundation.",
-
+    body: "Student fellows from across the midwest region’s colleges, vocational schools, and universities work with faculty to create innovative interactive data analysis activities that nest within sustainability science case studies. They design, prototype, and pilot these features in classrooms or professional learning communities within the Midwest Big Data Hub (MBDH) network, part of a four year, $4 million award from the National Science Foundation.",
     image: "mbdh.png",
     moreLink:
       "https://midwestbigdatahub.org/mbdh-learning-innovation-fellows-program/",
-    caseLink: ""
+    caseLink: "",
   },
   {
     hed: "Enhancing Ecology Learning",
-    dek:
-      "Online Content for Experiential Learning of Tropical Systems (OCELOTS)",
-    body:
-      "OCELOTS is an international network of tropical ecologists, educators, media specialists, instructional designers and database engineers exploring best practices in research-based modules for teaching tropical biology and conservation. Funded by a National Science Foundation Grant (RCN-UBE proposal ID: 2120141), members of the network have integrated interactive data applications into cases to create online labs, used video and sound to capture place-based experiences, and pioneered collaborative online “networkshops” to exchange feedback on cases in progress.",
+    dek: "Online Content for Experiential Learning of Tropical Systems (OCELOTS)",
+    body: "OCELOTS is an international network of tropical ecologists, educators, media specialists, instructional designers and database engineers exploring best practices in research-based modules for teaching tropical biology and conservation. Funded by a National Science Foundation Grant (RCN-UBE proposal ID: 2120141), members of the network have integrated interactive data applications into cases to create online labs, used video and sound to capture place-based experiences, and pioneered collaborative online “networkshops” to exchange feedback on cases in progress.",
     image: "ocelots.png",
     moreLink: "",
-    caseLink: "https://www.learngala.com/catalog/libraries/ocelots"
+    caseLink: "https://www.learngala.com/catalog/libraries/ocelots",
   },
   {
     hed: "Grounded Engagement",
     dek: "U-M SEAS Environmental Justice Education",
-    body:
-      "Cases in this library have been created in the University of Michigan's Environmental Justice Certificate and Masters Degree programs, by a combination of students, faculty and alumni and other professionals in advocacy, policy and research sectors. Each case addresses an environmental justice topic, from ableism in the environmentalist movement to indigenous rights and resource development.",
+    body: "Cases in this library have been created in the University of Michigan's Environmental Justice Certificate and Masters Degree programs, by a combination of students, faculty and alumni and other professionals in advocacy, policy and research sectors. Each case addresses an environmental justice topic, from ableism in the environmentalist movement to indigenous rights and resource development.",
     image: "ej.png",
     moreLink: "",
     caseLink:
-      "https://www.learngala.com/catalog/libraries/um-seas-environmental-justice"
+      "https://www.learngala.com/catalog/libraries/um-seas-environmental-justice",
   },
   {
     hed: "Adapting Case-Based Teaching for an Emerging Field",
     dek: "Michigan Sustainability Cases",
-    body:
-      "Michigan Sustainability Cases center on real-world problems with multiple possible solutions. They are co-designed by teams of students and faculty from across the University of Michigan campus, in partnership with practitioners from various sectors. As the very first and one of the finest libraries on gala, they seek both to transform case based learning itself, and to widen participation in solving environment and sustainability challenges.",
+    body: "Michigan Sustainability Cases center on real-world problems with multiple possible solutions. They are co-designed by teams of students and faculty from across the University of Michigan campus, in partnership with practitioners from various sectors. As the very first and one of the finest libraries on gala, they seek both to transform case based learning itself, and to widen participation in solving environment and sustainability challenges.",
     image: "msc.png",
     moreLink:
       "https://crlt.umich.edu/michigan-sustainability-cases-initiative-adapting-case-based-teaching-innovative-sustainability",
-    caseLink: "https://www.learngala.com/catalog/libraries/michigan"
+    caseLink: "https://www.learngala.com/catalog/libraries/michigan",
   },
   {
     hed: "Sustainability and Development for Global Learners",
     dek: "Sustainability and Development MasterTrack™ Certificate",
-    body:
-      "This online masters program focuses on the United Nations’ Sustainable Development goals and has students analyze three Gala cases and synthesize their lessons for sustainability and development, before creating their own cases and developing an instructional component for the case of their choosing with a faculty member. This program was created by University of Michigan School for Environment and Sustainability (SEAS) faculty who, informed by this work, have gone on to create a new, and more modular curriculum for an in person field of specialization at U-M SEAS on Sustainability and Development.",
+    body: "This online masters program focuses on the United Nations’ Sustainable Development goals and has students analyze three Gala cases and synthesize their lessons for sustainability and development, before creating their own cases and developing an instructional component for the case of their choosing with a faculty member. This program was created by University of Michigan School for Environment and Sustainability (SEAS) faculty who, informed by this work, have gone on to create a new, and more modular curriculum for an in person field of specialization at U-M SEAS on Sustainability and Development.",
     image: "sdgs.png",
     moreLink:
       "https://online.umich.edu/series/sustainability-and-development-mastertrack-certificate/",
-    caseLink: ""
+    caseLink: "",
   },
   {
-    hed:
-      "Secondary Education for Sustainability: Curricular Environmental Partnerships",
+    hed: "Secondary Education for Sustainability: Curricular Environmental Partnerships",
     dek: "The Dow Innovation Fellows Program at CEDER",
-    body:
-      "The Dow Innovation Teacher Fellowship (DITF), sponsored by the Dow Company Foundation, aims to provide educators with more support on their journey to become better stewards of the environment. DITF is implemented through the University of Michigan’s Center for Education Design, Evaluation, and Research (CEDER). DITF supports the education of teachers in the Saginaw-Midland-Bay City tricity area of Michigan on sustainability education methods, through professional development opportunities. The program integrates sustainability across school subjects, to support development of new Gala cases and adaptation of existing cases as interdisciplinary sustainability learning units in middle and high school classrooms using project and place-based pedagogical methods.",
+    body: "The Dow Innovation Teacher Fellowship (DITF), sponsored by the Dow Company Foundation, is implemented through the University of Michigan’s Center for Education Design, Evaluation, and Research (CEDER), supporting the education of teachers in the Saginaw-Midland-Bay City Tri-City area of Michigan on sustainability education methods, through professional development opportunities. The program integrates sustainability across school subjects, to support development of new Gala cases and adaptation of existing cases as interdisciplinary sustainability learning units in middle and high school classrooms using project and place-based pedagogical methods.",
     image: "ditf.png",
     moreLink:
       "https://soe.umich.edu/news/secondary-teachers-invited-apply-dow-innovation-teacher-fellowship",
     caseLink:
-      "https://www.learngala.com/catalog/libraries/um-center-for-education-design-evaluation-and-research"
-  }
+      "https://www.learngala.com/catalog/libraries/um-center-for-education-design-evaluation-and-research",
+  },
 ];
 
 function Features() {
@@ -178,11 +194,11 @@ function About() {
             <Timeline
               dataSource={{
                 sourceType: "profile",
-                screenName: "learnmsc"
+                screenName: "learnmsc",
               }}
               options={{
                 height: "400",
-                chrome: "noheader, nofooter"
+                chrome: "noheader, nofooter",
               }}
             />
           </div>
