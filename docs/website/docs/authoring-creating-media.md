@@ -51,7 +51,9 @@ More powerful
 
 ### Tools
 
-- 
+- [Photopea](https://www.photopea.com/) (Browser-based – Free, with ads)
+- [Adobe Illustrator](https://www.photopea.com/) (Mac, Windows – Monthly subscription)
+- [Figma])(https://www.figma.com/) (Browser-based – Has a free tier)
 
 ### Guides
 
