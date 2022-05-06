@@ -40,12 +40,12 @@ Any audio you use should have an accompanying transcript. Many services are avai
 
 In cases when a transcript cannot be used (e.g., environmental audio), provide a summary that communicates key takeaways from audio clip.
 
-- **Short Clips**, added via the edgenote dialogue, should have accompanying pull quotes.
+**Short Clips**, added via the edgenote dialogue, should have accompanying pull quotes.
 
 ![Edgenote dialogue with sound clip and pull quote](assets/authoring-audio-clip.png)
 
-- **Podcasts**, added via a podcast page, should have transcripts. You can paste the transcript into the description box next to the podcast player.
+**Podcasts**, added via a podcast page, should have transcripts. You can paste the transcript into the description box next to the podcast player.
   
 ![Podcast page with description box](./assets/authoring-transcript-podcast.png)
 
-- **Videos**, hosted on YouTube or Vimeo, can also be used to embed audio clips in a module (try generating an audiogram with [headliner](https://www.headliner.app/)). Follow the guidelines for videos.
+**Videos**, hosted on YouTube or Vimeo, can also be used to embed audio clips in a module (try generating an audiogram with [headliner](https://www.headliner.app/)). Follow the guidelines for videos.
