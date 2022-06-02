@@ -78,7 +78,7 @@ const examples = [
     body: "The Detroit River Watershed is one of the nation’s most deeply and visibly implicated in the troubling legacy of the carbon economy. The DRSL project is working with Gala to research and amplify stories of the Detroit River, and to make the rich history and current challenges facing the river and adjoining communities more present, palpable, and real. The modules, which are piloted at the University of Michigan and in schools or sites in the Detroit area, focus on themes of Indigenous relationships to water and land and connecting decolonization with decarbonization. are piloted at University of Michigan and in schools or sites in the Detroit area.",
     image: "detroitriver.png",
     moreLink:
-      "https://detroit.umich.edu/news-stories/detroit-river-story-lab-receives-carbon-neutrality-grant/",
+      "https://sites.lsa.umich.edu/detroit-river-story-lab/about/research-team/",
     caseLink: "",
   },
   {
@@ -95,7 +95,7 @@ const examples = [
     dek: "Online Content for Experiential Learning of Tropical Systems (OCELOTS)",
     body: "OCELOTS is an international network of tropical ecologists, educators, media specialists, instructional designers and database engineers exploring best practices in research-based modules for teaching tropical biology and conservation. Funded by a National Science Foundation Grant (RCN-UBE proposal ID: 2120141), members of the network have integrated interactive data applications into cases to create online labs, used video and sound to capture place-based experiences, and pioneered collaborative online “networkshops” to exchange feedback on cases in progress.",
     image: "ocelots.png",
-    moreLink: "",
+    moreLink: "https://ocelots.nrem.iastate.edu/",
     caseLink: "https://www.learngala.com/catalog/libraries/ocelots",
   },
   {
