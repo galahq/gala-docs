@@ -137,6 +137,10 @@ module.exports = {
         content:
           "Gala is working to make sustainability learning more grounded, dynamic, and collaborative.",
       },
+      {
+        name: "twitter:card",
+        content: "summary",
+      },
     ],
   },
   presets: [
