@@ -12,46 +12,47 @@ module.exports = {
 
   customFields: {
     fonts: {
-      sansSerif: ["Tenso", "system-ui"]
-    }
+      sansSerif: ["Tenso", "system-ui"],
+    },
   },
   themeConfig: {
     navbar: {
       title: "",
       logo: {
         alt: "Gala",
-        src: "img/gala-logo.svg"
+        src: "img/gala-logo.svg",
       },
       items: [
         {
           to: "/",
           label: "About",
-          position: "right"
+          position: "right",
         },
         {
           to: "docs/",
           activeBasePath: "docs",
           label: "Guides",
-          position: "right"
+          position: "right",
         },
         { to: "blog", label: "Blog", position: "right" },
         {
           to: "/help",
           label: "Help",
-          position: "right"
+          position: "right",
         },
         {
           href: "https://www.learngala.com",
           label: "Go to Gala",
-          position: "right"
-        }
-      ]
+          position: "right",
+        },
+      ],
     },
+
     colorMode: {
-      disableSwitch: true
+      disableSwitch: true,
     },
     prism: {
-      additionalLanguages: ["r"]
+      additionalLanguages: ["r"],
     },
     footer: {
       style: "dark",
@@ -61,9 +62,9 @@ module.exports = {
           items: [
             {
               label: "Publications",
-              to: "publications"
-            }
-          ]
+              to: "publications",
+            },
+          ],
         },
         {
           title: "Guides",
@@ -73,13 +74,13 @@ module.exports = {
               label: "Authoring",
               // Client-side routing, used for navigating within the website.
               // The baseUrl will be automatically prepended to this value.
-              to: "docs/"
+              to: "docs/",
             },
             {
               label: "Teaching",
-              to: "docs/teaching-getting-started"
-            }
-          ]
+              to: "docs/teaching-getting-started",
+            },
+          ],
         },
 
         /*
@@ -108,21 +109,35 @@ module.exports = {
           items: [
             {
               label: "Twitter",
-              href: "https://twitter.com/LearnMSC"
+              href: "https://twitter.com/LearnMSC",
             },
             {
               label: "Github",
               // A full-page navigation, used for navigating outside of the website.
-              href: "https://github.com/galahq/gala"
-            }
-          ]
-        }
+              href: "https://github.com/galahq/gala",
+            },
+          ],
+        },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Regents of the University of Michigan`,
       logo: {
-        src: "img/gala-logo.svg"
-      }
-    }
+        src: "img/gala-logo.svg",
+      },
+    },
+
+    metadata: [
+      {
+        name: "keywords",
+        content: "sustainability, module, learning, oer, open",
+      },
+      { name: "twitter:image", content: "img/twittercard.png" },
+      { name: "twitter:title", content: "About Gala" },
+      {
+        name: "twitter:description",
+        content:
+          "Gala is working to make sustainability learning more grounded, dynamic, and collaborative.",
+      },
+    ],
   },
   presets: [
     [
@@ -131,18 +146,18 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/galahq/gala"
+          editUrl: "https://github.com/galahq/gala",
         },
         blog: {
           showReadingTime: false,
           blogSidebarCount: 7,
-          editUrl: "https://github.com/galahq/gala"
+          editUrl: "https://github.com/galahq/gala",
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css")
-        }
-      }
-    ]
+          customCss: require.resolve("./src/css/custom.css"),
+        },
+      },
+    ],
   ],
   plugins: [
     [
@@ -151,10 +166,10 @@ module.exports = {
         id: "data-analytics",
         path: "data-analytics",
         routeBasePath: "data-analytics",
-        sidebarPath: require.resolve("./sidebarsDataAnalytics.js")
+        sidebarPath: require.resolve("./sidebarsDataAnalytics.js"),
         // ... other options
-      }
-    ]
+      },
+    ],
   ],
-  scripts: ["/js/typekit.js"]
+  scripts: ["/js/typekit.js"],
 };
