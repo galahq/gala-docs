@@ -16,6 +16,7 @@ module.exports = {
     },
   },
   themeConfig: {
+    image: "img/twittercard.png",
     navbar: {
       title: "",
       logo: {
@@ -129,17 +130,6 @@ module.exports = {
       {
         name: "keywords",
         content: "sustainability, module, learning, oer, open",
-      },
-      { name: "twitter:image", content: "img/twittercard.png" },
-      { name: "twitter:title", content: "About Gala" },
-      {
-        name: "twitter:description",
-        content:
-          "Gala is working to make sustainability learning more grounded, dynamic, and collaborative.",
-      },
-      {
-        name: "twitter:card",
-        content: "summary",
       },
     ],
   },
