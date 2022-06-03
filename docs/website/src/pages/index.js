@@ -255,7 +255,7 @@ export default function Home() {
   return (
     <Layout
       title={`About ${siteConfig.title}`}
-      description="The Gala Initiative: Open tools for sustainability learning"
+      description="Gala is making sustainability learning more grounded, dynamic, and collaborative."
     >
       <header className={`hero hero--primary ${home.heroBanner}`}>
         <div className="container">
