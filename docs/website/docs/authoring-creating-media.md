@@ -59,4 +59,4 @@ More powerful
 
 - [_How to Create a Comic Book: Neil Gaiman’s Step-by-Step Guide for Making Comics_](https://www.masterclass.com/articles/how-to-create-a-comic-book-step-by-step-guide-for-making-your-own-comics#how-to-outline-a-comic-book-in-6-steps) (Masterclass.com)
 - [_Create Your Own Digital Comics Whether You Can Draw or Not_](https://www.nytimes.com/2020/04/29/technology/personaltech/create-your-own-digital-comics-whether-you-can-draw-or-not.html) (New York Times)
-- [Making Media for the Classroom: Images, Graphics & Interactives](https://microcredentials.digitalpromise.org/explore/making-media-for-classroom-use-images-graphics-and) (Digital Promise)
+- [Making Media for the Classroom: Images, Graphics & Interactives](https://microcredentials.digitalpromise.org/explore/making-media-for-classroom-use-images-graphics-and)(Digital Promise)
