@@ -14,6 +14,15 @@ function PublicationsPage() {
     },
     */
       title:
+        "Integrating tropical research into biology education is urgently needed",
+      citation:
+        'Russell, Ann E., et al. "Integrating tropical research into biology education is urgently needed." PLOS Biology (2022).',
+      date: "2022",
+      url: "https://doi.org/10.1371/journal.pbio.3001674",
+    },
+
+    {
+      title:
         "Gala: An Open-Access Platform for Interactive Learning with Sustainability Case Studies",
       citation:
         'Wagner, Meghan, et al. "Gala: An Open-Access Platform for Interactive Learning with Sustainability Case Studies." IEEE Transactions on Learning Technologies (2022).',
