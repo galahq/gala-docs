@@ -22,7 +22,7 @@ const features = [
   },
 
   {
-    title: "Collaborate and adapt",
+    title: "Collaborate and Adapt",
     imageUrl: "img/community.svg",
     description: (
       <>
@@ -33,7 +33,7 @@ const features = [
     ),
   },
   {
-    title: "Teach and share",
+    title: "Teach and Share",
     imageUrl: "img/share.svg",
     description: (
       <>
