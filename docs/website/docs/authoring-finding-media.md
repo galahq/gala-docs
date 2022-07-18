@@ -1,6 +1,6 @@
 ---
 id: authoring-finding-media
-title: Finding media for your case
+title: Finding Media for Your Case
 ---
 
 ## Attribution

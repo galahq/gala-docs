@@ -7,20 +7,20 @@ module.exports = {
         "authoring-getting-started",
         "authoring-embedding-media",
         "authoring-collaboration",
-        "authoring-preparing-for-publication"
-      ]
+        "authoring-preparing-for-publication",
+      ],
     },
     {
       type: "category",
       label: "Teaching",
       items: ["teaching-getting-started", "teaching-discussions"],
-      collapsed: false
+      collapsed: false,
     },
     {
       type: "category",
       label: "Advanced",
-      items: ["advanced-planning-your-case"],
-      collapsed: false
-    }
-  ]
+      items: ["advanced-planning-your-case", "authoring-finding-media"],
+      collapsed: false,
+    },
+  ],
 };
