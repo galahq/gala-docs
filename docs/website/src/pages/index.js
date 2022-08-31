@@ -190,6 +190,10 @@ function About() {
         </div>
         <div className="col col--4">
           <h3>Twitter</h3>
+          {/* 
+          Twitter broke customization of their widget. Height is now being set 
+          in the wrapper instead of options.
+          */}
           <div className={home.twitterWrapper}>
             <Timeline
               dataSource={{
