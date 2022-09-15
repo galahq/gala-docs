@@ -47,7 +47,7 @@ const features = [
 
 const about = {
   description:
-    "The Gala initiative seeks to make sustainability learning more grounded, dynamic, and collaborative. We built the Gala learning environment to make the best teaching cases on sustainability available to all, emphasizing openness, experimentation, and collaboration across the world.",
+    "The Gala initiative seeks to make learning more grounded, dynamic, and collaborative. We built the Gala learning environment to make the best teaching cases available to all, emphasizing openness, experimentation, and collaboration across the world.",
   imageURL: "",
 };
 

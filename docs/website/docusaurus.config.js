@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "Gala",
-  tagline: "Open tools for sustainability learning",
+  tagline: "Open tools for collaborative learning",
   url: "https://docs.learngala.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
