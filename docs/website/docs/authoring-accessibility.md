@@ -1,7 +1,7 @@
 ---
 id: authoring-accessibility
-title: Accessibility
-sidebar_label: Accessibility
+title: Accessible Media
+sidebar_label: Accessible Media
 ---
 
 It is important that your case be accessible to people with disabilities, both because it is the right thing to do and because you may be specifically obligated to by the Americans with Disabilities Act, your institution's own policies, or rules in other jurisdictions.
