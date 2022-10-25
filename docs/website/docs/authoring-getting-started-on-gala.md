@@ -2,6 +2,7 @@
 id: authoring-getting-started
 title: Getting Started Authoring on Gala
 slug: /
+description: A quickstart guide for getting started as an author on Gala
 ---
 
 With Gala’s tools for authors, anyone can create a media-rich, immersive teaching case to communicate a complex sustainability topic.
