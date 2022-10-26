@@ -86,7 +86,7 @@ It can be helpful to think about learning objectives in terms of the type of thi
 
 Cognitive tasks get progressively more challenging moving up the pyramid. The figure above also lists verbs that are often associated with learning objectives at a particular level.
 
-Another taxonomy, Fink's Taxonomy, [lists questions to ask yourself](http://www.buffalo.edu/ubcei/enhance/designing/learning-outcomes/finks-significant-learning-outcomes/creating-significant-learning-goals.html) when determining desired learning outcomes and similarly [provides a list of verbs](http://www.buffalo.edu/ubcei/enhance/designing/learning-outcomes/finks-significant-learning-outcomes/determining-learning-outcomes.html), grouped by "significant learning categories" to use in learning objectives.
+Another taxonomy, Fink's Taxonomy, [lists questions to ask yourself](https://www.buffalo.edu/catt/develop/design/learning-outcomes/finks.html) when determining desired learning outcomes and similarly [provides a list of verbs](http://www.buffalo.edu/ubcei/enhance/designing/learning-outcomes/finks-significant-learning-outcomes/determining-learning-outcomes.html), grouped by "significant learning categories" to use in learning objectives.
 
 As you research and outline your case you may find that your priorities change. It’s fine to modify your learning objectives as the case comes to life, but plan to and refer to them often as you make decisions about how your case comes together. Your takeaway statement and learning objectives are your guiding star as you put together the case. With each decision about case structure, setting, activities, and multimedia, consider whether your choices will help achieve the objectives you have laid out.
 
