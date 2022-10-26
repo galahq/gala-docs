@@ -13,6 +13,7 @@ module.exports = {
             "authoring-collaboration",
             "authoring-preparing-for-publication",
           ],
+          collapsed: false,
         },
         {
           type: "category",
@@ -21,15 +22,21 @@ module.exports = {
           collapsed: false,
         },
       ],
+      collapsed: false,
     },
     {
       type: "category",
-      label: "More",
+      label: "Working with Multimedia",
       items: [
-        "advanced-planning-your-case",
         "authoring-finding-media",
+        "authoring-embeds",
         "authoring-accessibility",
       ],
+    },
+    {
+      type: "category",
+      label: "Advanced",
+      items: ["advanced-planning-your-case"],
       collapsed: false,
     },
   ],
