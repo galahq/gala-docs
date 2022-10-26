@@ -45,12 +45,6 @@ Gala supports video embeds from [YouTube](https://youtube.com), [Vimeo](https://
 
 ![A screenshot of embedded videos.](./assets/videos-screenshot.png)
 
-### Charts and graphs
-
-If you’ve got data that you would like to allow your readers to explore, build an interactive chart with [amCharts](https://live.amcharts.com) and embed it in your case. Note that you may need to choose to “allow this Edgenote to take up the full width of the page” because the charts aren’t easy to use if they are too small.
-
-![A screenshot of an embedded chart.](./assets/chart-screenshot.png)
-
 ### Maps
 
 Maps can be excellent tools for telling stories that take place in different places and for displaying spatially explicit data.
