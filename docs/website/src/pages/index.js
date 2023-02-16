@@ -55,6 +55,14 @@ const about = {
 //links: caseLink (link to case or library, will detect if it's a library), moreLink (more information)
 const examples = [
   {
+    hed: "Collaborative Curriculum",
+    dek: "NeurotechEU: the European University of Brain and Technology",
+    body: "The European University of Brain and Technology (NeurotechEU) is an alliance between eight European universities with the goal to build a trans-European network of excellence in brain research and technologies to increase the competitiveness of European education, research, economy and society. The alliance is integrating Gala and the ICF Training Space platform to collaboratively adapt neurotechnology courses for innovative hybrid and online learning accross the member universities.",
+    image: "neurotech.png",
+    moreLink: "https://theneurotech.eu/",
+    caseLink: "https://www.learngala.com/catalog/libraries/neurotecheu",
+  },
+  {
     hed: "Accessible Data Science Tools",
     dek: "Data Learning for Better Drinking Water in Small Utilities",
     body: "In partnership with the U-M School of Civil & Environmental Engineering with funding from Public Interest Technology University Network, in collaboration with SEAS professor Kyle Whyte, the City of Ann arbor, the BlueConduit startup, and U-M’s Blue Sky Initiative for water sector engagement the team is using Gala to make learning tools for classrooms, communities and workforces facing challenges in the monitoring and improvement of quality drinking water distribution systems. These tools can be shared among utilities in cities like Michigan’s Benton Harbor and Flint—and eventually, shared with rural communities and tribal water utilities.",
@@ -93,7 +101,7 @@ const examples = [
   {
     hed: "Enhancing Ecology Learning",
     dek: "Online Content for Experiential Learning of Tropical Systems (OCELOTS)",
-    body: "OCELOTS is an international network of tropical ecologists, educators, media specialists, instructional designers and database engineers exploring best practices in research-based modules for teaching tropical biology and conservation. Funded by a National Science Foundation Grant (RCN-UBE proposal ID: 2120141), members of the network have integrated interactive data applications into cases to create online labs, used video and sound to capture place-based experiences, and pioneered collaborative online “networkshops” to exchange feedback on cases in progress.",
+    body: "OCELOTS is an international network of tropical ecologists, educators, media specialists, instructional designers, and software developers, exploring best practices in research-based modules for teaching tropical biology and conservation. Funded by a National Science Foundation Grant (RCN-UBE proposal ID: 2120141), members of the network have integrated interactive data applications into cases to create online labs, used video and sound to capture place-based experiences, and pioneered collaborative online “networkshops” to exchange feedback on cases in progress.",
     image: "ocelots.png",
     moreLink: "https://ocelots.nrem.iastate.edu/",
     caseLink: "https://www.learngala.com/catalog/libraries/ocelots",
@@ -119,16 +127,16 @@ const examples = [
   {
     hed: "Sustainability and Development for Global Learners",
     dek: "Sustainability and Development MasterTrack™ Certificate",
-    body: "This online masters program focuses on the United Nations’ Sustainable Development goals and has students analyze three Gala cases and synthesize their lessons for sustainability and development, before creating their own cases and developing an instructional component for the case of their choosing with a faculty member. This program was created by University of Michigan School for Environment and Sustainability (SEAS) faculty who, informed by this work, have gone on to create a new, and more modular curriculum for an in person field of specialization at U-M SEAS on Sustainability and Development.",
+    body: "This online masters program focuses on the United Nations’ Sustainable Development goals and has students analyze three Gala cases and synthesize their lessons for sustainability and development, before creating their own cases and developing an instructional component for the case of their choosing with a faculty member. This program was created by University of Michigan School for Environment and Sustainability (SEAS) faculty who have gone on to create a new, and more modular curriculum for an in person field of specialization at U-M SEAS on Sustainability and Development.",
     image: "sdgs.png",
     moreLink:
       "https://online.umich.edu/series/sustainability-and-development-mastertrack-certificate/",
     caseLink: "",
   },
   {
-    hed: "Secondary Education for Sustainability: Curricular Environmental Partnerships",
+    hed: "Curricular Environmental Partnerships",
     dek: "The Dow Innovation Fellows Program at CEDER",
-    body: "The Dow Innovation Teacher Fellowship (DITF), sponsored by the Dow Company Foundation, is implemented through the University of Michigan’s Center for Education Design, Evaluation, and Research (CEDER), supporting the education of teachers in the Saginaw-Midland-Bay City Tri-City area of Michigan on sustainability education methods, through professional development opportunities. The program integrates sustainability across school subjects, to support development of new Gala cases and adaptation of existing cases as interdisciplinary sustainability learning units in middle and high school classrooms using project and place-based pedagogical methods.",
+    body: "The Dow Innovation Teacher Fellowship (DITF), sponsored by the Dow Company Foundation, is implemented through the University of Michigan’s Center for Education Design, Evaluation, and Research (CEDER), supporting sustainability education methods, through professional development opportunities for teachers in the Saginaw-Midland-Bay City Tri-City area of Michigan. The program integrates sustainability across school subjects, to support development of new Gala cases and adaptation of existing cases as interdisciplinary sustainability learning units in middle and high school classrooms using project and place-based pedagogical methods.",
     image: "ditf.png",
     moreLink:
       "https://soe.umich.edu/news/secondary-teachers-invited-apply-dow-innovation-teacher-fellowship",
