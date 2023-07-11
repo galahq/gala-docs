@@ -183,13 +183,6 @@ function About() {
               <Link to={useBaseUrl("publications/")}>Publications</Link>
             </li>
           </ul>
-
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSe9819llOMmZH3ThwH_M6jjKP2iVkFvKANpx2Jbg2CQHUvr-A/viewform?usp=sf_link"
-            className="button button--primary"
-          >
-            Sign-up for Gala updates
-          </a>
         </div>
         <div className="col col--4">
           <h3>News & Updates</h3>
@@ -204,7 +197,14 @@ function About() {
         </div>
         <div className="col col--4">
           <h3>Connect</h3>
-          <div className={home.connectWrapper}></div>
+          <div className={home.connectWrapper}>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSe9819llOMmZH3ThwH_M6jjKP2iVkFvKANpx2Jbg2CQHUvr-A/viewform?usp=sf_link"
+              className="button button--primary"
+            >
+              Sign-up for Gala updates
+            </a>
+          </div>
         </div>
       </div>
     </div>
