@@ -6,7 +6,6 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 import home from "./home.module.css";
 import Feed from "../components/feed";
 import Card from "../components/card";
-import { Timeline } from "react-twitter-widgets";
 
 const features = [
   {
@@ -204,19 +203,8 @@ function About() {
           </div>
         </div>
         <div className="col col--4">
-          <h3>Twitter</h3>
-          <div className={home.twitterWrapper}>
-            <Timeline
-              dataSource={{
-                sourceType: "profile",
-                screenName: "learnmsc",
-              }}
-              options={{
-                height: "400",
-                chrome: "noheader, nofooter",
-              }}
-            />
-          </div>
+          <h3>Connect</h3>
+          <div className={home.connectWrapper}></div>
         </div>
       </div>
     </div>
