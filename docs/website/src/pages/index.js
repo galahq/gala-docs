@@ -175,17 +175,15 @@ function About() {
   return (
     <div className={`container ${home.aboutWrapper}`}>
       <div className="row">
-        <div className="col col--4">
-          <h3>About Gala</h3>
+        <AboutSection header="About Gala">
           <p>{about.description}</p>
           <ul>
             <li>
               <Link to={useBaseUrl("publications/")}>Publications</Link>
             </li>
           </ul>
-        </div>
-        <div className="col col--4">
-          <h3>News & Updates</h3>
+        </AboutSection>
+        <AboutSection header="News & Updates">
           <div className={home.newsWrapper}>
             <Feed />
           </div>
@@ -194,9 +192,8 @@ function About() {
               More
             </Link>
           </div>
-        </div>
-        <div className="col col--4">
-          <h3>Connect</h3>
+        </AboutSection>
+        <AboutSection header="Connect">
           <div className={home.connectWrapper}>
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSe9819llOMmZH3ThwH_M6jjKP2iVkFvKANpx2Jbg2CQHUvr-A/viewform?usp=sf_link"
@@ -205,9 +202,18 @@ function About() {
               Sign-up for Gala updates
             </a>
           </div>
-        </div>
+        </AboutSection>
       </div>
     </div>
+  );
+}
+
+function AboutSection({ children, header }) {
+  return (
+    <section className={"col col--4"}>
+      <h3>{header}</h3>
+      {children}
+    </section>
   );
 }
 
@@ -285,16 +291,16 @@ export default function Home() {
       </header>
       <main>
         <div className={[home.bodyWrapper]}>
-          <section className={home.section}>
+          <section className={home.homeSection}>
             <Features />
           </section>
-          <section className={[home.section]}>
+          <section className={[home.homeSection]}>
             <About />
           </section>
-          <section className={[home.section]}>
+          <section className={[home.homeSection]}>
             <Examples />
           </section>
-          <section className={[home.section]}>
+          <section className={[home.homeSection]}>
             <CallToAction />
           </section>
         </div>
