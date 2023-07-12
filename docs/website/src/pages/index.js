@@ -145,33 +145,40 @@ const examples = [
 ];
 
 function Features() {
+  const Feature = ({ imageUrl, title, description }) => {
+    const imgUrl = useBaseUrl(imageUrl);
+    return (
+      <div className={`col col--4 ${home.feature}`}>
+        {imgUrl && (
+          <div className="text--center">
+            <img className={home.featureImage} src={imgUrl} alt={title} />
+          </div>
+        )}
+        <h3>{title}</h3>
+        <p>{description}</p>
+      </div>
+    );
+  };
+  const featuresList = features.map((props, idx) => (
+    <Feature key={idx} {...props} />
+  ));
   return (
     <div className="container">
-      <div className="row">
-        {features.map((props, idx) => (
-          <Feature key={idx} {...props} />
-        ))}
-      </div>
-    </div>
-  );
-}
-
-function Feature({ imageUrl, title, description }) {
-  const imgUrl = useBaseUrl(imageUrl);
-  return (
-    <div className={`col col--4 ${home.feature}`}>
-      {imgUrl && (
-        <div className="text--center">
-          <img className={home.featureImage} src={imgUrl} alt={title} />
-        </div>
-      )}
-      <h3>{title}</h3>
-      <p>{description}</p>
+      <div className="row">{featuresList}</div>
     </div>
   );
 }
 
 function About() {
+  const AboutSection = ({ children, header }) => {
+    return (
+      <section className={"col col--4"}>
+        <h3>{header}</h3>
+        {children}
+      </section>
+    );
+  };
+
   return (
     <div className={`container ${home.aboutWrapper}`}>
       <div className="row">
@@ -208,26 +215,16 @@ function About() {
   );
 }
 
-function AboutSection({ children, header }) {
-  return (
-    <section className={"col col--4"}>
-      <h3>{header}</h3>
-      {children}
-    </section>
-  );
-}
-
 function Examples() {
+  const examplesList = examples.map((example, idx) => (
+    <Card content={example} key={idx} />
+  ));
   return (
     <div className="container">
       <h3>In Action</h3>
       <div className="row">
         <div className="col">
-          <ul className={[home.examplesGrid]}>
-            {examples.map((example, index) => (
-              <Card content={example} key={index} />
-            ))}
-          </ul>
+          <ul className={[home.examplesGrid]}>{examplesList}</ul>
         </div>
       </div>
     </div>
@@ -258,9 +255,23 @@ function CallToAction() {
   );
 }
 
+const mainSectionsOrder = [
+  <Features />,
+  <About />,
+  <Examples />,
+  <CallToAction />,
+];
+
 export default function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
+
+  const homeSections = mainSectionsOrder.map((section, idx) => (
+    <section key={idx} className={home.homeSection}>
+      {section}
+    </section>
+  ));
+
   return (
     <Layout
       title={`About ${siteConfig.title}`}
@@ -290,20 +301,7 @@ export default function Home() {
         </div>
       </header>
       <main>
-        <div className={[home.bodyWrapper]}>
-          <section className={home.homeSection}>
-            <Features />
-          </section>
-          <section className={[home.homeSection]}>
-            <About />
-          </section>
-          <section className={[home.homeSection]}>
-            <Examples />
-          </section>
-          <section className={[home.homeSection]}>
-            <CallToAction />
-          </section>
-        </div>
+        <div className={[home.bodyWrapper]}>{homeSections}</div>
       </main>
     </Layout>
   );
