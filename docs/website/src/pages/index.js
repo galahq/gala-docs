@@ -7,6 +7,7 @@ import home from "./home.module.css";
 import Feed from "../components/feed";
 import Card from "../components/card";
 
+// Features section content
 const features = [
   {
     title: "Create and Innovate",
@@ -50,7 +51,7 @@ const about = {
   imageURL: "",
 };
 
-//examples section content
+//Examples section content
 //links: caseLink (link to case or library, will detect if it's a library), moreLink (more information)
 const examples = [
   {
@@ -144,48 +145,55 @@ const examples = [
   },
 ];
 
+// Features section
 function Features() {
+  const Feature = ({ imageUrl, title, description }) => {
+    const imgUrl = useBaseUrl(imageUrl);
+    return (
+      <div className={`col col--4 ${home.feature}`}>
+        {imgUrl && (
+          <div className="text--center">
+            <img className={home.featureImage} src={imgUrl} alt={title} />
+          </div>
+        )}
+        <h3>{title}</h3>
+        <p>{description}</p>
+      </div>
+    );
+  };
+  const featuresList = features.map((props, idx) => (
+    <Feature key={idx} {...props} />
+  ));
   return (
     <div className="container">
-      <div className="row">
-        {features.map((props, idx) => (
-          <Feature key={idx} {...props} />
-        ))}
-      </div>
+      <div className="row">{featuresList}</div>
     </div>
   );
 }
 
-function Feature({ imageUrl, title, description }) {
-  const imgUrl = useBaseUrl(imageUrl);
-  return (
-    <div className={`col col--4 ${home.feature}`}>
-      {imgUrl && (
-        <div className="text--center">
-          <img className={home.featureImage} src={imgUrl} alt={title} />
-        </div>
-      )}
-      <h3>{title}</h3>
-      <p>{description}</p>
-    </div>
-  );
-}
-
+// About section
 function About() {
+  const AboutSection = ({ children, header }) => {
+    return (
+      <section className={"col col--4"}>
+        <h3>{header}</h3>
+        {children}
+      </section>
+    );
+  };
+
   return (
     <div className={`container ${home.aboutWrapper}`}>
       <div className="row">
-        <div className="col col--4">
-          <h3>About Gala</h3>
+        <AboutSection header="About Gala">
           <p>{about.description}</p>
           <ul>
             <li>
               <Link to={useBaseUrl("publications/")}>Publications</Link>
             </li>
           </ul>
-        </div>
-        <div className="col col--4">
-          <h3>News & Updates</h3>
+        </AboutSection>
+        <AboutSection header="News & Updates">
           <div className={home.newsWrapper}>
             <Feed />
           </div>
@@ -194,9 +202,8 @@ function About() {
               More
             </Link>
           </div>
-        </div>
-        <div className="col col--4">
-          <h3>Connect</h3>
+        </AboutSection>
+        <AboutSection header="Connect">
           <div className={home.connectWrapper}>
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSe9819llOMmZH3ThwH_M6jjKP2iVkFvKANpx2Jbg2CQHUvr-A/viewform?usp=sf_link"
@@ -205,29 +212,30 @@ function About() {
               Sign-up for Gala updates
             </a>
           </div>
-        </div>
+        </AboutSection>
       </div>
     </div>
   );
 }
 
+//Examples section
 function Examples() {
+  const examplesList = examples.map((example, idx) => (
+    <Card content={example} key={idx} />
+  ));
   return (
     <div className="container">
       <h3>In Action</h3>
       <div className="row">
         <div className="col">
-          <ul className={[home.examplesGrid]}>
-            {examples.map((example, index) => (
-              <Card content={example} key={index} />
-            ))}
-          </ul>
+          <ul className={[home.examplesGrid]}>{examplesList}</ul>
         </div>
       </div>
     </div>
   );
 }
 
+// Call to action section
 function CallToAction() {
   return (
     <div className={home.callToActionContainer}>
@@ -252,9 +260,24 @@ function CallToAction() {
   );
 }
 
+// Order in which to render the homepage sections
+const mainSectionsOrder = [
+  <Features />,
+  <About />,
+  <Examples />,
+  <CallToAction />,
+];
+
 export default function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
+
+  const homeSections = mainSectionsOrder.map((section, idx) => (
+    <section key={idx} className={home.homeSection}>
+      {section}
+    </section>
+  ));
+
   return (
     <Layout
       title={`About ${siteConfig.title}`}
@@ -284,20 +307,7 @@ export default function Home() {
         </div>
       </header>
       <main>
-        <div className={[home.bodyWrapper]}>
-          <section className={home.section}>
-            <Features />
-          </section>
-          <section className={[home.section]}>
-            <About />
-          </section>
-          <section className={[home.section]}>
-            <Examples />
-          </section>
-          <section className={[home.section]}>
-            <CallToAction />
-          </section>
-        </div>
+        <div className={[home.bodyWrapper]}>{homeSections}</div>
       </main>
     </Layout>
   );
