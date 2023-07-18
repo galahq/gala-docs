@@ -7,6 +7,7 @@ import home from "./home.module.css";
 import Feed from "../components/feed";
 import Card from "../components/card";
 
+// Features section content
 const features = [
   {
     title: "Create and Innovate",
@@ -50,7 +51,7 @@ const about = {
   imageURL: "",
 };
 
-//examples section content
+//Examples section content
 //links: caseLink (link to case or library, will detect if it's a library), moreLink (more information)
 const examples = [
   {
@@ -144,6 +145,7 @@ const examples = [
   },
 ];
 
+// Features section
 function Features() {
   const Feature = ({ imageUrl, title, description }) => {
     const imgUrl = useBaseUrl(imageUrl);
@@ -169,6 +171,7 @@ function Features() {
   );
 }
 
+// About section
 function About() {
   const AboutSection = ({ children, header }) => {
     return (
@@ -215,6 +218,7 @@ function About() {
   );
 }
 
+//Examples section
 function Examples() {
   const examplesList = examples.map((example, idx) => (
     <Card content={example} key={idx} />
@@ -231,6 +235,7 @@ function Examples() {
   );
 }
 
+// Call to action section
 function CallToAction() {
   return (
     <div className={home.callToActionContainer}>
@@ -255,6 +260,7 @@ function CallToAction() {
   );
 }
 
+// Order in which to render the homepage sections
 const mainSectionsOrder = [
   <Features />,
   <About />,
