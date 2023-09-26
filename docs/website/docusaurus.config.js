@@ -65,6 +65,10 @@ module.exports = {
               label: "Publications",
               to: "publications",
             },
+            {
+              label: "Policies",
+              to: "policies",
+            },
           ],
         },
         {
