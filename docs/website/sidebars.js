@@ -9,6 +9,7 @@ module.exports = {
           label: "Authoring",
           items: [
             "authoring-getting-started",
+            "authoring-introducing-writing",
             "authoring-embedding-media",
             "authoring-collaboration",
             "authoring-preparing-for-publication",
@@ -24,19 +25,20 @@ module.exports = {
       ],
       collapsed: false,
     },
+   
     {
       type: "category",
-      label: "Working with Multimedia",
-      items: [
-        "authoring-finding-media",
-        "authoring-embeds",
-        "authoring-accessibility",
-      ],
-    },
-    {
-      type: "category",
-      label: "Advanced",
-      items: ["advanced-planning-your-case"],
+      label: "Advanced topics",
+      items: ["general-licensing", "advanced-planning-your-case",  {
+        type: "category",
+        label: "Working with Multimedia",
+        items: [
+          "authoring-finding-media",
+          "authoring-embeds",
+          "authoring-accessibility",
+        ],
+        collapsed: false,
+      },],
       collapsed: false,
     },
   ],

@@ -25,6 +25,14 @@ That link will allow those who follow it to read your case before it is publishe
 This is also the way to use a case while keeping it private.
 You don’t ever _have_ to publish your case.
 
+## Create a suggested assessment
+
+When other users deploy your case, they’ll have the opportunity to create a custom pre-/post-quiz, but many people would rather use one that you suggest.
+You can add a suggested assessment by clicking the “Pre/Post Assessment” button visible under your case’s table of contents while editing.
+You can configure one or more suggested assessments with any number of multiple choice and free response questions.
+
+![Click the "Pre/Post Assessment" button](./assets/authoring-add-assessment.png)
+
 ## Pick a easy-to-remember URL
 
 When your case is first created, its URL will end in a bunch of random letters and numbers.
@@ -32,11 +40,12 @@ Before you publish it, you may wish to make that more memorable.
 Change your case’s URL slug on its “Case Settings” page.
 URL slugs must be globally unique and are first-come-first-served.
 
-## Create a suggested assessment
 
-When other users deploy your case, they’ll have the opportunity to create a custom pre-/post-quiz, but many people would rather use one that you suggest.
-You can add a suggested assessment by clicking the “Pre/Post Assessment” button visible under your case’s table of contents while editing.
-You can configure one or more suggested assessments with any number of multiple choice and free response questions.
+![Change your URL slug in the case settings menu](./assets/authoring-change-url.png)
+
+## Select a license
+
+You have the option to select a license for your case from the dropdown in the case settings. [See the guide to module licensing](./general-licensing) for more information.
 
 ## Finally, publish
 
