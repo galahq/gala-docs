@@ -42,6 +42,11 @@ module.exports = {
           position: "right",
         },
         {
+          to: "/publications",
+          label: "Publications",
+          position: "right",
+        },
+        {
           href: "https://www.learngala.com",
           label: "Go to Gala",
           position: "right",
