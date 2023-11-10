@@ -118,8 +118,8 @@ module.exports = {
           title: "Community",
           items: [
             {
-              label: "Twitter",
-              href: "https://twitter.com/LearnMSC",
+              label: "LinkedIn",
+              href: "https://www.linkedin.com/company/learngala",
             },
             {
               label: "Github",
