@@ -45,14 +45,19 @@ const features = [
   },
 ];
 
+const aboutOverview = "The Gala initiative seeks to make learning more grounded, dynamic, and collaborative. We built the Gala learning environment to make the best teaching cases available to all, emphasizing openness, experimentation, and collaboration across the world.";
 const about = {
-  description:
-    "The Gala initiative seeks to make learning more grounded, dynamic, and collaborative. We built the Gala learning environment to make the best teaching cases available to all, emphasizing openness, experimentation, and collaboration across the world.",
-  imageURL: "",
+  buttonText: "See what you can do with Gala",
+  image: "overview-thumbnail.png",
+  moreLink: "gala-overview.pdf",
 };
 
-//Examples section content
-//links: caseLink (link to case or library, will detect if it's a library), moreLink (more information)
+
+/*
+Examples section content
+links: caseLink (link to case or library, will detect if it's a library), moreLink (more information) 
+*/
+
 const examples = [
   {
     hed: "Collaborative Curriculum",
@@ -186,12 +191,30 @@ function About() {
     <div className={`container ${home.aboutWrapper}`}>
       <div className="row">
         <AboutSection header="About Gala">
-          <p>{about.description}</p>
+          <div>
+            {aboutOverview}
+          </div>
+          <Card 
+            content = {about}
+          />
           <ul>
             <li>
               <Link to={useBaseUrl("publications/")}>Publications</Link>
             </li>
           </ul>
+        </AboutSection>
+        
+        <AboutSection header="Connect">
+          <div className={home.connectWrapper}>
+            <ul>
+              <li>
+                <a href="https://www.linkedin.com/company/learngala">LinkedIn</a>
+              </li>
+              <li>
+                <a href="https://github.com/galahq/">Github</a>
+              </li>
+            </ul>
+          </div>
         </AboutSection>
         <AboutSection header="News & Updates">
           <div className={home.newsWrapper}>
@@ -203,16 +226,6 @@ function About() {
             </Link>
           </div>
         </AboutSection>
-        <AboutSection header="Connect">
-          <div className={home.connectWrapper}>
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSe9819llOMmZH3ThwH_M6jjKP2iVkFvKANpx2Jbg2CQHUvr-A/viewform?usp=sf_link"
-              className="button button--primary"
-            >
-              Sign-up for Gala updates
-            </a>
-          </div>
-        </AboutSection>
       </div>
     </div>
   );
@@ -221,7 +234,7 @@ function About() {
 //Examples section
 function Examples() {
   const examplesList = examples.map((example, idx) => (
-    <Card content={example} key={idx} />
+    <Card content={example} key={idx} cardType="example" />
   ));
   return (
     <div className="container">

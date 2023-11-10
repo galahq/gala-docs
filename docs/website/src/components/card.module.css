@@ -2,9 +2,18 @@
     font-size: 90%;
     color: var(--ifm-color-secondary-darkest);
     padding-bottom: .5rem;
-    display:inline-block;
+    display: inline-block;
 }
 
 .dek {
-    font-size:105%;
+    font-size: 105%;
+}
+
+.aboutCard {
+    background-color: var(--ifm-color-primary);
+    max-width: 500px;
+}
+
+.aboutCardImage {
+    text-align: center;
 }

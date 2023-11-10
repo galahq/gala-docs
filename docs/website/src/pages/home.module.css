@@ -79,11 +79,13 @@
 }
 
 /* about */
+
+.aboutWrapper>*>*>div {
+  margin-bottom: 1rem;
+}
+
 @media (max-width: 997px) {
-  .aboutWrapper > * > div {
-    margin-bottom: 2.25rem;
-  }
-  
+
   .connectWrapper {
     max-width: 400px;
     max-height: 500px;
@@ -92,7 +94,7 @@
 
 .connectWrapper {
   max-height: 500px;
-  
+
 }
 
 .newsWrapper li {
@@ -151,6 +153,7 @@
   .callToActionContainer .callToActionInnerContainer {
     width: 90%;
   }
+
   .callToActionContainer .callToActionImage {
     position: static;
     margin-bottom: -2rem;
