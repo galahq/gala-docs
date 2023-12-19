@@ -152,6 +152,9 @@ module.exports = {
           editUrl: "https://github.com/galahq/gala",
         },
         blog: {
+          feedOptions: {
+            type: 'all',
+          },
           showReadingTime: false,
           blogSidebarCount: 7,
           editUrl: "https://github.com/galahq/gala",
