@@ -92,28 +92,6 @@ module.exports = {
             },
           ],
         },
-
-        /*
-        {
-          title: 'Policies',
-          items: [
-            {
-              // Label of the link
-              label: 'Terms of Use',
-              // Client-side routing, used for navigating within the website.
-              // The baseUrl will be automatically prepended to this value.
-              to: 'policies/#terms-of-use-agreement-for-the-gala-platform',
-            },
-            {
-              label: 'Privacy',
-              to: 'policies/#gala-privacy-policy',
-            },
-            {
-              label: 'Copyright',
-              to: 'policies/#intellectual-property-rights-policy',
-            },
-          ],
-        }, */
         {
           title: "Community",
           items: [
