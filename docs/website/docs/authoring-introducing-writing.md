@@ -27,7 +27,7 @@ Here’s an example of a good kicker/question pair:
 When choosing a cover image, make sure to you have the legal right to use that photograph.
 If you took it yourself, perfect.
 Otherwise, make sure it was released with a license that allows reuse, like Creative Commons.
-If you need help finding an image, try searching on [Unsplash](https://unsplash.com), [Pixabay](https://pixabay.com), or even Google Images with the “usage rights” search tool set to “labelled for non-commercial reuse.” See the [Finding media for your case](/.authoring-finding-media) guide
+If you need help finding an image, try searching on [Unsplash](https://unsplash.com), [Pixabay](https://pixabay.com), or even Google Images with the “usage rights” search tool set to “labelled for non-commercial reuse.” See the [Finding media for your case](./authoring-finding-media.md) guide
 
 Keep in mind that your kicker, question, and author names will be displayed on top of this image.
 Make sure that the text remains easy to read on top of the image.

@@ -33,11 +33,11 @@ If the use of a copyrighted work meets certain conditions it may be considered f
 
 ### Obtaining permission to use copyrighted works
 
-Should you wish to include an image or figure that does not meet these conditions, you will need to obtain explicit written permission to use the image. See the [sample request letter here](http://www.lib.umich.edu/files/services/copyright/Request_Permission_Copies.doc). There is often a fee associated with this, and the process can be time consuming. Your institution's library may be able to help you with the process.
+Should you wish to include an image or figure that does not meet these conditions, you will need to obtain explicit written permission to use the image. See the [sample request letter here](https://www.lib.umich.edu/files/services/copyright/Request_Permission_Copies.doc). There is often a fee associated with this, and the process can be time consuming. Your institution's library may be able to help you with the process.
 
 ## Creative Commons and Public Domain media sources
 
-A great place to to start looking for freely useable media is the [Penn State Free Media Library](http://mediacommons.psu.edu/free-media-library), which features a long list of open media sources, organized by type.
+A great place to to start looking for freely useable media is the [Penn State Free Media Library](https://mediacommons.psu.edu/free-media-library), which features a long list of open media sources, organized by type.
 
 ### Other general sources
 

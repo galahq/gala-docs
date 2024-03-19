@@ -36,7 +36,7 @@ Videos should have accessible captions. [YouTube](https://support.google.com/you
 
 ### Audio
 
-Any audio you use should have an accompanying transcript. Many services are available to automatically generate transcripts from audio files ([rev.ai](rev.ai), for one). Often you will still need to edit the generated transcript but having a draft to start with can save time.
+Any audio you use should have an accompanying transcript. Many services are available to automatically generate transcripts from audio files ([rev.ai](https://rev.ai), for one). Often you will still need to edit the generated transcript but having a draft to start with can save time.
 
 In cases when a transcript cannot be used (e.g., environmental audio), provide a summary that communicates key takeaways from audio clip.
 

@@ -17,7 +17,7 @@ Easier to use
 
 More powerful
 
-- [Adobe Premiere Pro](adobe.com/products/premiere.html)
+- [Adobe Premiere Pro](https://adobe.com/products/premiere.html)
 - [Final Cut Pro](https://apps.apple.com/us/app/final-cut-pro/id424389933) (Mac)
 - [Lightworks](https://lwks.com/lightworks/) (Mac, Windows – Free tier available)
 - [Hitfilm Express](https://fxhome.com/product/hitfilm-express) (Mac, Windows – Express version is free)
