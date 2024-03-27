@@ -150,6 +150,21 @@ const examples = [
   },
 ];
 
+const socials = [
+  {
+    name: "LinkedIn",
+    url: "https://www.linkedin.com/company/learngala",
+  },
+  {
+    name: "YouTube",
+    url: "https://www.youtube.com/@learngala",
+  },
+  {
+    name: "GitHub",
+    url: "https://github.com/galahq",
+  },
+];
+
 // Features section
 function Features() {
   const Feature = ({ imageUrl, title, description }) => {
@@ -166,6 +181,7 @@ function Features() {
       </div>
     );
   };
+
   const featuresList = features.map((props, idx) => (
     <Feature key={idx} {...props} />
   ));
@@ -194,8 +210,8 @@ function About() {
           <div>
             {aboutOverview}
           </div>
-          <Card 
-            content = {about}
+          <Card
+            content={about}
           />
           <ul>
             <li>
@@ -203,16 +219,10 @@ function About() {
             </li>
           </ul>
         </AboutSection>
-        
         <AboutSection header="Connect">
           <div className={home.connectWrapper}>
             <ul>
-              <li>
-                <a href="https://www.linkedin.com/company/learngala">LinkedIn</a>
-              </li>
-              <li>
-                <a href="https://github.com/galahq/">Github</a>
-              </li>
+              {socials.map(link => <li key={link.name}><a href={link.url}>{link.name}</a></li>)}
             </ul>
           </div>
         </AboutSection>
@@ -308,7 +318,6 @@ export default function Home() {
               >
                 Try Gala
               </a>
-
               <Link
                 to={useBaseUrl("docs/")}
                 className={`button ${home.secondaryHeaderButton}`}
