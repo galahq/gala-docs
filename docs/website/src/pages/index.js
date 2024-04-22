@@ -60,6 +60,14 @@ links: caseLink (link to case or library, will detect if it's a library), moreLi
 
 const examples = [
   {
+    hed: "Public Utilities Research and Education",
+    dek: "Consortium on Disinfection by-products and Opportunistic pathogens in Water Networks (CO-DOWN)",
+    body: "CO-DOWN is comprised of researchers from the University of Michigan, the University of Texas, George Washington University, and the University of Massachusetts, working in collaboration with The Water Tower, a nonprofit organization based in Georgia focused on solving critical real-world water problems. Their findings will be deployed in Gala learning modules to aid in understanding and communicating the risks associated with opportunistic pathogens and disinfection by-products in drinking water utilities.",
+    image: "watertower.png",
+    moreLink: "https://cfpub.epa.gov/ncer_abstracts/index.cfm/fuseaction/display.abstractDetail/abstract_id/11404/report/0",
+    caseLink: ""
+  },
+  {
     hed: "Collaborative Curriculum",
     dek: "NeurotechEU: the European University of Brain and Technology",
     body: "The European University of Brain and Technology (NeurotechEU) is an alliance between eight European universities with the goal to build a trans-European network of excellence in brain research and technologies to increase the competitiveness of European education, research, economy and society. The alliance is integrating Gala and the ICF Training Space platform to collaboratively adapt neurotechnology courses for innovative hybrid and online learning accross the member universities.",
