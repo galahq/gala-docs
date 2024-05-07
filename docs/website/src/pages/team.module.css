@@ -1,0 +1,21 @@
+.teamGrid {
+    display: grid;
+    grid-gap: 1.25rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 1024px) {
+    .teamGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 704px) {
+    .teamGrid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.listItem {
+    list-style-type: none;
+}

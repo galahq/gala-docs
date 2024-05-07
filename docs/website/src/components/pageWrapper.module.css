@@ -1,0 +1,10 @@
+.wide {
+    max-width: 83rem;
+    margin: 4rem auto;
+}
+
+
+.narrow {
+    max-width: 53rem;
+    margin: 4rem auto;
+}
