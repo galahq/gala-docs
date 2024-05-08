@@ -19,15 +19,19 @@ export default function Team() {
   return (
     <Layout title="Team">
       <Wrapper wide={true}>
-        <h1>Our Team</h1>
-        <div className="container">
-          <div className="row">
-            <div className="col"></div>
-            <ul className={team.teamGrid}>
-              {teamCards}
-            </ul>
+        <header>
+          <h1>Our Team</h1>
+        </header>
+        <main>
+          <div className="container">
+            <div className="row">
+              <div className="col"></div>
+              <ul className={team.teamGrid}>
+                {teamCards}
+              </ul>
+            </div>
           </div>
-        </div>
+        </main>
       </Wrapper>
     </Layout>
   );

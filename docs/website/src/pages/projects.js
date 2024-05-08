@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "@theme/Layout";
 import Wrapper from "../components/pageWrapper";
-import { examples } from "../content/home-content";
+import { projects } from "../content/projects-content"
 import Projects from "../components/projects"
 
 function PublicationsPage() {
@@ -13,7 +13,7 @@ function PublicationsPage() {
                     <h1>Projects</h1>
                 </header>
                 <main>
-                    <Projects showTitle={false} projectExamples={examples} numberOfColumns={3} />
+                    <Projects showTitle={false} projectExamples={projects} numberOfColumns={3} />
                 </main>
             </Wrapper>
         </Layout>

@@ -27,7 +27,7 @@ const ExampleCard = ({ content: { hed, dek, image, body, moreLink, caseLink, old
     <li className="card">
       <div className="card__image`">
         {image && image.length > 0 && (
-          <img src={require("./assets/" + image).default}></img>
+          <img src={require("../content/images/" + image).default}></img>
         )}
       </div>
       {!!old && <div className={card.old}>Past Project</div>}
@@ -106,41 +106,50 @@ const AboutCard = ({ content: { hed, image, body, moreLink, buttonText } }) => {
 }
 
 // Card for the Teamsection.
-const TeamCard = ({ content: { name, title, about, link, image } }) => {
+const TeamCard = ({ content: { name, title, about, linkedIn, website, image } }) => {
   return (
     <li className={`card ${card.exampleCard}`}>
-      <div>
-        {!!image && (
-          <div className={`card__image ${card.aboutCardImage}`}>
-            <img src={require("@site/static/img/" + image).default}></img>
-          </div>
-        )}
-        {!!name && (
-          <div className="card__header">
-            <h4>
-              <span className={card.name}>{name}</span>
-            </h4>
-          </div>
-        )}
+      {!!image && (
+        <div className={`card__image ${card.aboutCardImage}`}>
+          <img src={require("../content/images/" + image).default}></img>
+        </div>
+      )}
+      <div className="card__header">
+        <h4>
+          <span className={card.name}>{name}</span>
+        </h4>
         {!!title && (
-          <div className={`card__body ${card.cardTitle}`}>{title}</div>
-        )}
-        {!!about && (
-          <div className={"card__body"}>{about}</div>
-        )}
-        {!!link && (
-          <div className="card__footer">
-            <a
-              href={link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="button button--secondary button--block"
-            >
-              More ›
-            </a>
-          </div>
+          <div className={`${card.cardTitle}`}>{title}</div>
         )}
       </div>
+      {!!about && (
+        <div className={"card__body"}>{about}</div>
+      )}
+      {((!!linkedIn && linkedIn.length > 0) || (website && website.length > 0)) &&
+        <div className="card__footer">
+          <div className={"button-group button-group--block"}>
+            {linkedIn && linkedIn.length > 0 && (
+              <a
+                href={linkedIn}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="button button--secondary button--block"
+              >
+                LinkedIn
+              </a>
+            )}
+            {website && website.length > 0 && (
+              <a
+                href={website}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="button button--secondary button--block"
+              >
+                Website
+              </a>
+            )}
+          </div>
+        </div>}
     </li>
   );
 }

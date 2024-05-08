@@ -7,7 +7,8 @@ import home from "./home.module.css";
 import Feed from "../components/feed";
 import Card from "../components/card";
 import Projects from "../components/projects"
-import { features, examples, about, aboutOverview, socials } from "../content/home-content";
+import { features, about, aboutOverview, socials } from "../content/home-content";
+import { projects } from "../content/projects-content"
 
 
 // Features section
@@ -115,7 +116,7 @@ function CallToAction() {
 const mainSectionsOrder = [
   <Features />,
   <About />,
-  <Projects showTitle={true} projectExamples={examples} />,
+  <Projects showTitle={true} projectExamples={projects} />,
   <CallToAction />,
 ];
 
