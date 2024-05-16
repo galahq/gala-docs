@@ -37,6 +37,11 @@ module.exports = {
         },
         { to: "blog", label: "Blog", position: "right" },
         {
+          to: "/team",
+          label: "Team",
+          position: "right",
+        },
+        {
           to: "/help",
           label: "Help",
           position: "right",
@@ -49,7 +54,7 @@ module.exports = {
         {
           href: "https://www.learngala.com",
           label: "Go to Gala",
-          position: "right",
+          position: "left",
         },
       ],
     },
@@ -66,6 +71,10 @@ module.exports = {
         {
           title: "About",
           items: [
+            {
+              label: "Team",
+              to: "team"
+            },
             {
               label: "Publications",
               to: "publications",
