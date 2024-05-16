@@ -62,6 +62,9 @@ function About() {
             <li>
               <Link to={useBaseUrl("publications/")}>Publications</Link>
             </li>
+            <li>
+              <Link to={useBaseUrl("team/")}>Our Team</Link>
+            </li>
           </ul>
         </AboutSection>
         <AboutSection header="Connect">
