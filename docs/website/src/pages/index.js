@@ -10,7 +10,6 @@ import Projects from "../components/projects"
 import { features, about, aboutOverview, socials } from "../content/home-content";
 import { projects } from "../content/projects-content"
 
-
 // Features section
 function Features() {
   const Feature = ({ imageUrl, title, description }) => {
