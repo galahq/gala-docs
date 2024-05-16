@@ -15,10 +15,10 @@ function columns(number) {
 
 export default function Projects({ projectExamples, showTitle, numberOfColumns }) {
     const currentProjects = projectExamples.map((project, idx) => (
-        !project.old && <Card content={project} key={idx} cardType="example" />
+        !project.old && <Card content={project} key={idx} cardType="project" />
     ));
     const oldProjects = projectExamples.map((project, idx) => (
-        !!project.old && <Card content={project} key={idx} cardType="example" />
+        !!project.old && <Card content={project} key={idx} cardType="project" />
     ));
 
     return (

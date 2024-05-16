@@ -61,4 +61,4 @@ const socials = [
     },
 ];
 
-export { features, about, aboutOverview, examples, socials };
+export { about, aboutOverview, features, socials };

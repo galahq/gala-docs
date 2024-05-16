@@ -9,8 +9,8 @@ import card from "./card.module.css";
 
 export default function Card({ content, cardType }) {
   switch (cardType) {
-    case 'example':
-      return <ExampleCard content={content} />;
+    case 'project':
+      return <ProjectCard content={content} />;
     case 'about':
       return <AboutCard content={content} />;
     case 'team':
@@ -20,14 +20,14 @@ export default function Card({ content, cardType }) {
   }
 }
 
-// Card for example section
-const ExampleCard = ({ content: { hed, dek, image, body, moreLink, caseLink, old } }) => {
+// Card for "in action" section
+const ProjectCard = ({ content: { hed, dek, image, body, moreLink, caseLink, old } }) => {
   const isCaseURLString = "learngala.com/cases";
   return (
     <li className="card">
       <div className="card__image`">
         {image && image.length > 0 && (
-          <img src={require("../content/images/" + image).default}></img>
+          <img src={require("../content/images/projects/" + image).default}></img>
         )}
       </div>
       {!!old && <div className={card.old}>Past Project</div>}
@@ -110,16 +110,16 @@ const TeamCard = ({ content: { name, title, about, linkedIn, website, image } })
   return (
     <li className={`card ${card.exampleCard}`}>
       {!!image && (
-        <div className={`card__image ${card.aboutCardImage}`}>
-          <img src={require("../content/images/" + image).default}></img>
+        <div className={`card__image ${card.teamCardImage}`}>
+          <img src={require("../content/images/profiles/" + image).default}></img>
         </div>
       )}
-      <div className="card__header">
+      <div className={`card__header ${card.teamCardName}`}>
         <h4>
-          <span className={card.name}>{name}</span>
+          <span className={card.teamCardName}>{name}</span>
         </h4>
         {!!title && (
-          <div className={`${card.cardTitle}`}>{title}</div>
+          <div className={`${card.teamCardTitle}`}>{title}</div>
         )}
       </div>
       {!!about && (

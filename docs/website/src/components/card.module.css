@@ -18,8 +18,35 @@
     text-align: center;
 }
 
+.aboutCardBody {
+    text-align: center;
+}
+
 .cardTitle {
     font-style: italic;
+}
+
+.teamCardName {
+    text-align: center;
+}
+
+.teamCardName>h4 {
+    margin-bottom: 0;
+}
+
+.teamCardTitle {
+    font-style: italic;
+    text-align: center;
+}
+
+.teamCardImage {
+    text-align: center;
+}
+
+.teamCardImage>img {
+    height: 260px;
+    border-radius: 2%;
+    margin-top: 1rem;
 }
 
 .old {
