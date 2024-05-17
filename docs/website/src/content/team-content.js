@@ -11,7 +11,7 @@ const teamContent = [
         the Gala platform.`,
         image: "rebecca.jpeg",
         website: "",
-        linkedIn: "",
+        linkedIn: "https://www.linkedin.com/in/rebecca-hardin-82686813/",
     },
     {
         name: "Ed Waisanen",
