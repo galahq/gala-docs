@@ -7,7 +7,7 @@ import home from "./home.module.css";
 import Feed from "../components/feed";
 import Card from "../components/card";
 import Projects from "../components/projects"
-import { features, about, aboutOverview, socials } from "../content/home-content";
+import { features, about, aboutOverview, socials, connect } from "../content/home-content";
 import { projects } from "../content/projects-content"
 
 // Features section
@@ -69,6 +69,7 @@ function About() {
         </AboutSection>
         <AboutSection header="Connect">
           <div className={home.connectWrapper}>
+            <p>{connect}</p>
             <ul>
               {socials.map(link => <li key={link.name}><a href={link.url}>{link.name}</a></li>)}
             </ul>
