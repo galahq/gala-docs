@@ -50,7 +50,7 @@ const about = {
 
 
 // connect section content
-const connect = `We are eager to share your experiences creating and using modules on Gala with the rest of the Gala community. We also invite contributions to the Gala guides and codebase, translations of modules and the Gala UI, and integrations with third-party tools. You can get in contact with our team at hello@learngala.com or via LinkedIn.`;
+const connect = `We are eager to share your experiences creating and using modules on Gala with the rest of the Gala community. We also invite contributions to the Gala guides and codebase, translations of modules and the Gala UI, and integrations with third-party tools. You can get in contact with our team at Hello@learngala.com or via LinkedIn.`;
 
 const socials = [
     {
