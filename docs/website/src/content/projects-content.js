@@ -5,6 +5,14 @@ set 'old' to true to indicate a past project
 
 const projects = [
     {
+        hed: "Past Perspectives",
+        dek: "Centre for Ancient Environmental Studies (CAES)",
+        body: `The premodern world provides a laboratory of various experiments in human-environment interactions, all operating on a global scale over the longue durée. The Centre for Ancient Environmental Studies (CAES), through their use of Gala, is exploring the value of historical case studies in teaching and learning. Working on a largely UK based context, they are also developing toolkits for creators on Gala tracing impact and use.`,
+        image: "caes.png",
+        moreLink: "https://caes.wp.st-andrews.ac.uk/",
+        caseLink: ""
+    },
+    {
         hed: "Public Utilities Research and Education",
         dek: "Consortium on Disinfection by-products and Opportunistic pathogens in Water Networks (CO-DOWN)",
         body: "CO-DOWN is comprised of researchers from the University of Michigan, the University of Texas, George Washington University, and the University of Massachusetts, working in collaboration with The Water Tower, a nonprofit organization based in Georgia focused on solving critical real-world drinking water problems. Their findings will be deployed in Gala learning modules to aid in understanding and communicating the risks associated with opportunistic pathogens and disinfection by-products in drinking water utilities.",
