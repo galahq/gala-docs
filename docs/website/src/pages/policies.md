@@ -93,7 +93,7 @@ This Agreement will be governed by and construed in accordance with the laws of 
 
 #### 10\. General
 
-Your access to and use of PROGRAM and PROGRAM Materials are governed by this Agreement and any other terms agreed to in writing. In the event You have any questions about this Agreement, You should contact hello@learngala.com.
+Your access to and use of PROGRAM and PROGRAM Materials are governed by this Agreement and any other terms agreed to in writing. In the event You have any questions about this Agreement, You should contact <a href="hello@learngala.com">hello@learngala.com</a>.
 
 If any part of this Agreement is determined to be invalid or unenforceable then the invalid or unenforceable provision will be deemed superseded by a valid enforceable provision that most closely matches the intent of the original provision, and the remainder of this Agreement will continue in effect. The failure of MICHIGAN to exercise or enforce any right or provision of this Agreement will not constitute a waiver of such right or provision. You are prohibited from assigning this Agreement or transferring Your rights under this Agreement to anyone else.
 
@@ -177,7 +177,7 @@ Additionally, we may use Cookies to count visits and traffic sources in order to
 
 We will retain User-Provided Information for as long as You use the PROGRAM and for a reasonable time thereafter.
 
-If You would like us to access, update, correct, or delete User-Provided Information that You have provided via the PROGRAM, please contact us at <privacy@umich.edu> and hello@learngala.com, and reference the PROGRAM in Your email. We will respond in a reasonable time. Please note that some or all of the information we collect may be required in order for the PROGRAM to function properly, and we may be required to retain certain information by law.
+If You would like us to access, update, correct, or delete User-Provided Information that You have provided via the PROGRAM, please contact us at <a href="privacy@umich.edu">privacy@umich.edu</a> and <a href="hello@learngala.com">hello@learngala.com</a>, and reference the PROGRAM in Your email. We will respond in a reasonable time. Please note that some or all of the information we collect may be required in order for the PROGRAM to function properly, and we may be required to retain certain information by law.
 
 If You do not want us to contact You with marketing communications or other information regarding updates to PROGRAM Materials (or if You agreed to be contacted for such purposes at the time the Application Data was collected by us but You no longer wish to be contacted or have Your information used in such a way), You can let us know by following the unsubscribe instructions on any communications sent to You. You can also unsubscribe at any time by contacting us at hello@learngala.com. Please note that if You have registered an account on the PROGRAM, opting out of receiving marketing messages will not apply to Application Data provided to us as a result of signing up to use the PROGRAM, and we reserve the right to send You certain communications relating to Your account, Your registration, and Your use of the PROGRAM, such as messages relating to account management, customer service and system maintenance. These transactional account messages will thus be unaffected if You choose to opt-out of marketing communications.
 
@@ -189,7 +189,7 @@ Editing / Deleting Your Account. You may contact the PROGRAM at any time, by ema
 
 #### CHILDREN UNDER THE AGE OF 13
 
-We do not use the PROGRAM to knowingly cater or market to children under the age of 13. If a parent or guardian believes that the data about his or her child is incorrect, he or she should contact hello@learngala.com. A detailed description of Michigan's approach to COPPA can be found at [Notice Specific to Persons Under the Age of 13 or Their Parents or Guardians](https://umich.edu/about/privacy-statement/#coppa). 
+We do not use the PROGRAM to knowingly cater or market to children under the age of 13. If a parent or guardian believes that the data about his or her child is incorrect, he or she should contact <a href="hello@learngala.com">hello@learngala.com</a>. A detailed description of Michigan's approach to COPPA can be found at [Notice Specific to Persons Under the Age of 13 or Their Parents or Guardians](https://umich.edu/about/privacy-statement/#coppa). 
 
 #### CHANGES TO THIS PRIVACY POLICY
 
@@ -201,8 +201,8 @@ By using the Services, You are consenting to Michigan and its partners to proces
 
 #### NOTE FOR THOSE LOCATED IN THE EUROPEAN UNION (EU)
 
-If You reside or are located in the EU, You may have additional rights over the personal data that we collect, as defined under the General Data Protection Regulation (GDPR). A detailed description of these rights and Michigan's approach to GDPR compliance can be found in [Michigan's Notice Specific to Persons in the EU](https://umich.edu/about/privacy-statement/#eu). Additionally, all requests concerning access to PII or use restrictions, as well as further inquiries about data use and retention, can be submitted to <privacy@umich.edu> and hello@learngala.com by referencing the PROGRAM in your email.
+If You reside or are located in the EU, You may have additional rights over the personal data that we collect, as defined under the General Data Protection Regulation (GDPR). A detailed description of these rights and Michigan's approach to GDPR compliance can be found in [Michigan's Notice Specific to Persons in the EU](https://umich.edu/about/privacy-statement/#eu). Additionally, all requests concerning access to PII or use restrictions, as well as further inquiries about data use and retention, can be submitted to <a href="privacy@umich.edu">privacy@umich.edu</a> and hello@learngala.com by referencing the PROGRAM in your email.
 
 #### CONTACT US
 
-If You have any questions regarding privacy while using the PROGRAM, or have questions about our practices, please contact us via email at hello@learngala.com. You may also submit general data privacy inquiries to Michigan's Privacy Office at <privacy@umich.edu>.
+If You have any questions regarding privacy while using the PROGRAM, or have questions about our practices, please contact us via email at hello@learngala.com. You may also submit general data privacy inquiries to Michigan's Privacy Office at <a href="privacy@umich.edu">privacy@umich.edu</a>.
