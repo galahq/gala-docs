@@ -140,7 +140,7 @@ module.exports = {
         },
         blog: {
           feedOptions: {
-            type: 'all',
+            type: ['rss', 'json'],
             createFeedItems: async (params) => {
               const {blogPosts, defaultCreateFeedItems, ...rest} = params;
               return defaultCreateFeedItems({
