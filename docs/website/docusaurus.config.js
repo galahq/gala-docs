@@ -152,7 +152,6 @@ module.exports = {
           },
           showReadingTime: false,
           blogSidebarCount: 7,
-          editUrl: "https://github.com/galahq/gala",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
