@@ -28,6 +28,8 @@
 
   --ifm-blockquote-background-color: #f5f6f7;
   --ifm-blockquote-border-color: #d9dde0;
+
+  --ifm-footer-logo-max-width: 10rem;
 }
 
 .footer {
