@@ -140,15 +140,15 @@ module.exports = {
         },
         blog: {
           feedOptions: {
-            type: ['rss', 'json'],
-            createFeedItems: async (params) => {
-              const {blogPosts, defaultCreateFeedItems, ...rest} = params;
-              return defaultCreateFeedItems({
-                // keep only the 10 most recent blog posts in the feed
-                blogPosts: blogPosts.filter((item, index) => index < 10),
-                ...rest,
-              });
-            },
+            type: 'all',
+            // createFeedItems: async (params) => {
+            //   const {blogPosts, defaultCreateFeedItems, ...rest} = params;
+            //   return defaultCreateFeedItems({
+            //     // keep only the 10 most recent blog posts in the feed
+            //     blogPosts: blogPosts.filter((item, index) => index < 10),
+            //     ...rest,
+            //   });
+            // },
           },
           showReadingTime: false,
           blogSidebarCount: 7,

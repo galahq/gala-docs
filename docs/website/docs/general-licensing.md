@@ -35,4 +35,4 @@ New modules default to the *Attribution-NonCommercial-ShareAlike* license. This 
   
   In the meantime, we generally handle the adaptation process manually for our partners. Gala currently lets module authors create copies of their module and assign additional authors (from the _Module settings_ menu), so this is an option if you are in contact with someone who would like to modify a copy of your module. Keep in mind that (in the case of licenses such as _CC BY-NC-SA 4.0_ that allow adaptation) others may modify your work and make it available on other platforms.
 
-_Please note that the information here is for informational purposes and not legal advice. You can contact the Gala team with questions at <a href="hello@learngala.com">hello@learngala.com</a>._
+_Please note that the information here is for informational purposes and not legal advice. You can contact the Gala team with questions at <a href="mailto:hello@learngala.com">hello@learngala.com</a>._
