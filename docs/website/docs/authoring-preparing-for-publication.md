@@ -51,3 +51,20 @@ You have the option to select a license for your case from the dropdown in the c
 
 When you are satisfied with your case, you can publish it from its “Options” menu.
 Even after you publish, however, you can still make changes to keep it up to date.
+
+## Request that your case be added to a library
+
+You can request to have your case added to a library on Gala. Please only do this if you have already contacted the library manager or are collaborating with a network of module creators who publish cases to a specific library.
+
+To request adding your case to a library:
+
+1. Navigate to the overview page of your case.
+2. Click the "Options" button in the upper-right corner of the screen.
+3. Select "Edit case settings."
+4. On the Case Settings page, find the dropdown menu under the "Library" heading.
+5. Select the library to which you want to request adding the case (by default, the dropdown will display "Shared Cases").
+6. Click the "Change Library" button.
+
+![Send a library request from the case settings menu](./assets/authoring-edit-library.png)
+
+After selecting a library, a message below the dropdown will read "_[library name] request is pending_," meaning your request has been sent to the library manager. Once approved, the "Library" dropdown will show the name of the library, and the overview page of your case will display the library's logo. You can cancel the request by clicking the "x" next to the "request is pending" message.
