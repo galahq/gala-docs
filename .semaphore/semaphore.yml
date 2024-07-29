@@ -13,7 +13,7 @@ blocks:
             - checkout
             - cd docs/website
             - 'cache restore docusaurus-node-modules-$SEMAPHORE_GIT_BRANCH-$(checksum yarn.lock),docusaurus-node-modules-$SEMAPHORE_GIT_BRANCH,docusaurus-node-modules-master'
-            - sem-version node 22.2.0
+            - sem-version node 18.20.4
             - yarn install --ignore-engines
             - cache store docusaurus-node-modules-$SEMAPHORE_GIT_BRANCH-$(checksum yarn.lock) node_modules
       secrets:
