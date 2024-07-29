@@ -111,7 +111,7 @@ module.exports = {
             {
               label: "Github",
               // A full-page navigation, used for navigating outside of the website.
-              href: "https://github.com/galahq/gala",
+              href: "https://github.com/galahq/",
             },
           ],
         },
@@ -136,7 +136,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/galahq/gala-docs",
+          editUrl: "https://github.com/galahq/gala-docs/blob/main/docs/website/",
         },
         blog: {
           feedOptions: {
