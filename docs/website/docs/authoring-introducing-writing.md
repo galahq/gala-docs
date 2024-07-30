@@ -55,11 +55,36 @@ A good rule of thumb is to add a new card for every new paragraph, but sometimes
 You can reorder cards within a page by dragging them while in edit mode. You can reorder pages from the overview page by dragging them in the table of contents.
 :::
 
+## In-line tools
+
+Gala has several tools for adding additional functionality within the text of your case. These are accessible via the formatting toolbar that appears at the top of every card when viewing in edit mode.
+
 ### Citations
 
-Cases are academic works; it is important to cite your sources.
 To add a citation, while editing your case, place your cursor after the fact you want to cite, and click the <img className="buttonIcon" src={require("./assets/add-citation-icon.png").default} role="presentation"></img> “Add Citation” button in the card’s toolbar.
 A small circle will be added to the text: this is the citation marker.
 Click the citation marker, and add the text and optional URL of the work you’re citing.
 
 ![Adding an address and URL to a citation](./assets/add-title-url.png)
+
+### Revealable Text
+
+Revealable text sections allow you to obscure a section of text until the reader clicks on it. Add a revealable section by selecting text and clicking the magnifying glass in the formatting toolbar. This is useful for "check your knowledge" sections:
+
+![Revealable text can allow the author to pose questions for the reader, who can think about them and then reveal the answer.](./assets/authoring-revealable-text-example.png)
+
+Editing:
+
+![Editing a revealable text section](./assets/authoring-revealable-text-editing.png)
+
+Reading:
+
+![Viewing a revealable text section as a reader](./assets/authoring-revealable-text-viewing.png)
+
+### Equations
+
+You can render equations in the text of a module using Mathjax. [See a list of supported TeX/LaTeX commands here](https://docs.mathjax.org/en/latest/input/tex/macros/index.html).
+
+To add an equation, paste TeX/LaTeX commands into a card, select them, and click the "equation" button in the formatting toolbar. This will render the equation, which is accessible to screen-readers and can be zoomed by clicking on it. If there is an error in your markup, mathjax will display an error instead of the formatted equation.
+
+![A mathjax section](./assets/authoring-equation.png)
