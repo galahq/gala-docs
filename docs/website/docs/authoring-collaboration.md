@@ -3,8 +3,7 @@ id: authoring-collaboration
 title: Collaborating with Others
 ---
 
-Sustainability education, like sustainability more generally, is too much for one person to do alone.
-That’s why Gala allows you to create a case in collaboration with a team.
+Gala allows you to create a case in collaboration with a team.
 You can invite as many collaborators as you want to edit the case with you.
 
 ## Adding collaborators
