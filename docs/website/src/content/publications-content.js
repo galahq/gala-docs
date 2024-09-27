@@ -19,7 +19,7 @@ const publicationsList = [
       */
 
         title:
-            "World Development Perspectives) Introduction to special issue: Remaking case-based learning for sustainability",
+            "Introduction to special issue: Remaking case-based learning for sustainability",
         citation:
             'Wagner, Meghan, and Rebecca Hardin. "Introduction to special issue: Remaking case-based learning for sustainability." World Development Perspectives 26 (2022): 100413.',
         date: "2022",
