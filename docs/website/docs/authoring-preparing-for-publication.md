@@ -22,6 +22,10 @@ Then, from your “Deployments” index, you can copy the invite link and send i
 
 That link will allow those who follow it to read your case before it is published, and it will add them to a private forum where they can comment on your case.
 
+:::caution
+ Anyone with this link can enroll in your study group so don't share it publicly!
+:::
+
 This is also the way to use a case while keeping it private.
 You don’t ever _have_ to publish your case.
 

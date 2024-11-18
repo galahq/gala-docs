@@ -24,9 +24,11 @@ Your study group will appear on the ‘My Deployments’ page, along with any as
 
 ![A screenshot of the deployments list.](./assets/deployments-active-deployments-screenshot.png)
 
-Copy the invite link and share it with learners to invite them to study the case.
+Copy the invite link and share it with learners to invite them to study the case. You must share a link for each case you want to assign.
 
-*Note that you must share a link for each case you want to assign, and that anyone with this link can enroll in your study group.*
+:::caution
+ Anyone with this link can enroll in your study group so don't share it publicly!
+:::
 
 ![A screenshot of the invite link.](./assets/deployments-invite-link-screenshot.png)
   
