@@ -5,6 +5,14 @@ set 'old' to true to indicate a past project
 
 const projects = [
     {
+        hed: "Open Knowledge",
+        dek: "Socio-Environmental Knowledge (SEEK) Commons",
+        body: `SEEK Commons—an NSF-funded collaboration between the University of Notre Dame, University of Michigan, University of Virginia, UC Davis, and the HDF Group—is working to extend Gala in order to create an open and editable resource hub, to house tools, resources, and curricular modules for integrating data stewardship frameworks into participatory socio-environmental research.`,
+        image: "seek-commons.png",
+        moreLink: "https://seekcommons.org/about.html",
+        caseLink: ""
+    },
+    {
         hed: "Past Perspectives",
         dek: "Centre for Ancient Environmental Studies (CAES)",
         body: `The premodern world provides a laboratory of various experiments in human-environment interactions, all operating on a global scale over the longue durée. The Centre for Ancient Environmental Studies (CAES), through their use of Gala, is exploring the value of historical case studies in teaching and learning. Working on a largely UK based context, they are also developing toolkits for creators on Gala tracing impact and use.`,
@@ -54,7 +62,7 @@ const projects = [
         image: "detroitriver.png",
         moreLink:
             "https://sites.lsa.umich.edu/detroit-river-story-lab/about/research-team/",
-        caseLink: "",
+        caseLink: "https://www.learngala.com/catalog/libraries/detroit-river-storylab",
     },
     {
         hed: "Data Skills for Future Economies",
