@@ -4,7 +4,7 @@ title: Adding Rich Metadata to a Case
 sidebar_label: Adding Rich Metadata
 ---
 
-You can connect a variety of resources to your case using Wikidata’s knowledge graph.
+You can connect a variety of resources to your case using Wikidata’s knowledge graph in the 'Wikidata Links' section of the case overview page.
 
 [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) is an open knowledge base that serves as a centralized hub of structured data that collects and connects information on a wide range of topics, making it accessible and reusable across many platforms and applications. This approach builds a network of connections that breaks down information silos, allowing users to see relationships across data points, access supporting materials in context, and gain deeper insights.
 
