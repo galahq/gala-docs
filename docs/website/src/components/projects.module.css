@@ -1,7 +1,9 @@
 .projectsGrid {
     display: grid;
     grid-gap: 1.25rem;
+    grid-template-columns: repeat(3, 1fr);
 }
+
 
 @media (max-width: 1024px) {
     .projectsGrid {
