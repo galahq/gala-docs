@@ -81,7 +81,7 @@ And if there are relevant social media posts you want to embed, Gala supports th
 
 ![A screenshot of President Barack Obama’s Facebook post celebrating the Paris Accord and of President Donald Trump’s tweet giving the go-ahead for the Dakota Access Pipeline](./assets/social-screenshot.png)
 
-### 3. Uploads and attachements
+### 3. Uploads and attachments
 
 Gala allows you to upload files >2mb as edgenotes. This is helpful for adding things like images, small datasets, spreadsheets, pdf documents, and sound clips to your module.  You can add this items via the 'Edit edgenote' menu under 'Attach an image,' 'Attach a file,' or from the 'Choose audio file' button that appears after adding a pull quote. 
 
