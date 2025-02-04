@@ -28,5 +28,5 @@ You can toggle between edit and view modes by clicking '*Edit this case*' on the
 ![Toggle between edit and view mode](./assets/authoring-view-and-edit.png)
 
 :::tip
-Your case automatically saves every few seconds. You can use your browser's undo function (usually by pressing ```Ctrl-Z```) to revert recent changes but Gala does not keep track of previous versions of your module once saved.
+Your case automatically saves every few seconds. You can use your browser's undo function (usually by pressing ```Ctrl-Z```) to revert recent changes, but Gala does not keep track of previous versions of your module once saved.
 :::
