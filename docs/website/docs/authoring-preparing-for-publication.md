@@ -33,7 +33,7 @@ You don’t ever _have_ to publish your case.
 
 When other users deploy your case, they’ll have the opportunity to create a custom pre-/post-quiz, but many people would rather use one that you suggest.
 You can add a suggested assessment by clicking the “Pre/Post Assessment” button visible under your case’s table of contents while editing.
-You can configure one or more suggested assessments with any number of multiple choice and free response questions.
+You can configure one or more suggested assessments with any number of multiple choice or short-answer response questions.
 
 ![Click the "Pre/Post Assessment" button](./assets/authoring-add-assessment.png)
 
