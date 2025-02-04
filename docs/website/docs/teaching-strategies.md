@@ -40,7 +40,7 @@ Teaching guides are accessible from a module's overview page, by clicking the 'D
 
 Next, consider implementation:
 
-- How much time will you deveote to the module (inside and outside of class)?
+- How much time will you devote to the module (inside and outside of class)?
     - Will you assign the entire module at once or just certain sections?
 
 - Does the module contain activities? 
@@ -141,7 +141,7 @@ Here is series of example steps for implementing module-authorship in a course, 
 
 :::tip For Example
 
-[Ann Russell](https://ocelots.nrem.iastate.edu/people/ann-russell), who has put on many networkshops for the OCELOTS network, suggests directing particpants on the type of feedback that is welcome and establishing some guidelines for conduct during feedback sessions. Feedback welcomed in OCELOTS networkshops includes:
+[Ann Russell](https://ocelots.nrem.iastate.edu/people/ann-russell), who has put on many networkshops for the OCELOTS network, suggests directing participants on the type of feedback that is welcome and establishing some guidelines for conduct during feedback sessions. Feedback welcomed in OCELOTS networkshops includes:
 
 - Proofreading for spelling, grammar, syntax, style, copyright attributions
 - Praise, encouragement
@@ -167,10 +167,9 @@ Here is series of example steps for implementing module-authorship in a course, 
 
 :::
 
-:::tip We want your input!
+## We want your input!
 
-If you try module-authoring in your course, let us know how it went and what you think others should know and we'll incorporate it into this guide.
+If you teach with Gala, let us know how it goes. Tell us what you think others should know and we'll incorporate it into this guide.
 
 Write to: hello@learngala.com.
 
-:::
