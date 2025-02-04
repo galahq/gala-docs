@@ -151,7 +151,7 @@ module.exports = {
             // },
           },
           showReadingTime: false,
-          blogSidebarCount: 7,
+          blogSidebarCount: 10,
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
