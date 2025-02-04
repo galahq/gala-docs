@@ -28,8 +28,8 @@ module.exports = {
    
     {
       type: "category",
-      label: "Advanced topics",
-      items: ["general-licensing", "advanced-planning-your-case",  {
+      label: "Advanced Guides",
+      items: ["general-licensing", "advanced-planning-your-case", {
         type: "category",
         label: "Working with Multimedia",
         items: [
@@ -37,8 +37,8 @@ module.exports = {
           "authoring-embeds",
           "authoring-accessibility",
         ],
-        collapsed: false,
-      },],
+        collapsed: true
+      }, "teaching-strategies", ],
       collapsed: false,
     },
   ],
