@@ -47,22 +47,10 @@ const teamContent = [
         image: "juliena.png",
     },
     {
-        name: "Erik Hanson",
-        title: "Web Designer",
-        about: "Erik is a programmer and rising senior at the University of Michigan majoring in computer science. At Gala, he is responsible for designing our webpages and managing our online archives. Erik is passionate about python in web design, and preserving sustainability education content online.",
-        image: "erik.png",
-    },
-    {
         name: "Patrick Killian",
         title: "Metrics Specialist",
         about: "Patrick is a masters student at the University of Michigan with a background in mathematics and applied data science. At Gala, he assesses the implementation and general usage metrics of Gala cases, providing recommendations for authors when appropriate. Patrick is passionate about aligning human-centered data science with sustainability-focused UX.",
         image: "patrick.png",
-    },
-    {
-        name: "Kshitij Makwana",
-        title: "OCELOTS Correspondent",
-        about: "Kshitij is a masters student studying data science at the University of Michigan. His responsibilities include facilitating communication between OCELOTS and Gala, and helping to tailor content addressing OCELOTS and its programs.Kshitij is passionate about applying data science to solve real-world sustainability problems.",
-        image: "kshitij.png",
     },
 ]
 
