@@ -101,7 +101,7 @@ This video series goes in-depth into teaching remotely with Gala:
 
 A number of instructors have started assigning students to create Gala modules as a capstone project in their courses. Students work independently or in groups to author modules, which can be optionally published on the platform at the end of the term. This has the advantage of letting students take a deep dive into a topic that interests them and come away with a portfolio piece that lives on beyond the course (and can even be picked up and used by others). The fact that they are producing something that will be relevant beyond the course can be a big motivator for students.
 
-Module writing tends to best fit upper-level undergraduate and graduate students, since it requires independent or group research and writing. It has worked well at the University of Michigan School for Environment and Sustainability (SEAS)'s professional masters program, where students are learning a shared set of concepts and techniques with the intention of applying them in a wide variety of settings after graduation (see the [SEAS Environmental Justice library here](https://www.learngala.com/catalog/libraries/um-seas-environmental-justice)). These student-authored modules become educational resources for community organizations, students, and the wider public. 
+Module writing tends to best fit upper-level undergraduate and graduate students, since it requires independent or group research and writing. It has worked well at the University of Michigan School for Environment and Sustainability (SEAS)'s professional masters program, where students are learning a shared set of concepts and techniques with the intention of applying them in a wide variety of settings after graduation (see the [SEAS Sustainability Research & Practice library here](https://www.learngala.com/catalog/libraries/um-seas-sustainability-research-practice)). These student-authored modules become educational resources for community organizations, students, and the wider public. 
 
 :::tip For example
 
@@ -126,7 +126,7 @@ Here is series of example steps for implementing module-authorship in a course, 
 
 :::tip For Example
 
-[Rebecca Hardin](https://seas.umich.edu/research/faculty/rebecca-d-hardin) (University of Michigan School for Environment and Sustainability) has students create a pitch presentation for her 'Frontiers in Environmental Justice' course. Students grade each other's pitches and provide feedback using [this rubric](./assets/teaching-grading-rubric-pitches.pdf)
+[Rebecca Hardin](https://seas.umich.edu/research/faculty/rebecca-d-hardin) (University of Michigan School for Environment and Sustainability) has students create a pitch presentation for her Master's level course. Students grade each other's pitches and provide feedback using [this rubric](./assets/teaching-grading-rubric-pitches.pdf)
 (pdf)
 
 :::

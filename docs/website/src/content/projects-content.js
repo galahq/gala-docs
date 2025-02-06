@@ -84,12 +84,12 @@ const projects = [
     },
     {
         hed: "Grounded Engagement",
-        dek: "U-M SEAS Environmental Justice Education",
-        body: "Cases in this library have been created in the University of Michigan's Environmental Justice Certificate and Masters Degree programs, by a combination of students, faculty and alumni and other professionals in advocacy, policy and research sectors. Each case addresses an environmental justice topic, from ableism in the environmentalist movement to indigenous rights and resource development.",
-        image: "ej.png",
+        dek: "U-M SEAS Research and practice",
+        body: "Cases in this library have been created at the University of Michigan's School for Environment and Sustainability, by a combination of students, faculty and professionals in advocacy, policy and research sectors.",
+        image: "seas.png",
         moreLink: "",
         caseLink:
-            "https://www.learngala.com/catalog/libraries/um-seas-environmental-justice",
+            "https://www.learngala.com/catalog/libraries/um-seas-sustainability-research-practice",
     },
     {
         hed: "Adapting Case-Based Teaching for an Emerging Field",
