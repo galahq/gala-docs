@@ -93,7 +93,7 @@ Some instructors have taken advantage of Gala's discussion features to hold disc
 
 To host a discussion, instructors can [create a deployment](https://docs.learngala.com/docs/teaching-getting-started), and share a magic link with students to enroll them in the discussion group. This allows students to annotate sections of the text with their own comments or discussion responses. Instructors can post their own annotations prior to sharing the module, in order to 'seed' the discussion or ask for responses or reflections at key points.
 
-![fad](./assets/authoring-seeding-comments.png)
+![Leaving a comment on a portion of text in a Gala module. An instructor asks 'Why do you think this is?'](./assets/authoring-seeding-comments.png)
 
 This video series goes in-depth into teaching remotely with Gala:
 
