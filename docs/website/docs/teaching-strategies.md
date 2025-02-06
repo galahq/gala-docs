@@ -20,7 +20,7 @@ You have three options for getting a Gala module of your choice in front of stud
 
 Many authors include teaching guides and learning objectives with their modules and this can be a good place to start when planning to teach a module. 
 
-Take note of how the module fits in with the goals of your course:
+**Take note of how the module fits in with the goals of your course:**
 
 - Do the module's learning objectives align with those of your course?
     
@@ -38,7 +38,7 @@ Teaching guides are accessible from a module's overview page, by clicking the 'D
 :::
 
 
-Next, consider implementation:
+**Next, consider implementation:**
 
 - How much time will you devote to the module (inside and outside of class)?
     - Will you assign the entire module at once or just certain sections?
@@ -92,6 +92,8 @@ Another technique is to break a module into multiple parts: Many modules begin w
 Some instructors have taken advantage of Gala's discussion features to hold discussions asynchronously. This can be helpful in remote contexts, or when instructors want to promote exchange across localities and cultures. 
 
 To host a discussion, instructors can [create a deployment](https://docs.learngala.com/docs/teaching-getting-started), and share a magic link with students to enroll them in the discussion group. This allows students to annotate sections of the text with their own comments or discussion responses. Instructors can post their own annotations prior to sharing the module, in order to 'seed' the discussion or ask for responses or reflections at key points.
+
+![fad](./assets/authoring-seeding-comments.png)
 
 This video series goes in-depth into teaching remotely with Gala:
 
