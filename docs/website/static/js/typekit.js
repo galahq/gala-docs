@@ -1,6 +1,6 @@
 (function(d) {
   var config = {
-      kitId: "nmr4pex",
+      kitId: "fxq4rje",
       scriptTimeout: 3000,
       async: true
     },
