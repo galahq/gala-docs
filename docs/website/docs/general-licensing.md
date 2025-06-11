@@ -11,6 +11,8 @@ Authors publishing a module on Gala have a choice between the following Creative
 
 - **[Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/)** (_CC BY-NC-ND 4.0_) – This license is similar to the CC BY-NC-SA license but it does not permit others to adapt or repurpose your module.
 
+- **[Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.en)** (_CC-BY-SA 4.0_) – This license allows and sharing and adaptation of your module, even for commercial uses, as long as the attribution is preserved and the new work carries the same license.
+
 Some modules may be licensed *All Rights Reserved*. Modules with this license were either created before the introduction of the Creative Commons Licenses or by authors belonging to institutions that have made special arrangements with Gala.
 
 ## Setting/viewing a module's license
