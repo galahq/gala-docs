@@ -27,7 +27,7 @@ New modules default to the *Attribution-NonCommercial-ShareAlike* license. This 
   See [this guide from Wikimedia Commons](https://wiki.creativecommons.org/wiki/NonCommercial_interpretation) for guidance.
 
 - ### Can I use my own module for commercial purposes?
-  Yes, the guide above notes that "the NonCommercial limitation applies to licensed uses only and does not restrict use by the licensor."
+  Yes, the guide above notes that "the NonCommercial limitation applies to licensed uses only and does not restrict use by the licensor." However, it is against the open spirit of the platform to restrict access to materials on Gala in order to profit commerically. 
 
 - ### What is proper attribution?
   See [this guide from creativecommons.org](https://creativecommons.org/faq/#attribution) for more information.
