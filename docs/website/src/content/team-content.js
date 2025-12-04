@@ -29,9 +29,9 @@ const teamContent = [
     },
     {
         name: "Abigail Merolle",
-        title: "Program Manager",
-        about: "Abigail is a masters student pursuing Environmental Justice at the University of Michigan. In her role at Gala, she specializes in data on water systems, and is currently contributing to the work on CO-DOWN (the Consortium On Disinfection by-products and Opportunistic pathogens in Water Networks). Abigail is passionate about sustainability and how society grapples with adaptation to climate change.",
-        image: "abigail.png",
+        title: "Project Manager",
+        about: "Abigail is passionate about sustainability and how society grapples with adaptation to climate change. In her role at Gala, she has focused on data on water systems, and is currently contributing to the work on CO-DOWN (the Consortium On Disinfection by-products and Opportunistic pathogens in Water Networks). She works directly with partners to support their module development and manage case libraries.",
+        image: "abigail.jpg",
     },
     {
         name: "Julien Azar",
@@ -42,7 +42,7 @@ const teamContent = [
     {
         name: "Patrick Killian",
         title: "Metrics Specialist",
-        about: "Patrick is a masters student at the University of Michigan with a background in mathematics and applied data science. At Gala, he assesses the implementation and general usage metrics of Gala cases, providing recommendations for authors when appropriate. Patrick is passionate about aligning human-centered data science with sustainability-focused UX.",
+        about: "Patrick recently completed his graduate studies at the University of Michigan, where he earned a dual M.S. in Information and M.S. in Environment and Sustainability. At Gala, he assesses the implementation and general usage metrics of Gala cases, providing recommendations for authors when appropriate. Patrick is passionate about aligning human-centered data science with sustainability-focused UX research and design.",
         image: "patrick.png",
     },
 ]
