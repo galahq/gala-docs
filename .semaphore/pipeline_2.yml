@@ -13,7 +13,7 @@ blocks:
             - sudo pip install awscli
             - checkout
             - cd docs/website
-            - sem-version node 18.20.4
+            - sem-version node 20
             - 'cache restore docusaurus-node-modules-$SEMAPHORE_GIT_BRANCH-$(checksum yarn.lock),docusaurus-node-modules-$SEMAPHORE_GIT_BRANCH,docusaurus-node-modules-master'
             - bash ./bin/deploy.sh
       secrets:
