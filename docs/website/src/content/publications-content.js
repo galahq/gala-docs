@@ -19,6 +19,14 @@ const publicationsList = [
       */
 
         title:
+            "Bridging the gap: increasing accessibility to authentic learning in undergraduate education",
+        citation:
+            'McCulloch LA, Cavazos B, Ganong C, Goller C, Kjelvik M, Mehrotra P, Hardin R, Russell A.0. "Bridging the gap: increasing accessibility to authentic learning in undergraduate education." J Microbiol Biol Educ. 0:e00218-25.',
+        date: "2025",
+        url: "https://doi.org/10.1128/jmbe.00218-25",
+    },
+    {
+        title:
             "Introduction to special issue: Remaking case-based learning for sustainability",
         citation:
             'Wagner, Meghan, and Rebecca Hardin. "Introduction to special issue: Remaking case-based learning for sustainability." World Development Perspectives 26 (2022): 100413.',
