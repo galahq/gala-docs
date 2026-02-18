@@ -4,7 +4,7 @@ const teamContent = [
     {
         name: "Rebecca Hardin",
         title: "Director",
-        about: `Dr. Hardin is Professor at Professor of Sustainable Development at the Notre Dame Keough School of Global Affairs and director of Gala. 
+        about: `Dr. Hardin is Professor of Sustainable Development at the Notre Dame Keough School of Global Affairs and director of Gala. 
         She is responsible for setting our organization’s goals, and crafting the big-picture pan for our content 
         and collaborations. Rebecca is passionate about making sustainability education more accessible through 
         the Gala platform.`,
