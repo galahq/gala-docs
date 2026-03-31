@@ -8,13 +8,11 @@ We try to ensure that Gala is flexible about pedagogy and open to multiple teach
 
 ## Sharing modules with students
 
-You have three options for getting a Gala module of your choice in front of students:
+You have two options for getting a Gala module of your choice in front of students:
 
 1. Share the URL of the overview page of any published module – Students will be able to read through the full module without creating a Gala account.
 
 2. Use Gala's deploy feature – This will enroll students into a discussion group for the module, enable you to set a pre/post assessment, and see student progress. Students will need to create a Gala account. [See the deployment guide for more information.](https://docs.learngala.com/docs/teaching-getting-started)
-
-3. Use Gala's Canvas LTI Interface – Gala can be used as a Tool Provider in Canvas in order to streamline creating student accounts and enrolling them in a module discussion group. This feature has only been tested at the University of Michigan and we cannot guarantee that it will work with your institution's instance of Canvas. [See instructions here](https://github.com/galahq/gala/releases/tag/v1.8.0).
 
 ## Lesson Planning with Gala Modules
 
