@@ -58,8 +58,8 @@ const socials = [
         url: "https://www.linkedin.com/company/learngala",
     },
     {
-        name: "YouTube",
-        url: "https://www.youtube.com/@learngala",
+        name: "BlueSky",
+        url: "https://bsky.app/profile/learngala.bsky.social",
     },
     {
         name: "GitHub",

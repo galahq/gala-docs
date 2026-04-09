@@ -1,45 +1,34 @@
 module.exports = {
   docs: [
     {
+
       type: "category",
-      label: "Quickstart Guide",
+      label: "Authoring",
       items: [
+        "authoring-getting-started",
+        "authoring-introducing-writing",
+        "authoring-embedding-media",
         {
           type: "category",
-          label: "Authoring",
+          label: "Working with Multimedia",
           items: [
-            "authoring-getting-started",
-            "authoring-introducing-writing",
-            "authoring-embedding-media",
-            "authoring-collaboration",
-            "authoring-preparing-for-publication",
+            "authoring-finding-media",
+            "authoring-embeds",
+            "authoring-accessibility",
           ],
-          collapsed: false,
+          collapsed: true
         },
-        {
-          type: "category",
-          label: "Teaching",
-          items: ["teaching-getting-started", "teaching-discussions"],
-          collapsed: false,
-        },
+        "authoring-collaboration",
+        "authoring-preparing-for-publication", 
+        "general-licensing", 
+        "advanced-planning-your-case"
       ],
       collapsed: false,
     },
-   
     {
       type: "category",
-      label: "Advanced Guides",
-      items: ["general-licensing", "advanced-planning-your-case", {
-        type: "category",
-        label: "Working with Multimedia",
-        items: [
-          "authoring-finding-media",
-          "authoring-embeds",
-          "authoring-accessibility",
-        ],
-        collapsed: true
-      }, "teaching-strategies", ],
+      label: "Teaching",
+      items: ["teaching-strategies","teaching-getting-started", "teaching-discussions"],
       collapsed: false,
     },
-  ],
-};
+  ]};
