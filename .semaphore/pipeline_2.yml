@@ -10,7 +10,7 @@ blocks:
       jobs:
         - name: Deploy
           commands:
-            - sudo pip install awscli
+            - sudo apt-get update && sudo apt-get install -y awscli
             - checkout
             - cd docs/website
             - sem-version node 20

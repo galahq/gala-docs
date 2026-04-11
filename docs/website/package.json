@@ -28,6 +28,9 @@
     "react-twitter-widgets": "^1.10.0",
     "url-loader": "^4.1.1"
   },
+  "resolutions": {
+    "webpack": "5.88.2"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
