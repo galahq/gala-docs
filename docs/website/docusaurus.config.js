@@ -5,7 +5,11 @@ module.exports = {
   url: "https://docs.learngala.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: "warn",
+    },
+  },
   favicon: "https://msc-gala.imgix.net/favicon_gala.png",
   organizationName: "galahq", // Usually your GitHub org/user name.
   projectName: "gala-docs", // Usually your repo name.
