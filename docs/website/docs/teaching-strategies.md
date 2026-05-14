@@ -55,7 +55,7 @@ Gala modules can fit nicely into a flipped classroom. In this method, a case stu
 
 ![A two panel comic. Panel 1: Traditional Classroom. Teacher's role is "sage on the stage." Teacher is pointing to a blackboard with "Lecture today," and "Homework reading and questions due tomorrow" written on it. Panel 2: Flipped Classroom. Teacher's role is "guide on the side". Teacher is guiding groups of students. The board says "Activity today. Preperation: watch online lecture."](./assets/teaching-strategies-flipped-classroom.png)[^1]
 
-[^1]: Wey-Han Tan, CC BY 4.0 <https://creativecommons.org/licenses/by/4.0>, via Wikimedia Commons
+[^1]: Wey-Han Tan, CC BY 4.0 [https://creativecommons.org/licenses/by/4.0](https://creativecommons.org/licenses/by/4.0), via Wikimedia Commons
 
 Many modules include activities or exercises (usually indicated with an icon on the table of contents), so take note of these when planning out-of-class reading and in-class activities.
 

@@ -2,7 +2,8 @@ import React from "react";
 import Link from "@docusaurus/Link";
 
 export default function Feed() {
-  const recentPosts = require("../../.docusaurus/docusaurus-plugin-content-blog/default/blog-post-list-prop-default.json");
+  const recentPostsModule = require("@generated/docusaurus-plugin-content-blog/default/blog-post-list-prop-default");
+  const recentPosts = recentPostsModule.default ?? recentPostsModule;
 
   return (
     <ul>
