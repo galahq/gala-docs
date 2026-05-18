@@ -14,7 +14,7 @@ Here are some tips to consider when writing your case’s overview.
 
 ### Kicker and question
 
-The kicker and the question work together as a your case’s title.
+The kicker and the question work together as your case’s title.
 The kicker should, in two or three words, hint at what the case is about.
 It will sometimes stand alone to identify your case, so make it clear and memorable.
 The question presents the primary decision point of your case, and frames it for your readers.
