@@ -36,9 +36,11 @@ Anyone is welcome to create a module, so long as:
 ### What does it mean that Gala is an “open platform”?
 
 We consider Gala to be “open” in three different but related senses:
-Modules you find or author on Gala are Open Educational Resources, bearing Creative Commons licenses that allow others to redistribute and remix them.
-Modules are [Open Access](https://en.wikipedia.org/wiki/Open_access), meaning that readers have free and immediate access to them online.
-The Gala platform is developed as an [open source](https://en.wikipedia.org/wiki/Open_source) web application, meaning that the code can be used and redistributed by anyone. (see our code on GitHub)
+1. Modules you find or author on Gala are Open Educational Resources that carry Creative Commons licenses, allowing others to redistribute, reuse, and remix them.
+
+2. Modules are [Open Access](https://en.wikipedia.org/wiki/Open_access), meaning that readers have free and immediate access to them online.
+
+3. The Gala platform is developed as an [open source](https://en.wikipedia.org/wiki/Open_source) web application, meaning that the code can be used and redistributed by anyone. (see our code on GitHub)
 
 ### How is my work on Gala licensed?
 
