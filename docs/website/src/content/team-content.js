@@ -23,7 +23,7 @@ const teamContent = [
     {
         name: "Deepika Ganesh",
         title: "Research Assistant",
-        about: "Deepika is a learning designer passionate about sustainability education. She is a Ph.D. Candidate at the School for the Environment, University of Michigan, where her dissertation research explores pedagogical pathways that help STEM learners understand sustainability issues by grounding the development of technology in its social context, drawing from their own experiences or 'sense of place' and using open education - Gala - as a conduit. ",
+        about: "Deepika is a learning designer passionate about sustainability education. She holds a Ph.D. from the University of Michigan School for Environment and Sustainability, where her dissertation research explored pedagogical pathways that help STEM learners understand sustainability issues by grounding the development of technology in its social context, drawing from their own experiences or 'sense of place' and using open education - Gala - as a conduit. ",
         image: "deepika.png",
         website: "https://seas.umich.edu/research/phd-profiles/deepika-ganesh",
     },
