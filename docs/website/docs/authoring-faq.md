@@ -1,14 +1,14 @@
 ---
 id: authoring-faq
-title: FAQ and Community Norms for Authorship
-sidebar_label: FAQ and Community Norms for Authorship
+title: Authoring FAQ and Norms
+sidebar_label: Authoring FAQ and Norms
 ---
 
-# Frequently Asked Questions and Community Norms for Authorship
+# Authoring FAQ and Norms
 
 ## Purpose and Scope
 
-This guide responds to frequently asked questions about Gala authorship and also describes our community norms, which have been established through careful work with our collaborators. Conversations around some of these issues are very much ongoing, and we invite you to contribute your own questions and concerns at hello@learngala.com.
+This guide responds to frequently asked questions about Gala authorship and describes our community norms, which have been established through careful work with our collaborators. Conversations around some of these issues are very much ongoing, and we invite you to contribute your own questions and concerns at hello@learngala.com.
 
 ## General Questions
 
