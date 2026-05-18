@@ -140,7 +140,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/galahq/gala-docs/blob/main/docs/website/",
+          editUrl: "https://github.com/galahq/gala-docs/edit/main/docs/website/",
         },
         blog: {
           feedOptions: {
