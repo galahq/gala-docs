@@ -1,10 +1,10 @@
 ---
 id: authoring-faq
-title: Authoring FAQ and Norms
-sidebar_label: Authoring FAQ and Norms
+title: Authoring FAQ and Community Norms
+sidebar_label: Authoring FAQ and Community Norms
 ---
 
-# Authoring FAQ and Norms
+# Authoring FAQ and Community Norms
 
 ## Purpose and Scope
 
