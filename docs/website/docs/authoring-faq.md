@@ -1,7 +1,7 @@
 ---
 id: authoring-faq
-title: Authoring FAQ and Community Norms
-sidebar_label: Authoring FAQ and Community Norms
+title: FAQ and Community Norms
+sidebar_label: FAQ & Community Norms
 ---
 
 # Authoring FAQ and Community Norms
@@ -123,7 +123,7 @@ AI and its role in how we create, teach, and learn, is subject to much debate an
 
 Our general guidelines are:
 
-- **Publish only “human-made” works** – The use of AI as a tool to render specific results is permitted, but the product must be the result of human creativity, intellect, and control over the work's expression, development, and completion. (This follows precedent created by the Federal Register, which says that copyright can be granted only to content created by humans; the term "author" excludes non-human entities.)
+- **Publish only “human-made” works** – The use of AI as a tool to assist the author in particular module-preperation tasks, but the product must be the result of human creativity, intellect, and control over the work's expression, development, and completion. This follows precedent created by the Federal Register, which says that copyright can be granted only to content created by humans; the term "author" excludes non-human entities.
 - **Avoid “slop”** – The explosion of AI-generated content online has trained many readers to treat LLM writing patterns and AI-generated media with suspicion, often perceiving it as low quality, lazy, or potentially misleading. Make sure that you are publishing a module that readers will feel is worth their time to engage with.
 - **Disclose and attribute AI use** – Be honest and forthright about AI use in your module.
 - **Check for quality and infringement** – LLMs and other AI tools may “hallucinate” and make mistakes, including creating citations that don’t exist. These tools may, in some cases, generate work that is derivative of others without providing proper attribution (or work that may infringe on the intellectual property of others. Verify the accuracy and quality of any outputs.
@@ -138,4 +138,4 @@ The method of citation varies depending on the use:
 
 ### Will my content be used to train AI models?
 
-By contributing to Gala, users join an international and interdisciplinary community where all content is open access. Users should be aware that–like all content freely available on the internet–modules created on Gala may be "scraped" by third parties to train AI models and interpreted in ways that the author may not intend. Per our privacy policy, Gala will not “sell or rent your personal data.”
+By contributing to Gala, users join an international and interdisciplinary community where all content is open access. Users should be aware that–like all content freely available on the internet–modules created on Gala may be "scraped" by third parties to train AI models and interpreted in ways that the author may not intend and we are unable to prevent. Per our privacy policy, Gala will not sell or rent your personal data.

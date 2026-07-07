@@ -21,7 +21,8 @@ module.exports = {
         "authoring-collaboration",
         "authoring-preparing-for-publication", 
         "general-licensing", 
-        "advanced-planning-your-case"
+        "advanced-planning-your-case",
+        "authoring-faq",
       ],
       collapsed: false,
     },
