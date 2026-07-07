@@ -1,5 +1,5 @@
 ---
-id: wikidata-links
+slug: wikidata-links
 title: 'Link rich metadata to a case with Wikidata'
 tags: [wikidata, metadata, features]
 ---
