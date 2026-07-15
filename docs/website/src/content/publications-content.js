@@ -17,7 +17,14 @@ const publicationsList = [
         url: '',
       },
       */
-
+        title:
+            "Tending Tomorrow’s Garden Forests",
+        citation:
+            'Hardin R, Waisanen E, Kohn N, Scheenen W, “Tending Tomorrow’s Garden Forests” Limn Press. (2026) https://doi.org/10.70312/PKQV',
+        date: "2026",
+        url: "https://doi.org/10.70312/PKQV",
+    },   
+    {
         title:
             "Bridging the gap: increasing accessibility to authentic learning in undergraduate education",
         citation:
