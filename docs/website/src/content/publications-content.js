@@ -8,15 +8,23 @@ const publicationsDescription = `
 `
 
 const publicationsList = [
+
     {
         /*
-      {
-        title: '',
-        citation: '',
-        date: '',
-        url: '',
-      },
-      */
+          {
+            title: '',
+            citation: '',
+            date: '',
+            url: '',
+          },
+        */
+        
+        title: 'More than a "Curriculum Thing": Experiences of Teaching and Learning Sustainability Curricula in Higher Education',
+        citation: 'Ganesh, Deepika. More than a "Curriculum Thing": Experiences of Teaching and Learning Sustainability Curricula in Higher Education. Diss. 2026.',
+        date: '2026',
+        url: 'https://doi.org/10.7302/dspace/29847',
+    },
+    {
         title:
             "Tending Tomorrow’s Garden Forests",
         citation:
