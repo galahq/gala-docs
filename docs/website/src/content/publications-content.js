@@ -22,7 +22,7 @@ const publicationsList = [
         title: 'Fostering a network for creating and implementing open education resources in ecology',
         citation: 'Russell, Ann E., et al. "Fostering a network for creating and implementing open education resources in ecology." Methods in Ecology and Evolution (2026).',
         date: '2026',
-        url: ' https://doi.org/10.1111/2041-210x.70387Digital Object Identifier (DOI)',
+        url: 'https://doi.org/10.1111/2041-210x.70387',
     },
     {
         
