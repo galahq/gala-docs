@@ -49,6 +49,14 @@ const publicationsList = [
     },
     {
         title:
+            "Enhancing the sustainability content of courses in environmental engineering: Reports of workshops at the 2022 St. Louis and the 2023 Boston AEESP Conferences.",
+        citation:
+            'Davidson, Cliff I., et al. "Enhancing the sustainability content of courses in environmental engineering: Reports of workshops at the 2022 St. Louis and the 2023 Boston AEESP Conferences." Environmental Engineering Science 42.7 (2025): 322-325.',
+        date: "2025",
+        url: "https://doi.org/10.1089/ees.2024.0382",
+    },
+    {
+        title:
             "Introduction to special issue: Remaking case-based learning for sustainability",
         citation:
             'Wagner, Meghan, and Rebecca Hardin. "Introduction to special issue: Remaking case-based learning for sustainability." World Development Perspectives 26 (2022): 100413.',
