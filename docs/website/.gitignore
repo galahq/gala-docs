@@ -18,3 +18,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# TinaCMS
+/static/admin
+/tina/__generated__
+.env

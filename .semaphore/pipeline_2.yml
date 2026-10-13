@@ -17,8 +17,10 @@ blocks:
             - sudo /tmp/aws/install --update
             - checkout
             - cd docs/website
-            - sem-version node 20
+            - sem-version node 22
             - 'cache restore docusaurus-node-modules-$SEMAPHORE_GIT_BRANCH-$(checksum yarn.lock),docusaurus-node-modules-$SEMAPHORE_GIT_BRANCH,docusaurus-node-modules-master'
             - bash ./bin/deploy.sh
       secrets:
         - name: aws_semaphore2
+        # TINA_CLIENT_ID and TINA_TOKEN, used by `tinacms build`
+        - name: tina

@@ -5,6 +5,7 @@ Returns different variants of cards depending on the "cardType" prop:
 */
 
 import React from "react";
+import useBaseUrl from "@docusaurus/useBaseUrl";
 import card from "./card.module.css";
 
 export default function Card({ content, cardType }) {
@@ -23,11 +24,12 @@ export default function Card({ content, cardType }) {
 // Card for "in action" section
 const ProjectCard = ({ content: { hed, dek, image, body, moreLink, caseLink, old } }) => {
   const isCaseURLString = "learngala.com/cases";
+  const imageUrl = useBaseUrl(image);
   return (
     <li className="card">
       <div className="card__image`">
         {image && image.length > 0 && (
-          <img src={require("../content/images/projects/" + image).default}></img>
+          <img src={imageUrl}></img>
         )}
       </div>
       {!!old && <div className={card.old}>Past Project</div>}
@@ -71,6 +73,8 @@ const ProjectCard = ({ content: { hed, dek, image, body, moreLink, caseLink, old
 
 // Card for the about section.
 const AboutCard = ({ content: { hed, image, body, moreLink, buttonText } }) => {
+  const imageUrl = useBaseUrl(image);
+  const moreUrl = useBaseUrl(moreLink);
   return (
     <div className={`card ${card.aboutCard}`}>
       {!!hed && (
@@ -82,7 +86,7 @@ const AboutCard = ({ content: { hed, image, body, moreLink, buttonText } }) => {
       )}
       {!!image && (
         <div className={`card__image ${card.aboutCardImage}`}>
-          <img src={require("@site/static/img/" + image).default}></img>
+          <img src={imageUrl}></img>
         </div>
       )}
       {!!body && (
@@ -91,7 +95,7 @@ const AboutCard = ({ content: { hed, image, body, moreLink, buttonText } }) => {
       {!!moreLink && (
         <div className="card__footer">
           <a
-            href={require(`@site/static/${moreLink}`).default}
+            href={moreUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="button button--secondary button--block"
@@ -107,11 +111,12 @@ const AboutCard = ({ content: { hed, image, body, moreLink, buttonText } }) => {
 
 // Card for the Teamsection.
 const TeamCard = ({ content: { name, title, about, linkedIn, website, image } }) => {
+  const imageUrl = useBaseUrl(image);
   return (
     <li className={`card ${card.exampleCard}`}>
       {!!image && (
         <div className={`card__image ${card.teamCardImage}`}>
-          <img src={require("../content/images/profiles/" + image).default}></img>
+          <img src={imageUrl}></img>
         </div>
       )}
       <div className={`card__header ${card.teamCardName}`}>

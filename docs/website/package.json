@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
+    "dev": "tinacms dev -c \"docusaurus start\"",
     "start": "docusaurus start",
-    "build": "docusaurus build",
+    "build": "tinacms build && docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
@@ -18,6 +19,7 @@
     "@docusaurus/preset-classic": "^3.10.0",
     "@mdx-js/react": "^3.1.0",
     "@svgr/webpack": "^5.5.0",
+    "@tinacms/cli": "^4.0.2",
     "clsx": "^1.1.1",
     "file-loader": "^6.2.0",
     "postcss-cssnext": "^3.1.0",
@@ -26,6 +28,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-twitter-widgets": "^1.10.0",
+    "tinacms": "^3.14.4",
     "url-loader": "^4.1.1"
   },
   "browserslist": {
