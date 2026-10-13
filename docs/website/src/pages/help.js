@@ -1,19 +1,21 @@
 import React from "react";
 import Layout from "@theme/Layout";
 import Wrapper from "../components/pageWrapper";
+import helpContent from "../content/help.json";
+
+// Text wrapped in *asterisks* is rendered in italics.
+function withEmphasis(text) {
+  return text
+    .split(/\*(.+?)\*/)
+    .map((part, idx) => (idx % 2 ? <em key={idx}>{part}</em> : part));
+}
 
 export default function HelpPage() {
   return (
     <Layout>
       <Wrapper>
-        <h1>Help</h1>
-        <div>
-          Gala is developed and maintained by a very small team in the
-          University of Michigan’s School of Environment and Sustainability. We
-          hope this website will have the answers to your questions. If not,
-          please email us at <em>hello@learngala.com</em>. We’ll be happy to
-          hear from you and we’ll do our best to help.
-        </div>
+        <h1>{helpContent.title}</h1>
+        <div>{withEmphasis(helpContent.body)}</div>
       </Wrapper>
     </Layout>
   );

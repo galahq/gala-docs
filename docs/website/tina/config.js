@@ -197,6 +197,39 @@ const home = {
   ],
 };
 
+const help = {
+  name: "help",
+  label: "Help page",
+  path: "src/content",
+  format: "json",
+  match: { include: "help" },
+  ui: singleFile,
+  fields: [
+    { type: "string", name: "title", label: "Title", required: true },
+    {
+      type: "string",
+      name: "body",
+      label: "Body",
+      description: "Wrap text in *asterisks* to show it in italics.",
+      ui: { component: "textarea" },
+    },
+  ],
+};
+
+const policies = {
+  name: "policies",
+  label: "Policies page",
+  path: "src/pages",
+  format: "md",
+  match: { include: "policies" },
+  ui: singleFile,
+  fields: [
+    { type: "string", name: "docId", nameOverride: "id", label: "ID" },
+    { type: "string", name: "title", label: "Title", isTitle: true, required: true },
+    { type: "rich-text", name: "body", label: "Body", isBody: true },
+  ],
+};
+
 export default defineConfig({
   branch: process.env.SEMAPHORE_GIT_BRANCH || "main",
   // Both come from the Tina Cloud project at app.tina.io
@@ -213,6 +246,6 @@ export default defineConfig({
     },
   },
   schema: {
-    collections: [guides, blog, publications, team, projects, home],
+    collections: [guides, blog, publications, team, projects, home, help, policies],
   },
 });
