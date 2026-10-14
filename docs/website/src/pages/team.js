@@ -2,11 +2,11 @@ import React from "react";
 import Layout from "@theme/Layout";
 import Wrapper from "../components/pageWrapper";
 import Card from "../components/card";
-import { teamContent } from "../content/team-content";
+import teamContent from "../content/team.json";
 import team from './team.module.css'
 
 export default function Team() {
-  const teamCards = teamContent.map(member => {
+  const teamCards = teamContent.members.map(member => {
     return (
       <Card
         key={member.name}

@@ -2,7 +2,9 @@ import React from "react";
 import Layout from "@theme/Layout";
 import publications from "./publications.module.css";
 import Wrapper from "../components/pageWrapper";
-import { publicationsList, publicationsDescription } from "../content/publications-content"
+import publicationsContent from "../content/publications.json"
+
+const { publications: publicationsList, description: publicationsDescription } = publicationsContent;
 
 function PublicationsPage() {
 
