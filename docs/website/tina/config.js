@@ -228,7 +228,7 @@ const policies = {
 };
 
 export default defineConfig({
-  branch: process.env.SEMAPHORE_GIT_BRANCH || "main",
+  branch: process.env.GITHUB_HEAD_REF || process.env.GITHUB_REF_NAME || process.env.SEMAPHORE_GIT_BRANCH || "main",
   // Both come from the Tina Cloud project at app.tina.io
   clientId: process.env.TINA_CLIENT_ID,
   token: process.env.TINA_TOKEN,
