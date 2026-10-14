@@ -10,9 +10,8 @@ blocks:
       jobs:
         - name: Deploy
           commands:
-            # Noble images often have no awscli apt package; use official CLI v2 (x86_64).
             - sudo apt-get update -qq && sudo apt-get install -y unzip
-            - curl -fsSL "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o /tmp/awscliv2.zip
+            - 'curl -fsSL "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o /tmp/awscliv2.zip'
             - unzip -q /tmp/awscliv2.zip -d /tmp
             - sudo /tmp/aws/install --update
             - checkout
@@ -22,5 +21,4 @@ blocks:
             - bash ./bin/deploy.sh
       secrets:
         - name: aws_semaphore2
-        # TINA_CLIENT_ID and TINA_TOKEN, used by `tinacms build`
         - name: tina

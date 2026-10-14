@@ -17,6 +17,7 @@ blocks:
             - yarn install --ignore-engines
             - cache store docusaurus-node-modules-$SEMAPHORE_GIT_BRANCH-$(checksum yarn.lock) node_modules
       secrets:
+        - name: TinaCMS
         - name: aws
 promotions:
   - name: Promotion 1
