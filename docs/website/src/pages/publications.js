@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "@theme/Layout";
 import publications from "./publications.module.css";
 import Wrapper from "../components/pageWrapper";
+import InlineMarkdown from "../components/inlineMarkdown";
 import publicationsContent from "../content/publications.json"
 
 const { publications: publicationsList, description: publicationsDescription } = publicationsContent;
@@ -13,9 +14,7 @@ function PublicationsPage() {
       <div className={publications.publications}>
         <div className="row">
           <div className="col col--10">
-            <p>
-              {publicationsDescription}
-            </p>
+            <InlineMarkdown text={publicationsDescription} />
           </div>
         </div>
         <ul>

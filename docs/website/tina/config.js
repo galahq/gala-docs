@@ -66,12 +66,9 @@ const publications = {
   match: { include: "publications" },
   ui: singleFile,
   fields: [
-    {
-      type: "string",
-      name: "description",
-      label: "Introduction",
-      ui: { component: "textarea" },
-    },
+    // Rich text so editors can add links. Tina saves it as a Markdown string,
+    // which src/components/inlineMarkdown.js renders.
+    { type: "rich-text", name: "description", label: "Introduction" },
     {
       type: "object",
       name: "publications",
