@@ -24,6 +24,17 @@ jobs:
           cache: yarn
           cache-dependency-path: docs/website/yarn.lock
       - run: yarn install --ignore-engines
+      - name: Check Tina secrets
+        env:
+          TINA_CLIENT_ID: ${{ secrets.TINA_CLIENT_ID }}
+          TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
+        run: |
+          [ -n "$TINA_CLIENT_ID" ] || { echo "::error::TINA_CLIENT_ID secret is empty or missing"; exit 1; }
+          [ -n "$TINA_TOKEN" ] || { echo "::error::TINA_TOKEN secret is empty or missing"; exit 1; }
+          if ! [[ "$TINA_CLIENT_ID" =~ ^[a-zA-Z0-9_.~-]+$ ]]; then
+            echo "::error::TINA_CLIENT_ID (length ${#TINA_CLIENT_ID}) has characters other than letters, digits, - _ . ~ (check for quotes, spaces, newlines, or a 'TINA_CLIENT_ID=' prefix)"
+            exit 1
+          fi
       - run: yarn build
         env:
           TINA_CLIENT_ID: ${{ secrets.TINA_CLIENT_ID }}
@@ -48,6 +59,21 @@ jobs:
         with:
           name: site
           path: docs/website/build
+      - name: Check AWS secrets
+        env:
+          KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          SECRET: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        run: |
+          ok=true
+          if ! [[ "$KEY_ID" =~ ^AKIA[A-Z0-9]{16}$ ]]; then
+            echo "::error::AWS_ACCESS_KEY_ID (length ${#KEY_ID}) should be 'AKIA' + 16 uppercase letters/digits (check for spaces, quotes, newlines, a 'NAME=' prefix, or swapped key/secret)"
+            ok=false
+          fi
+          if ! [[ "$SECRET" =~ ^[A-Za-z0-9/+]{40}$ ]]; then
+            echo "::error::AWS_SECRET_ACCESS_KEY (length ${#SECRET}) should be exactly 40 chars of A-Z a-z 0-9 / + (check for spaces, quotes, newlines, a 'NAME=' prefix, or swapped key/secret)"
+            ok=false
+          fi
+          $ok
       - uses: aws-actions/configure-aws-credentials@v4
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
