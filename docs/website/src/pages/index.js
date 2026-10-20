@@ -145,7 +145,7 @@ export default function Home() {
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={home.heroButtonContainer}>
-            <div className="button-group button-group--block">
+            <div className={home.heroButtons}>
               <a
                 href="https://www.learngala.com"
                 className={`button button--secondary ${home.primaryHeaderButton}`}
@@ -157,6 +157,12 @@ export default function Home() {
                 className={`button ${home.secondaryHeaderButton}`}
               >
                 Quick Start Guide
+              </Link>
+              <Link
+                to={useBaseUrl("partnership")}
+                className={`button ${home.secondaryHeaderButton}`}
+              >
+                Partner With Us
               </Link>
             </div>
           </div>

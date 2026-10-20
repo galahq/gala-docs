@@ -1,0 +1,20 @@
+.photoStrip {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.photoStrip img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--ifm-card-border-radius);
+  box-shadow: var(--ifm-global-shadow-lw);
+}
+
+@media screen and (max-width: 576px) {
+  .photoStrip {
+    grid-template-columns: 1fr;
+  }
+}
