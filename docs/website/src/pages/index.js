@@ -69,17 +69,26 @@ function About() {
             </li>
           </ul>
         </AboutSection>
-        <AboutSection header="Connect">
+        <AboutSection header="Community & Connections">
           <div className={home.connectWrapper}>
             <p>{connect}</p>
             <ul>
               {socials.map(link => <li key={link.name}><a href={link.url}>{link.name}</a></li>)}
             </ul>
           </div>
-        </AboutSection>
-        <AboutSection header="News & Updates">
+          <h4>Community News</h4>
           <div className={home.newsWrapper}>
-            <Feed />
+            <Feed category="community" />
+          </div>
+          <div className={home.moreButton}>
+            <Link className="button button--link" to={useBaseUrl("blog/")}>
+              More
+            </Link>
+          </div>
+        </AboutSection>
+        <AboutSection header="Platform Updates">
+          <div className={home.newsWrapper}>
+            <Feed category="platform" />
           </div>
           <div className={home.moreButton}>
             <Link className="button button--link" to={useBaseUrl("blog/")}>

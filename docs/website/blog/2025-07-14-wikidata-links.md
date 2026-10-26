@@ -2,6 +2,7 @@
 slug: wikidata-links
 title: 'Link rich metadata to a case with Wikidata'
 tags: [wikidata, metadata, features]
+category: platform
 ---
 
 Gala authors can now connect a variety of resources to their cases using Wikidata’s knowledge graph in the 'Wikidata Links' section of the case overview page. Case readers can learn about these resources and explore connections via Wikidata.

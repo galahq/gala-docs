@@ -53,6 +53,16 @@ const blog = {
   fields: [
     { type: "string", name: "title", label: "Title", isTitle: true, required: true },
     { type: "string", name: "slug", label: "Slug" },
+    {
+      type: "string",
+      name: "category",
+      label: "Category",
+      required: true,
+      options: [
+        { value: "community", label: "Community news" },
+        { value: "platform", label: "Platform updates" },
+      ],
+    },
     { type: "string", name: "tags", label: "Tags", list: true, ui: { component: "tags" } },
     { type: "rich-text", name: "body", label: "Body", isBody: true },
   ],
