@@ -6,6 +6,7 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 import home from "./home.module.css";
 import Feed from "../components/feed";
 import Card from "../components/card";
+import SocialLinks from "../components/socialLinks";
 import Projects from "../components/projects"
 import homeContent from "../content/home.json";
 import projectsContent from "../content/projects.json"
@@ -68,13 +69,11 @@ function About() {
               <Link to={useBaseUrl("team/")}>Our Team</Link>
             </li>
           </ul>
+          <SocialLinks links={socials} />
         </AboutSection>
         <AboutSection header="Community & Connections">
           <div className={home.connectWrapper}>
             <p>{connect}</p>
-            <ul>
-              {socials.map(link => <li key={link.name}><a href={link.url}>{link.name}</a></li>)}
-            </ul>
           </div>
           <h4>Community News</h4>
           <div className={home.newsWrapper}>
