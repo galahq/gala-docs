@@ -1,5 +1,6 @@
 .socialLinks {
   display: flex;
+  justify-content: center;
   gap: 1rem;
   padding: 0;
   list-style: none;

@@ -44,7 +44,7 @@ function Features() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            More
+            Learn more
           </a>
         </div>
       )}
@@ -80,11 +80,10 @@ function About() {
               <Link to={useBaseUrl("team/")}>Our Team</Link>
             </li>
           </ul>
-          <SocialLinks links={socials} />
         </AboutSection>
         <AboutSection header="Community & Connections">
           <div className={home.newsWrapper}>
-            <Feed category="community" />
+            <Feed category="community" limit={5} />
           </div>
           <div className={home.moreButton}>
             <Link className="button button--link" to={useBaseUrl("blog/")}>
@@ -181,6 +180,7 @@ export default function Home() {
               </Link>
             </div>
           </div>
+          <SocialLinks links={socials} className={home.heroSocials} />
         </div>
       </header>
       <main>

@@ -12,9 +12,9 @@ const icons = {
 };
 
 // Links without a matching icon fall back to their name as text
-export default function SocialLinks({ links }) {
+export default function SocialLinks({ links, className }) {
   return (
-    <ul className={styles.socialLinks}>
+    <ul className={[styles.socialLinks, className].filter(Boolean).join(" ")}>
       {links.map((link) => {
         const icon = icons[link.name.toLowerCase()];
         return (
