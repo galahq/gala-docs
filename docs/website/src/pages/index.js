@@ -5,13 +5,12 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import home from "./home.module.css";
 import Feed from "../components/feed";
-import Card from "../components/card";
 import SocialLinks from "../components/socialLinks";
 import Projects from "../components/projects"
 import homeContent from "../content/home.json";
 import projectsContent from "../content/projects.json"
 
-const { features, about, aboutOverview, socials, connect } = homeContent;
+const { features, featuresMoreLink, aboutOverview, socials, connect } = homeContent;
 
 // Features section
 function Features() {
@@ -33,9 +32,22 @@ function Features() {
   const featuresList = features.map((props, idx) => (
     <Feature key={idx} {...props} />
   ));
+  const moreUrl = useBaseUrl(featuresMoreLink);
   return (
     <div className="container">
       <div className="row">{featuresList}</div>
+      {!!featuresMoreLink && (
+        <div className={`text--center ${home.moreButton}`}>
+          <a
+            className="button button--link"
+            href={moreUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            More
+          </a>
+        </div>
+      )}
     </div>
   );
 }
@@ -55,12 +67,8 @@ function About() {
     <div className={`container ${home.aboutWrapper}`}>
       <div className="row">
         <AboutSection header="About Gala">
-          <div>
-            {aboutOverview}
-          </div>
-          <Card
-            content={about}
-          />
+          <p>{aboutOverview}</p>
+          <p>{connect}</p>
           <ul>
             <li>
               <Link to={useBaseUrl("publications/")}>Publications</Link>
@@ -69,13 +77,8 @@ function About() {
               <Link to={useBaseUrl("team/")}>Our Team</Link>
             </li>
           </ul>
-          <SocialLinks links={socials} />
         </AboutSection>
         <AboutSection header="Community & Connections">
-          <div className={home.connectWrapper}>
-            <p>{connect}</p>
-          </div>
-          <h4>Community News</h4>
           <div className={home.newsWrapper}>
             <Feed category="community" />
           </div>
@@ -84,6 +87,7 @@ function About() {
               More
             </Link>
           </div>
+          <SocialLinks links={socials} />
         </AboutSection>
         <AboutSection header="Platform Updates">
           <div className={home.newsWrapper}>

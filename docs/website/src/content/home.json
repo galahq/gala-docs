@@ -16,13 +16,9 @@
       "description": "Gala modules perform well in classroom, community, and remote learning settings. Publish your case and share it as widely as you like. Institutions can create libraries with multiple cases."
     }
   ],
-  "aboutOverview": "We are working to make learning more grounded, dynamic, and collaborative. Our work is focused on developing and maintaining the open source Gala platform and partnering with teams and networks to explore the possibilities of collaborative learning module and case study production and use together.",
-  "about": {
-    "buttonText": "See what you can do with Gala",
-    "image": "/img/overview-thumbnail.png",
-    "moreLink": "/gala-overview.pdf"
-  },
-  "connect": "We are eager to share your experiences creating and using modules on Gala with the rest of the Gala community. We also invite contributions to the Gala guides and codebase, as well as module and UI translations. Contact our team at hello@learngala.com or via LinkedIn.",
+  "aboutOverview": "We’re working to make learning more grounded, dynamic, and collaborative. We develop the open-source Gala platform and partner with teams and networks to explore the possibilities of collaboratively produced learning modules and case studies.",
+  "featuresMoreLink": "/gala-overview.pdf",
+  "connect": "We're eager to share your experiences creating and using modules on Gala with the rest of our community. We also invite contributions to the Gala guides and codebase, as well as module and UI translations. Contact our team at hello@learngala.com or via LinkedIn.",
   "socials": [
     {
       "name": "LinkedIn",
