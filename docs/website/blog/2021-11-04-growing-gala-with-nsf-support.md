@@ -2,6 +2,7 @@
 slug: growing-gala-nsf-support
 title: Growing Gala with NSF support
 tags: [projects, mentorship, mbdh, nsf]
+category: community
 ---
 
 A recent University of Michigan School for Environment and Sustainability news piece, [Growing the SEAS Gala Learning Platform with NSF Support](https://seas.umich.edu/news/growing-seas-gala-learning-platform-nsf-support), highlights ongoing NSF support for Gala's work:

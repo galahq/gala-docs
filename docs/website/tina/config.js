@@ -53,6 +53,16 @@ const blog = {
   fields: [
     { type: "string", name: "title", label: "Title", isTitle: true, required: true },
     { type: "string", name: "slug", label: "Slug" },
+    {
+      type: "string",
+      name: "category",
+      label: "Category",
+      required: true,
+      options: [
+        { value: "community", label: "Community news" },
+        { value: "platform", label: "Platform updates" },
+      ],
+    },
     { type: "string", name: "tags", label: "Tags", list: true, ui: { component: "tags" } },
     { type: "rich-text", name: "body", label: "Body", isBody: true },
   ],
@@ -163,27 +173,19 @@ const home = {
         { type: "string", name: "description", label: "Description", ui: { component: "textarea" } },
       ],
     },
-    { type: "string", name: "aboutOverview", label: "About Gala", ui: { component: "textarea" } },
+    { type: "string", name: "aboutOverview", label: "Our work", ui: { component: "textarea" } },
     {
-      type: "object",
-      name: "about",
-      label: "About card",
-      fields: [
-        { type: "string", name: "buttonText", label: "Button text" },
-        { type: "image", name: "image", label: "Image" },
-        {
-          type: "string",
-          name: "moreLink",
-          label: "Button link",
-          description: "Path to a file in static/, e.g. /gala-overview.pdf",
-        },
-      ],
+      type: "string",
+      name: "featuresMoreLink",
+      label: "Features \"Learn more\" link",
+      description: "Path to a file in static/, e.g. /gala-overview.pdf",
     },
-    { type: "string", name: "connect", label: "Connect", ui: { component: "textarea" } },
+    { type: "string", name: "connect", label: "Get involved", ui: { component: "textarea" } },
     {
       type: "object",
       name: "socials",
       label: "Social links",
+      description: "Shown as icons in the hero banner. Names LinkedIn, BlueSky, and GitHub get icons; any other name is shown as text.",
       list: true,
       ui: { itemProps: (item) => ({ label: item?.name }) },
       fields: [
@@ -227,6 +229,53 @@ const policies = {
   ],
 };
 
+const partnership = {
+  name: "partnership",
+  label: "Partnership page",
+  path: "src/pages",
+  format: "mdx",
+  match: { include: "partnership" },
+  ui: singleFile,
+  fields: [
+    { type: "string", name: "docId", nameOverride: "id", label: "ID" },
+    { type: "string", name: "title", label: "Title", isTitle: true, required: true },
+    {
+      type: "rich-text",
+      name: "body",
+      label: "Body",
+      isBody: true,
+      // Components registered in src/theme/MDXComponents.js
+      templates: [
+        {
+          name: "PhotoStrip",
+          label: "Photo strip",
+          fields: [
+            {
+              type: "object",
+              name: "images",
+              label: "Photos",
+              list: true,
+              ui: { itemProps: (item) => ({ label: item?.alt }) },
+              fields: [
+                { type: "image", name: "src", label: "Photo" },
+                { type: "string", name: "alt", label: "Alt text", required: true },
+              ],
+            },
+          ],
+        },
+        {
+          name: "Example",
+          label: "Example card",
+          fields: [
+            { type: "string", name: "title", label: "Title", required: true },
+            { type: "rich-text", name: "children", label: "Body" },
+          ],
+        },
+      ],
+    },
+  ],
+};
+
 export default defineConfig({
   branch: process.env.GITHUB_HEAD_REF || process.env.GITHUB_REF_NAME || process.env.SEMAPHORE_GIT_BRANCH || "main",
   // Both come from the Tina Cloud project at app.tina.io
@@ -243,6 +292,6 @@ export default defineConfig({
     },
   },
   schema: {
-    collections: [guides, blog, publications, team, projects, home, help, policies],
+    collections: [guides, blog, publications, team, projects, home, help, policies, partnership],
   },
 });

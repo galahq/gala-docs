@@ -40,9 +40,14 @@ module.exports = {
           position: "right",
         },
         { to: "blog", label: "Blog", position: "right" },
-        {
+         {
           to: "/team",
           label: "Team",
+          position: "right",
+        },
+        {
+          to: "/partnership",
+          label: "Partnership",
           position: "right",
         },
         {
@@ -142,21 +147,8 @@ module.exports = {
           // Please change this to your repo.
           editUrl: "https://github.com/galahq/gala-docs/edit/main/docs/website/",
         },
-        blog: {
-          feedOptions: {
-            type: 'all',
-            // createFeedItems: async (params) => {
-            //   const {blogPosts, defaultCreateFeedItems, ...rest} = params;
-            //   return defaultCreateFeedItems({
-            //     // keep only the 10 most recent blog posts in the feed
-            //     blogPosts: blogPosts.filter((item, index) => index < 10),
-            //     ...rest,
-            //   });
-            // },
-          },
-          showReadingTime: false,
-          blogSidebarCount: 10,
-        },
+        // Blog is registered below via a wrapper that exposes post categories
+        blog: false,
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -164,6 +156,24 @@ module.exports = {
     ],
   ],
   plugins: [
+    [
+      "./src/plugins/blog-plugin",
+      {
+        feedOptions: {
+          type: 'all',
+          // createFeedItems: async (params) => {
+          //   const {blogPosts, defaultCreateFeedItems, ...rest} = params;
+          //   return defaultCreateFeedItems({
+          //     // keep only the 10 most recent blog posts in the feed
+          //     blogPosts: blogPosts.filter((item, index) => index < 10),
+          //     ...rest,
+          //   });
+          // },
+        },
+        showReadingTime: false,
+        blogSidebarCount: 10,
+      },
+    ],
     [
       "@docusaurus/plugin-content-docs",
       {

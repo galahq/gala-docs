@@ -1,0 +1,22 @@
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+.socialLinks a {
+  display: flex;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.socialLinks a:hover {
+  color: var(--ifm-color-primary);
+}
+
+.socialLinks svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: currentColor;
+}

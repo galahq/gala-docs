@@ -2,6 +2,7 @@
 slug: finding-balance-article
 title: Undergraduate students publish cases in lieu of research papers
 tags: [article, classroom]
+category: community
 ---
 
 [Perrin Selcer](https://lsa.umich.edu/history/people/faculty/pselcer.html), an associate professor in History and director of the Science, Technology and Society Program at the University of Michigan, recently published an article, ["Finding Balance Through Technology," in the Michigan LSA History department's Digital Pedagogy Blog](https://lsa.umich.edu/history/news-events/all-news/digital-pedagogy-blog/finding-balance-through-technology.html).

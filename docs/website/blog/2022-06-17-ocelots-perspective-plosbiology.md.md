@@ -2,6 +2,7 @@
 slug: ocelots-perspective-oers-plosbiology
 title: Highlighting Gala, OCELOTS network calls for "integrating tropical research into biology education"
 tags: [open educational resources, ocelots, biology]
+category: community
 ---
 
 Members of OCELOTS (Online Content for Experiential Learning of Tropical Systems) have a new perspective out in PLOS Biology, calling for participatory online learning modules in biology education:

@@ -1,15 +1,16 @@
 import React from "react";
 import Link from "@docusaurus/Link";
+import { usePluginData } from "@docusaurus/useGlobalData";
 
-export default function Feed() {
-  const recentPostsModule = require("@generated/docusaurus-plugin-content-blog/default/blog-post-list-prop-default");
-  const recentPosts = recentPostsModule.default ?? recentPostsModule;
+export default function Feed({ category, limit = 6 }) {
+  const { posts } = usePluginData("docusaurus-plugin-content-blog");
+  const recentPosts = posts.filter((post) => post.category === category);
 
   return (
     <ul>
-      {recentPosts.items.slice(0, 6).map((item, index) => (
-        <li key={index}>
-          <Link to={`${item.permalink}`}>{item.title}</Link>
+      {recentPosts.slice(0, limit).map((post) => (
+        <li key={post.permalink}>
+          <Link to={post.permalink}>{post.title}</Link>
         </li>
       ))}
     </ul>

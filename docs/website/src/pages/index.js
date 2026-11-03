@@ -5,12 +5,12 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import home from "./home.module.css";
 import Feed from "../components/feed";
-import Card from "../components/card";
+import SocialLinks from "../components/socialLinks";
 import Projects from "../components/projects"
 import homeContent from "../content/home.json";
 import projectsContent from "../content/projects.json"
 
-const { features, about, aboutOverview, socials, connect } = homeContent;
+const { features, featuresMoreLink, aboutOverview, socials, connect } = homeContent;
 
 // Features section
 function Features() {
@@ -32,9 +32,22 @@ function Features() {
   const featuresList = features.map((props, idx) => (
     <Feature key={idx} {...props} />
   ));
+  const moreUrl = useBaseUrl(featuresMoreLink);
   return (
     <div className="container">
       <div className="row">{featuresList}</div>
+      {!!featuresMoreLink && (
+        <div className={`text--center ${home.moreButton}`}>
+          <a
+            className="button button--link"
+            href={moreUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn more
+          </a>
+        </div>
+      )}
     </div>
   );
 }
@@ -54,13 +67,12 @@ function About() {
     <div className={`container ${home.aboutWrapper}`}>
       <div className="row">
         <AboutSection header="About Gala">
-          <div>
-            {aboutOverview}
-          </div>
-          <Card
-            content={about}
-          />
+          <p>{aboutOverview}</p>
+          <p>{connect}</p>
           <ul>
+            <li>
+              <Link to={useBaseUrl("partnership/")}>Partner With Us</Link>
+            </ li>
             <li>
               <Link to={useBaseUrl("publications/")}>Publications</Link>
             </li>
@@ -69,17 +81,19 @@ function About() {
             </li>
           </ul>
         </AboutSection>
-        <AboutSection header="Connect">
-          <div className={home.connectWrapper}>
-            <p>{connect}</p>
-            <ul>
-              {socials.map(link => <li key={link.name}><a href={link.url}>{link.name}</a></li>)}
-            </ul>
+        <AboutSection header="Community & Connections">
+          <div className={home.newsWrapper}>
+            <Feed category="community" limit={5} />
+          </div>
+          <div className={home.moreButton}>
+            <Link className="button button--link" to={useBaseUrl("blog/")}>
+              More
+            </Link>
           </div>
         </AboutSection>
-        <AboutSection header="News & Updates">
+        <AboutSection header="Platform Updates">
           <div className={home.newsWrapper}>
-            <Feed />
+            <Feed category="platform" />
           </div>
           <div className={home.moreButton}>
             <Link className="button button--link" to={useBaseUrl("blog/")}>
@@ -166,6 +180,7 @@ export default function Home() {
               </Link>
             </div>
           </div>
+          <SocialLinks links={socials} className={home.heroSocials} />
         </div>
       </header>
       <main>

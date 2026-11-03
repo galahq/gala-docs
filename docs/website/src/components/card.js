@@ -21,7 +21,7 @@ export default function Card({ content, cardType }) {
   }
 }
 
-// Card for "in action" section
+// Card for "projects & partners" section
 const ProjectCard = ({ content: { hed, dek, image, body, moreLink, caseLink, old } }) => {
   const isCaseURLString = "learngala.com/cases";
   const imageUrl = useBaseUrl(image);

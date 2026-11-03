@@ -2,6 +2,7 @@
 slug: new-features-mathjax-revealables
 title: 'New Authoring Features: Equations, Revealable Text, and 360 Tours'
 tags: [mathjax, revealables, cards, authoring]
+category: platform
 ---
 
 We have added two new content types of content sections that can be added to the text of a module: equations and revealable text sections. We have also added support for a new embeddable media source: Matterport 360 tours.

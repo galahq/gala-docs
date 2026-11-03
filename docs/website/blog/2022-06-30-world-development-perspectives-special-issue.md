@@ -2,6 +2,7 @@
 slug: world-development-perspectives-special-issue
 title: Special issue on "Innovations in Case-Based Sustainability Education for Linking Theory and Practice"
 tags: [sustainable development, case studies, publication]
+category: community
 ---
 
 A [recent special issue of World Development Perspectives](https://www.sciencedirect.com/journal/world-development-perspectives/special-issue/10QKGF2Q06T) highlights environment and sustainability-focused case studies from the Michigan Sustainability Cases (MSC) collection on Gala. These cases "reflect the rising status of cases as well as the innovations underway in their distribution, teaching, and form." These featured cases include:

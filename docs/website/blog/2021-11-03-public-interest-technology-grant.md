@@ -2,6 +2,7 @@
 slug: public-interest-technology-new-america
 title: Public Interest Technology grant will support water sector engagement
 tags: [projects, mentorship, mbdh, nsf]
+category: community
 ---
 
 Gala is a partner on a [recently awarded Public Interest Technology "University Challenge" grant](https://seas.umich.edu/news/big-tech-faces-scrutiny-24-universities-get-36m-major-foundations-fuel-inclusive-public):
