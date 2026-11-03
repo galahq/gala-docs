@@ -71,12 +71,16 @@ function About() {
           <p>{connect}</p>
           <ul>
             <li>
+              <Link to={useBaseUrl("partnership/")}>Partner With Us</Link>
+            </ li>
+            <li>
               <Link to={useBaseUrl("publications/")}>Publications</Link>
             </li>
             <li>
               <Link to={useBaseUrl("team/")}>Our Team</Link>
             </li>
           </ul>
+          <SocialLinks links={socials} />
         </AboutSection>
         <AboutSection header="Community & Connections">
           <div className={home.newsWrapper}>
@@ -87,7 +91,6 @@ function About() {
               More
             </Link>
           </div>
-          <SocialLinks links={socials} />
         </AboutSection>
         <AboutSection header="Platform Updates">
           <div className={home.newsWrapper}>

@@ -3,17 +3,17 @@
     {
       "title": "Create and Innovate",
       "imageUrl": "/img/create.svg",
-      "description": "Gala makes it quick and easy to create a case or adapt an existing learning module. Effortlessly integrate multimedia content into your module including videos, podcasts, and data tools."
+      "description": "Create or adapt open modules effortlessly, integrating multimedia like videos, podcasts, and data tools."
     },
     {
       "title": "Collaborate and Adapt",
       "imageUrl": "/img/community.svg",
-      "description": "Gala encourages prototyping and iterative improvement. Collaborators can develop pilot cases together and solicit feedback with inline comments before publishing and sharing."
+      "description": "Draft a pilot module with collaborators and solicit feedback with inline comments before publishing."
     },
     {
       "title": "Teach and Share",
       "imageUrl": "/img/share.svg",
-      "description": "Gala modules perform well in classroom, community, and remote learning settings. Publish your case and share it as widely as you like. Institutions can create libraries with multiple cases."
+      "description": "Share modules as widely as you like for use in classroom, community, or remote learning settings"
     }
   ],
   "aboutOverview": "We’re working to make learning more grounded, dynamic, and collaborative. We develop the open-source Gala platform and partner with teams and networks to explore the possibilities of collaboratively produced learning modules and case studies.",

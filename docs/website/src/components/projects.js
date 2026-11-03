@@ -16,7 +16,7 @@ export default function Projects({ projectExamples, showTitle, numberOfColumns }
 
     return (
         <div className="container">
-            {!!showTitle && <h3>In Action</h3>}
+            {!!showTitle && <h3>Projects & Partners</h3>}
             <div className="row">
                     <ul className={projects.projectsGrid}>
                         {currentProjects}{oldProjects}
