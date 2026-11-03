@@ -229,6 +229,53 @@ const policies = {
   ],
 };
 
+const partnership = {
+  name: "partnership",
+  label: "Partnership page",
+  path: "src/pages",
+  format: "mdx",
+  match: { include: "partnership" },
+  ui: singleFile,
+  fields: [
+    { type: "string", name: "docId", nameOverride: "id", label: "ID" },
+    { type: "string", name: "title", label: "Title", isTitle: true, required: true },
+    {
+      type: "rich-text",
+      name: "body",
+      label: "Body",
+      isBody: true,
+      // Components registered in src/theme/MDXComponents.js
+      templates: [
+        {
+          name: "PhotoStrip",
+          label: "Photo strip",
+          fields: [
+            {
+              type: "object",
+              name: "images",
+              label: "Photos",
+              list: true,
+              ui: { itemProps: (item) => ({ label: item?.alt }) },
+              fields: [
+                { type: "image", name: "src", label: "Photo" },
+                { type: "string", name: "alt", label: "Alt text", required: true },
+              ],
+            },
+          ],
+        },
+        {
+          name: "Example",
+          label: "Example card",
+          fields: [
+            { type: "string", name: "title", label: "Title", required: true },
+            { type: "rich-text", name: "children", label: "Body" },
+          ],
+        },
+      ],
+    },
+  ],
+};
+
 export default defineConfig({
   branch: process.env.GITHUB_HEAD_REF || process.env.GITHUB_REF_NAME || process.env.SEMAPHORE_GIT_BRANCH || "main",
   // Both come from the Tina Cloud project at app.tina.io
@@ -245,6 +292,6 @@ export default defineConfig({
     },
   },
   schema: {
-    collections: [guides, blog, publications, team, projects, home, help, policies],
+    collections: [guides, blog, publications, team, projects, home, help, policies, partnership],
   },
 });
