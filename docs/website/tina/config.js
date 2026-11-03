@@ -177,7 +177,7 @@ const home = {
     {
       type: "string",
       name: "featuresMoreLink",
-      label: "Features \"More\" link",
+      label: "Features \"Learn more\" link",
       description: "Path to a file in static/, e.g. /gala-overview.pdf",
     },
     { type: "string", name: "connect", label: "Get involved", ui: { component: "textarea" } },
@@ -185,6 +185,7 @@ const home = {
       type: "object",
       name: "socials",
       label: "Social links",
+      description: "Shown as icons in the hero banner. Names LinkedIn, BlueSky, and GitHub get icons; any other name is shown as text.",
       list: true,
       ui: { itemProps: (item) => ({ label: item?.name }) },
       fields: [

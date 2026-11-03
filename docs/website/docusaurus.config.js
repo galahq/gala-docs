@@ -40,9 +40,14 @@ module.exports = {
           position: "right",
         },
         { to: "blog", label: "Blog", position: "right" },
-        {
+         {
           to: "/team",
           label: "Team",
+          position: "right",
+        },
+        {
+          to: "/partnership",
+          label: "Partnership",
           position: "right",
         },
         {
