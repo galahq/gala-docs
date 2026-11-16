@@ -97,9 +97,9 @@ Please consult the guides to [Finding multimedia for your case](./authoring-find
 
 ## Adding original and unlicensed content 
 
-When adding original media or content (object), such as PowerPoint slides, images, maps, etc., the object will fall under the Creative Commons License under which the module is published (CC BY-NC-SA 4.0 by default unless the author chooses otherwise). Indicate the license of your choice prominently within the content (on the title slide of a PowerPoint or first page of a PDF, for example). This helps others who may want to redistribute or adapt your module or the content you upload in the future understand their rights.
+When adding original media or content (object), such as PowerPoint slides, images, maps, etc., the object will fall under the [Creative Commons License](https://docs.learngala.com/docs/general-licensing) under which the module is published (CC BY-NC-SA 4.0 by default unless the author chooses otherwise). Indicate the license of your choice prominently within the content (on the title slide of a PowerPoint or first page of a PDF, for example). This helps others who may want to redistribute or adapt your module or the content you upload in the future understand their rights.
 
-As an additional step, authors may want to add a Digital Object Identifier (DOI), useful for wider distribution and access. We recommend sharing the object on Zenodo, an online repository that generates DOIs for a wide range of materials. The object will still fall under the Creative Commons License, but the author will be able to attach their unique DOI.   
+As an additional step, authors may want to add a Digital Object Identifier (DOI), useful for wider distribution and access. We recommend sharing the object on [Zenodo](https://zenodo.org/), an online repository that generates DOIs for a wide range of materials. The object will still fall under the Creative Commons License, but the author will be able to attach their unique DOI.   
 
 ## Setting edgenote layout
 
