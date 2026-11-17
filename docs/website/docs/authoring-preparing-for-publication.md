@@ -10,15 +10,15 @@ Once you’ve finished writing your narrative and embedding media elements, ther
 You can deploy your case without publishing it in order to receive feedback from reviewers.
 In your case’s toolbar when you’re not in edit mode, click “Deploy this Case.”
 
-![A screenshot of the Deploy button.](./assets/deploy-button-screenshot.png)
+![A screenshot of the Deploy button.](/img/docs/deploy-button-screenshot.png)
 
 Create a new study group for your reviewers—you might call it _Reviewers_.
 
-![A screenshot of the creation form.](./assets/create-study-group-screenshot.png)
+![A screenshot of the creation form.](/img/docs/create-study-group-screenshot.png)
 
 Then, from your “Deployments” index, you can copy the invite link and send it to anyone you wish.
 
-![A screenshot of the deployments index](./assets/deployments-index-screenshot.png)
+![A screenshot of the deployments index](/img/docs/deployments-index-screenshot.png)
 
 That link will allow those who follow it to read your case before it is published, and it will add them to a private forum where they can comment on your case.
 
@@ -35,7 +35,7 @@ When other users deploy your case, they’ll have the opportunity to create a cu
 You can add a suggested assessment by clicking the “Pre/Post Assessment” button visible under your case’s table of contents while editing.
 You can configure one or more suggested assessments with any number of multiple choice or short-answer response questions.
 
-![Click the "Pre/Post Assessment" button](./assets/authoring-add-assessment.png)
+![Click the "Pre/Post Assessment" button](/img/docs/authoring-add-assessment.png)
 
 ## Pick a easy-to-remember URL
 
@@ -45,7 +45,7 @@ Change your case’s URL slug on its “Case Settings” page.
 URL slugs must be globally unique and are first-come-first-served.
 
 
-![Change your URL slug in the case settings menu](./assets/authoring-change-url.png)
+![Change your URL slug in the case settings menu](/img/docs/authoring-change-url.png)
 
 ## Select a license
 
@@ -69,6 +69,6 @@ To request adding your case to a library:
 5. Select the library to which you want to request adding the case (by default, the dropdown will display "Shared Cases").
 6. Click the "Change Library" button.
 
-![Send a library request from the case settings menu](./assets/authoring-edit-library.png)
+![Send a library request from the case settings menu](/img/docs/authoring-edit-library.png)
 
 After selecting a library, a message below the dropdown will read "_[library name] request is pending_," meaning your request has been sent to the library manager. Once approved, the "Library" dropdown will show the name of the library, and the overview page of your case will display the library's logo. You can cancel the request by clicking the "x" next to the "request is pending" message.

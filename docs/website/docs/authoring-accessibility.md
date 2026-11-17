@@ -20,7 +20,7 @@ Some larger websites or news outlets will also include accessibility statements 
 
 Images should be accompanied by descriptive text. This can be added in the edgenote dialogue via the field labeled "_Image description for accessibility_." This text will only be visible to screen readers, but you can also add an edgenote caption, which is visible to everyone. Describe using natural language what is pictured and why it is important. [See this thread on Twitter](https://twitter.com/robothugscomic/status/949324465191694337?lang=en) for some practical examples.
 
-![Edgenote dialogue with image description field](./assets/authoring-image-description.png)
+![Edgenote dialogue with image description field](/img/docs/authoring-image-description.png)
 
 **For images with text**, any text used in an image should be repeated in the image description. The text should contrast well against the background. You can [check color contrast with this tool](https://www.oss-usa.com/color-check-ada-image-compliance). Doublecheck that the text does not become pixelated and difficult to read when the image is enlarged.
 
@@ -42,10 +42,10 @@ In cases when a transcript cannot be used (e.g., environmental audio), provide a
 
 **Short Clips**, added via the edgenote dialogue, should have accompanying pull quotes.
 
-![Edgenote dialogue with sound clip and pull quote](assets/authoring-audio-clip.png)
+![Edgenote dialogue with sound clip and pull quote](/img/docs/authoring-audio-clip.png)
 
 **Podcasts**, added via a podcast page, should have transcripts. You can paste the transcript into the description box next to the podcast player.
   
-![Podcast page with description box](./assets/authoring-transcript-podcast.png)
+![Podcast page with description box](/img/docs/authoring-transcript-podcast.png)
 
 **Videos**, hosted on YouTube or Vimeo, can also be used to embed audio clips in a module (try generating an audiogram with [headliner](https://www.headliner.app/)). Follow the guidelines for videos.

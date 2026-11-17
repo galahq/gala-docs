@@ -82,7 +82,7 @@ Consider the following examples:
 
 It can be helpful to think about learning objectives in terms of the type of thinking you want a learner to practice. Bloom's Taxonomy is one common framework for organizing the difficulty of various cognitive processes.
 
-![Blooms Taxonomy can be represented as a pyramid, with layers, from base to capstone:remember, understand, apply, analyze, evaluate, create ](./assets/planning-blooms-taxonomy.png)
+![Blooms Taxonomy can be represented as a pyramid, with layers, from base to capstone:remember, understand, apply, analyze, evaluate, create ](/img/docs/planning-blooms-taxonomy.png)
 
 Cognitive tasks get progressively more challenging moving up the pyramid. The figure above also lists verbs that are often associated with learning objectives at a particular level.
 
@@ -129,7 +129,7 @@ What follows are a series of options and ideas to consider when addressing these
 
 Storytelling is deeply ingrained in human culture, and evidence indicates that conveying information in story format aids cognitive processing and retention (ElShafie, 2018). When you sit down to write the text of your case study, it may help to recall the most basic organization for a story, which is sometimes presented as Story Mountain.
 
-![The "Story Mountain" begins with a hook, moving on to a problem, rising action, turning point, resolution, falling action, and conclusion.](./assets/planning-story-mountain.png)
+![The "Story Mountain" begins with a hook, moving on to a problem, rising action, turning point, resolution, falling action, and conclusion.](/img/docs/planning-story-mountain.png)
 
 As a case study, it might look something like this:
 

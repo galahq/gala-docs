@@ -53,7 +53,7 @@ Here are some common methods of using modules in the classroom:
 
 Gala modules can fit nicely into a flipped classroom. In this method, a case study or module is assigned to be read outside of class, with in-class time reserved for discussion or engaged learning exercises.
 
-![A two panel comic. Panel 1: Traditional Classroom. Teacher's role is "sage on the stage." Teacher is pointing to a blackboard with "Lecture today," and "Homework reading and questions due tomorrow" written on it. Panel 2: Flipped Classroom. Teacher's role is "guide on the side". Teacher is guiding groups of students. The board says "Activity today. Preperation: watch online lecture."](./assets/teaching-strategies-flipped-classroom.png)[^1]
+![A two panel comic. Panel 1: Traditional Classroom. Teacher's role is "sage on the stage." Teacher is pointing to a blackboard with "Lecture today," and "Homework reading and questions due tomorrow" written on it. Panel 2: Flipped Classroom. Teacher's role is "guide on the side". Teacher is guiding groups of students. The board says "Activity today. Preperation: watch online lecture."](/img/docs/teaching-strategies-flipped-classroom.png)[^1]
 
 [^1]: Wey-Han Tan, CC BY 4.0 [https://creativecommons.org/licenses/by/4.0](https://creativecommons.org/licenses/by/4.0), via Wikimedia Commons
 
@@ -69,7 +69,7 @@ Many modules include activities or exercises (usually indicated with an icon on 
 
 Case studies or modules can be used in preparation for a field visit by providing background information about a challenge faced in a real world situation or by reinforcing learning in a semi-structured way, before venturing out into a field setting. We find that students feel more capable of asking thoughtful questions and may be better able to relate to people they interact with in a field setting when a problem or challenge has been framed first in case study.
 
-![Students on a site visit to a cherry farm stand near a stand of cherrry trees listening and taking notes as a female extension agent speaks.](./assets/teaching-strategies-field-visit.png)
+![Students on a site visit to a cherry farm stand near a stand of cherrry trees listening and taking notes as a female extension agent speaks.](/img/docs/teaching-strategies-field-visit.png)
 
 :::tip For example
 
@@ -81,7 +81,7 @@ Case studies or modules can be used in preparation for a field visit by providin
 
 Modules and case studies can be an opportunity to apply and reinforce lessons, concepts, or techniques that have been taught through explicit instruction earlier in a course, and instructors may lecture or share additional reading and discussion prior to jumping into a module. Consider the [Gradual Release of Responsibility (GRR) framework](https://en.wikipedia.org/wiki/Gradual_release_of_responsibility), which moves students towards independence and mastery, through successive steps of "I do it," "we do it," "you do it together," and "you do it alone." A Gala module can provide a chance for students to work collaboratively or independently to apply abstract concepts to a messier real-world context, or to practice techniques in a simulated environment. 
 
-![Diagram of the Gradual Release of Responsibility (GRR) framework with a downward facing triangle labeled "Teacher Responsibility" and an upward facing triangle next to it labeled "Student reponsibility." Working down through rows that span both triangles, are different stages of the GRR framework: "I do it," "We do it," "You do it together," "You do it alone." As this order progresses, teacher responsibility decreases and student responsibility increases. Activities are listed in the rows, in order: focus lesson, guided instruction, collaborative, independent.](./assets/teaching-strategies-gradual-release-of-responsibility.png)
+![Diagram of the Gradual Release of Responsibility (GRR) framework with a downward facing triangle labeled "Teacher Responsibility" and an upward facing triangle next to it labeled "Student reponsibility." Working down through rows that span both triangles, are different stages of the GRR framework: "I do it," "We do it," "You do it together," "You do it alone." As this order progresses, teacher responsibility decreases and student responsibility increases. Activities are listed in the rows, in order: focus lesson, guided instruction, collaborative, independent.](/img/docs/teaching-strategies-gradual-release-of-responsibility.png)
 
 Another technique is to break a module into multiple parts: Many modules begin with a "hook" ("why does this matter?") and providing background information, before culminating in an engaged learning activity, decision point, or other climax.  These sections can be assigned outside of class, reinforced through discussions or lectures, before having students finish the module independently or in groups.
 
@@ -91,7 +91,7 @@ Some instructors have taken advantage of Gala's discussion features to hold disc
 
 To host a discussion, instructors can [create a deployment](https://docs.learngala.com/docs/teaching-getting-started), and share a magic link with students to enroll them in the discussion group. This allows students to annotate sections of the text with their own comments or discussion responses. Instructors can post their own annotations prior to sharing the module, in order to 'seed' the discussion or ask for responses or reflections at key points.
 
-![Leaving a comment on a portion of text in a Gala module. An instructor asks 'Why do you think this is?'](./assets/authoring-seeding-comments.png)
+![Leaving a comment on a portion of text in a Gala module. An instructor asks 'Why do you think this is?'](/img/docs/authoring-seeding-comments.png)
 
 This video series goes in-depth into teaching remotely with Gala:
 
@@ -126,7 +126,7 @@ Here is series of example steps for implementing module-authorship in a course, 
 
 :::tip For Example
 
-[Rebecca Hardin](https://seas.umich.edu/research/faculty/rebecca-d-hardin) (University of Michigan School for Environment and Sustainability) has students create a pitch presentation for her Master's level course. Students grade each other's pitches and provide feedback using [this rubric](./assets/teaching-grading-rubric-pitches.pdf)
+[Rebecca Hardin](https://seas.umich.edu/research/faculty/rebecca-d-hardin) (University of Michigan School for Environment and Sustainability) has students create a pitch presentation for her Master's level course. Students grade each other's pitches and provide feedback using [this rubric](/img/docs/teaching-grading-rubric-pitches.pdf)
 (pdf)
 
 :::
@@ -159,7 +159,7 @@ Here is series of example steps for implementing module-authorship in a course, 
 
 - Has students work through a case study from a previous semester before taking a field trip to a site related to the Great Lakes issue featured.
 
-- Holds a "Case Planning Workshop" to kick off the case study assignment. She uses [this presentation](./assets/authoring-alofs-case-workshop.pptx), which combines information from the Gala Quick Start Authoring Guide and 'Planning a Case' guide, and culminates with students choosing topics to write about. 
+- Holds a "Case Planning Workshop" to kick off the case study assignment. She uses [this presentation](/img/docs/authoring-alofs-case-workshop.pptx), which combines information from the Gala Quick Start Authoring Guide and 'Planning a Case' guide, and culminates with students choosing topics to write about. 
 
 - Has students select topics based on their interest, forming groups of eight. The students decide on an outline, and each student is responsible for leading the writing of two pages of the case study. 
 
