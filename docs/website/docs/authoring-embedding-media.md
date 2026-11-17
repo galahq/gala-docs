@@ -95,11 +95,20 @@ A few tips for uploads:
 Please consult the guides to [Finding multimedia for your case](./authoring-finding-media) and [Accessible media](./authoring-accessibility) to ensure that you are using media accessibly and not violating copyright rules.
 :::
 
-## Adding original and unlicensed content
+#### Licenses and uploaded content
 
-When adding original media or content (object), such as PowerPoint slides, images, maps, etc., the object will fall under the [Creative Commons License](https://docs.learngala.com/docs/general-licensing) under which the module is published (CC BY-NC-SA 4.0 by default unless the author chooses otherwise). Indicate the license of your choice prominently within the content (on the title slide of a PowerPoint or first page of a PDF, for example). This helps others who may want to redistribute or adapt your module or the content you upload in the future understand their rights.
+By default, content that you upload will share the [Creative Commons License](https://docs.learngala.com/docs/general-licensing) that you choose when you publish your case. This keeps things simple if others want to adapt or redistribute your module in the future. You may want to assign a different license if:
 
-As an additional step, authors may want to add a Digital Object Identifier (DOI), useful for wider distribution and access. We recommend sharing the object on [Zenodo](https://zenodo.org/), an online repository that generates DOIs for a wide range of materials. The object will still fall under the Creative Commons License, but the author will be able to attach their unique DOI. 
+* You want to distribute your own work (such as a photo you took) with a license that is [more or less permissive than the module](https://creativecommons.org/chooser/) itself.
+* You are redistributing content that has already been licensed.
+
+Indicate the license of your choice prominently within the content itself (on the title slide of a PowerPoint, the first page of a PDF, or metadata for a dataset, for example). For images, abbreviate the license (e.g. *CC BY 4.0*) in the *image credit* section of the edgenote menu.
+
+:::tip
+
+You may also want to house your content in an open repository such as [Zenodo](https://zenodo.org/) (which can grant a DOI for your resource) or [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page). 
+
+:::
 
 ## Setting edgenote layout
 
